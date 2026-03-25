@@ -1,0 +1,398 @@
+[
+  {
+    "run_id": "20260316154949",
+    "date": "2026-03-16",
+    "time": "15:49:49",
+    "recipient_name": "Sameer Sarnad",
+    "recipient_number": "*********9263",
+    "input_tokens": 1805,
+    "output_tokens": 530,
+    "total_tokens": 2999,
+    "input_output_ratio": 3.41,
+    "articles_fetched": 10,
+    "articles_passed": 3,
+    "filter_pass_rate": 30.0
+  },
+  {
+    "run_id": "20260317120725",
+    "date": "2026-03-17",
+    "time": "12:07:25",
+    "recipient_name": "Sameer sarnad",
+    "recipient_number": "*********9263",
+    "input_tokens": 1797,
+    "output_tokens": 534,
+    "total_tokens": 3092,
+    "input_output_ratio": 3.37,
+    "articles_fetched": 10,
+    "articles_passed": 3,
+    "filter_pass_rate": 30.0
+  },
+  {
+    "run_id": "20260321122502",
+    "date": "2026-03-21",
+    "time": "12:25:02",
+    "recipient_name": "Sameer sarnad",
+    "recipient_number": "*********9263",
+    "input_tokens": 1577,
+    "output_tokens": 526,
+    "total_tokens": 3226,
+    "input_output_ratio": 3.0,
+    "articles_fetched": 30,
+    "articles_passed": 3,
+    "filter_pass_rate": 10.0
+  },
+  {
+    "run_id": "20260321132506",
+    "date": "2026-03-21",
+    "time": "13:25:06",
+    "user_name": "Sameer sarnad",
+    "learning_layer": "Layer 2",
+    "learning_goal": "understand AI well enough to lead teams using it",
+    "delivery_channel": "whatsapp",
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Visa prepares payment systems for AI agent-initiated transactions",
+        "source_url": "https://www.artificialintelligence-news.com/news/visa-prepares-payment-systems-for-ai-agent-initiated-transactions/",
+        "source_feed": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "NVIDIA wants enterprise AI agents safer to deploy",
+        "source_url": "https://www.artificialintelligence-news.com/news/nvidia-agent-toolkit-enterprise-ai-agents/",
+        "source_feed": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Mastercard keeps tabs on fraud with new foundation model",
+        "source_url": "https://www.artificialintelligence-news.com/news/mastercards-ltm-keeps-tabs-on-fraud-with-a-new-foundation-model/",
+        "source_feed": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "token_efficiency": {
+      "input_tokens": 1724,
+      "output_tokens": 535,
+      "total_tokens": 3699,
+      "ratio": 3.22
+    },
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    }
+  },
+  {
+    "run_id": "20260321132913",
+    "date": "2026-03-21",
+    "time": "13:29:13",
+    "user_name": "Sameer sarnad",
+    "learning_layer": "Layer 2",
+    "learning_goal": "understand AI well enough to lead teams using it",
+    "delivery_channel": "whatsapp",
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenCode \u2013 Open source AI coding agent",
+        "source_url": "https://opencode.ai/",
+        "source_feed": "opencode.ai"
+      },
+      {
+        "bit_number": 2,
+        "title": "WordPress.com lets AI agents write, publish, and manage your site",
+        "source_url": "https://thenextweb.com/news/wordpress-com-mcp-write-capabilities-ai-agent",
+        "source_feed": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Starling launches an AI banking assistant that actually does things",
+        "source_url": "https://thenextweb.com/news/starling-assistant-agentic-ai-financial-assistant-uk",
+        "source_feed": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "token_efficiency": {
+      "input_tokens": 1744,
+      "output_tokens": 521,
+      "total_tokens": 3095,
+      "ratio": 3.35
+    },
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 3,
+      "pass_rate_pct": 12.5
+    }
+  },
+  {
+    "run_id": "20260321152849",
+    "date": "2026-03-21",
+    "time": "15:28:49",
+    "user_name": "Sameer sarnad",
+    "learning_layer": "Layer 2",
+    "learning_goal": "understand AI well enough to lead teams using it",
+    "delivery_channel": "whatsapp",
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI is throwing everything into building a fully automated researcher",
+        "source_url": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/",
+        "source_feed": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
+        "source_url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
+        "source_feed": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "For effective AI, insurance needs to get its data house in order",
+        "source_url": "https://www.artificialintelligence-news.com/news/for-effective-ai-insurance-needs-a-better-data-layer-and-integration/",
+        "source_feed": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "token_efficiency": {
+      "input_tokens": 1627,
+      "output_tokens": 579,
+      "total_tokens": 3693,
+      "ratio": 2.81
+    },
+    "filter_stats": {
+      "fetched": 21,
+      "passed": 3,
+      "pass_rate_pct": 14.3
+    }
+  },
+  {
+    "run_id": "20260321154324",
+    "date": "2026-03-21",
+    "time": "15:43:24",
+    "user_name": "Sameer sarnad",
+    "learning_layer": "Layer 2",
+    "learning_goal": "understand AI well enough to lead teams using it",
+    "delivery_channel": "whatsapp",
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "What\u2019s the right path for AI?",
+        "source_url": "https://news.mit.edu/2026/right-path-for-ai-karen-hao-paola-ricaurte-0320",
+        "source_feed": "news.mit.edu"
+      },
+      {
+        "bit_number": 2,
+        "title": "A better method for identifying overconfident large language models",
+        "source_url": "https://news.mit.edu/2026/better-method-identifying-overconfident-large-language-models-0319",
+        "source_feed": "news.mit.edu"
+      },
+      {
+        "bit_number": 3,
+        "title": "Trustpilot partners with AI companies as traditional search declines",
+        "source_url": "https://www.artificialintelligence-news.com/news/ai-in-ecommerce-trustpilot-partnerships-integration-news-trad-search-declines/",
+        "source_feed": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "token_efficiency": {
+      "input_tokens": 1471,
+      "output_tokens": 544,
+      "total_tokens": 3112,
+      "ratio": 2.7
+    },
+    "filter_stats": {
+      "fetched": 18,
+      "passed": 3,
+      "pass_rate_pct": 16.7
+    }
+  },
+  {
+    "run_id": "20260321160053",
+    "date": "2026-03-21",
+    "time": "16:00:53",
+    "user_name": "Sameer sarnad",
+    "learning_layer": "Layer 2",
+    "learning_goal": "understand AI well enough to lead teams using it",
+    "delivery_channel": "whatsapp",
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Microsoft rolls back some of its Copilot AI bloat on Windows",
+        "source_url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
+        "source_feed": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "token_efficiency": {
+      "input_tokens": 1191,
+      "output_tokens": 267,
+      "total_tokens": 2328,
+      "ratio": 4.46
+    },
+    "filter_stats": {
+      "fetched": 15,
+      "passed": 1,
+      "pass_rate_pct": 6.7
+    }
+  },
+  {
+    "run_id": "20260321161239",
+    "date": "2026-03-21",
+    "time": "16:12:39",
+    "user_name": "sameer s",
+    "learning_layer": "Layer 1",
+    "learning_goal": "learn how to use AI in my day to day work",
+    "delivery_channel": "email",
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Microsoft rolls back some of its Copilot AI bloat on Windows",
+        "source_url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
+        "source_feed": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "WordPress.com now lets AI agents write and publish posts, and more",
+        "source_url": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
+        "source_feed": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "NVIDIA wants enterprise AI agents safer to deploy",
+        "source_url": "https://www.artificialintelligence-news.com/news/nvidia-agent-toolkit-enterprise-ai-agents/",
+        "source_feed": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "token_efficiency": {
+      "input_tokens": 1474,
+      "output_tokens": 446,
+      "total_tokens": 3068,
+      "ratio": 3.3
+    },
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 3,
+      "pass_rate_pct": 10.0
+    }
+  },
+  {
+    "run_id": "20260324114214",
+    "date": "2026-03-24",
+    "time": "11:42:14",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way",
+        "source_url": "https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 17,
+      "passed": 1,
+      "pass_rate_pct": 5.9
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5390,
+        "output": 0,
+        "total": 5390,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 153,
+        "output": 52,
+        "total": 205,
+        "ratio": 2.94
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1214,
+        "output": 283,
+        "total": 1497,
+        "ratio": 4.29
+      },
+      "overall": {
+        "input": 6757,
+        "output": 335,
+        "total": 7092,
+        "ratio": 20.17
+      }
+    }
+  },
+  {
+    "run_id": "20260324120347",
+    "date": "2026-03-24",
+    "time": "12:03:47",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Claude Code Cheat Sheet",
+        "source_url": "https://cc.storyfox.cz",
+        "source_domain": "cc.storyfox.cz"
+      },
+      {
+        "bit_number": 2,
+        "title": "How I'm Productive with Claude Code",
+        "source_url": "https://neilkakkar.com/productive-with-claude-code.html",
+        "source_domain": "neilkakkar.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Apple sets June date for WWDC 2026, teasing \u2018AI advancements\u2019",
+        "source_url": "https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 3,
+      "pass_rate_pct": 10.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8866,
+        "output": 0,
+        "total": 8866,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 621,
+        "output": 169,
+        "total": 790,
+        "ratio": 3.67
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1517,
+        "output": 524,
+        "total": 2041,
+        "ratio": 2.9
+      },
+      "overall": {
+        "input": 11004,
+        "output": 693,
+        "total": 11697,
+        "ratio": 15.88
+      }
+    }
+  }
+]

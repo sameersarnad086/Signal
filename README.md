@@ -149,26 +149,44 @@ Edit `config.json` to add users:
 
 ## Usage
 
-Run Signal manually:
+### Run Locally
 
 ```bash
 source .venv/bin/activate
 python src/agent.py
 ```
 
-### Automating Daily Runs
+### Automated Daily Runs (GitHub Actions)
 
-Use cron (macOS/Linux) or Task Scheduler (Windows):
+Signal runs automatically every day at **8:00 AM IST** via GitHub Actions. The workflow:
 
-```bash
-# Run daily at 8 AM
-0 8 * * * cd /path/to/Signal && /path/to/Signal/.venv/bin/python src/agent.py
-```
+1. Checks out the repo
+2. Sets up Python 3.13 and installs dependencies
+3. Runs `src/agent.py` with secrets injected as environment variables
+4. Commits updated state files (`seen_articles.json`, `signal_log.json`) back to the repo
+
+To set this up:
+
+1. Go to **[Repository Settings > Secrets and Variables > Actions](https://github.com/sameersarnad086/Signal/settings/secrets/actions)**
+2. Add these repository secrets:
+   - `GEMINI_API_KEY`
+   - `TWILIO_ACCOUNT_SID`
+   - `TWILIO_AUTH_TOKEN`
+   - `TWILIO_WHATSAPP_NUMBER`
+   - `BREVO_API_KEY`
+   - `SIGNAL_FROM_EMAIL`
+
+To trigger a manual run, go to **Actions > Signal Daily Digest > Run workflow**.
+
+The workflow file lives at `.github/workflows/signal-daily.yml`.
 
 ## Project Structure
 
 ```
 Signal/
+├── .github/
+│   └── workflows/
+│       └── signal-daily.yml  # GitHub Actions cron (daily 8 AM IST)
 ├── src/
 │   ├── agent.py              # Main orchestration
 │   ├── feeds.py              # RSS feed URLs
@@ -180,10 +198,10 @@ Signal/
 │   ├── email_delivery.py     # Email delivery
 │   └── logger.py             # Run logging
 ├── config.json               # User profiles
-├── .env                      # API keys and secrets
+├── .env                      # API keys and secrets (local only)
 ├── requirements.txt          # Python dependencies
-├── seen_articles.json        # Deduplication tracking
-└── signal_log.json           # Run history and metrics
+├── seen_articles.json        # Deduplication tracking (auto-committed by CI)
+└── signal_log.json           # Run history and metrics (auto-committed by CI)
 ```
 
 ## Data Files

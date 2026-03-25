@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+signal_log.json
+seen_articles.json
+.venv/

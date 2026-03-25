@@ -1,0 +1,23 @@
+{
+    "users": [
+       {
+        "name": "Sameer sarnad",
+        "whatsapp_number": "+919945559263",
+        "delivery": "whatsapp",
+        "knowledge_level": "beginner",
+        "learning_goal": "understand AI well enough to lead teams using it",
+        "learning_layer": "Layer 2",
+        "topic_interests": ["AI tools", "AI strategy", "LLMs and agents"]
+      },
+      
+      {
+        "name": "sameer s",
+        "email": "dropin.sam@gmail.com",
+        "delivery": "email",
+        "knowledge_level": "beginner",
+        "learning_goal": "learn how to use AI in my day to day work",
+        "learning_layer": "Layer 1",
+        "topic_interests": ["AI tools", "productivity", "workplace AI"]
+      }
+    ]
+  }

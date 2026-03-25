@@ -1,0 +1,6 @@
+google-genai ## googles official python library for the google gemini api
+python-dotenv ## to load environment variables from a .env file
+feedparser ## to parse RSS feeds
+twilio ## to send whatsapp messages
+##resend ## to send emails old verion, not in use now
+sib-api-v3-sdk ## to send emails

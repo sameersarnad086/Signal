@@ -394,5 +394,137 @@
         "ratio": 15.88
       }
     }
+  },
+  {
+    "run_id": "20260325071819",
+    "date": "2026-03-25",
+    "time": "07:18:19",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Automating complex finance workflows with multimodal AI",
+        "source_url": "https://www.artificialintelligence-news.com/news/automating-complex-finance-workflows-with-multimodal-ai/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "BlueConic joins Databricks Marketplace to bring real-time marketing decisions to the lakehouse",
+        "source_url": "https://thenextweb.com/news/blueconic-databricks-marketplace-real-time-decisioning",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Energy Vault acquires 175 MW battery project in Texas as it bets on AI-driven power demand",
+        "source_url": "https://thenextweb.com/news/energy-vault-mcmurtre-battery-texas-acquisition",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 3,
+      "pass_rate_pct": 10.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2398,
+        "output": 0,
+        "total": 2398,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 925,
+        "output": 168,
+        "total": 1093,
+        "ratio": 5.51
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1832,
+        "output": 555,
+        "total": 2387,
+        "ratio": 3.3
+      },
+      "overall": {
+        "input": 5155,
+        "output": 723,
+        "total": 5878,
+        "ratio": 7.13
+      }
+    }
+  },
+  {
+    "run_id": "20260325071922",
+    "date": "2026-03-25",
+    "time": "07:19:22",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+        "source_url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+        "source_url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+        "source_url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+        "source_domain": "venturebeat.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 34,
+      "passed": 3,
+      "pass_rate_pct": 8.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 16673,
+        "output": 0,
+        "total": 16673,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 12765,
+        "output": 180,
+        "total": 12945,
+        "ratio": 70.92
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 13707,
+        "output": 610,
+        "total": 14317,
+        "ratio": 22.47
+      },
+      "overall": {
+        "input": 43145,
+        "output": 790,
+        "total": 43935,
+        "ratio": 54.61
+      }
+    }
   }
 ]

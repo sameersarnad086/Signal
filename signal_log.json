@@ -526,5 +526,137 @@
         "ratio": 54.61
       }
     }
+  },
+  {
+    "run_id": "20260326045617",
+    "date": "2026-03-26",
+    "time": "04:56:17",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Google&#8217;s new compression algorithm cut memory stocks within hours of publication",
+        "source_url": "https://thenextweb.com/news/google-turboquant-ai-compression-memory-stocks",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Pepper acquires YC-backed Alima to bring AI to food distribution&#8217;s messy product catalogues",
+        "source_url": "https://thenextweb.com/news/pepper-acquires-alima-ai-food-distribution",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "The AI skills gap is here, says AI company, and power users are pulling ahead",
+        "source_url": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 32,
+      "passed": 3,
+      "pass_rate_pct": 9.4
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2749,
+        "output": 0,
+        "total": 2749,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 810,
+        "output": 174,
+        "total": 984,
+        "ratio": 4.66
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1732,
+        "output": 537,
+        "total": 2269,
+        "ratio": 3.23
+      },
+      "overall": {
+        "input": 5291,
+        "output": 711,
+        "total": 6002,
+        "ratio": 7.44
+      }
+    }
+  },
+  {
+    "run_id": "20260326045726",
+    "date": "2026-03-26",
+    "time": "04:57:26",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Your finance team is still chasing invoices. Here&#8217;s why that costs more than you think",
+        "source_url": "https://thenextweb.com/news/bill-ap-automation-cost-of-manual-invoicing",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+        "source_url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files \u2014 no coding required",
+        "source_url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+        "source_domain": "venturebeat.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 32,
+      "passed": 3,
+      "pass_rate_pct": 9.4
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 11739,
+        "output": 0,
+        "total": 11739,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 8592,
+        "output": 203,
+        "total": 8795,
+        "ratio": 42.33
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 9515,
+        "output": 534,
+        "total": 10049,
+        "ratio": 17.82
+      },
+      "overall": {
+        "input": 29846,
+        "output": 737,
+        "total": 30583,
+        "ratio": 40.5
+      }
+    }
   }
 ]

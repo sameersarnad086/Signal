@@ -658,5 +658,137 @@
         "ratio": 40.5
       }
     }
+  },
+  {
+    "run_id": "20260327045636",
+    "date": "2026-03-27",
+    "time": "04:56:36",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Blossom Health raises $20 million to put AI copilots alongside psychiatrists",
+        "source_url": "https://thenextweb.com/news/blossom-health-ai-copilot-psychiatry-funding",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "AI amplifies whatever you feed it, including confusion",
+        "source_url": "https://thenextweb.com/news/ai-amplifies-whatever-you-feed-it-including-confusion",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Xero partners with Anthropic to put small business finances inside Claude",
+        "source_url": "https://thenextweb.com/news/xero-anthropic-claude-small-business-financial-ai",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 34,
+      "passed": 3,
+      "pass_rate_pct": 8.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1648,
+        "output": 0,
+        "total": 1648,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 984,
+        "output": 179,
+        "total": 1163,
+        "ratio": 5.5
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1890,
+        "output": 510,
+        "total": 2400,
+        "ratio": 3.71
+      },
+      "overall": {
+        "input": 4522,
+        "output": 689,
+        "total": 5211,
+        "ratio": 6.56
+      }
+    }
+  },
+  {
+    "run_id": "20260327045734",
+    "date": "2026-03-27",
+    "time": "04:57:34",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Blossom Health raises $20 million to put AI copilots alongside psychiatrists",
+        "source_url": "https://thenextweb.com/news/blossom-health-ai-copilot-psychiatry-funding",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Xero partners with Anthropic to put small business finances inside Claude",
+        "source_url": "https://thenextweb.com/news/xero-anthropic-claude-small-business-financial-ai",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "AI system learns to keep warehouse robot traffic running smoothly",
+        "source_url": "https://news.mit.edu/2026/ai-system-keeps-warehouse-robot-traffic-running-smoothly-0326",
+        "source_domain": "news.mit.edu"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 3,
+      "pass_rate_pct": 10.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4750,
+        "output": 0,
+        "total": 4750,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 800,
+        "output": 174,
+        "total": 974,
+        "ratio": 4.6
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1712,
+        "output": 510,
+        "total": 2222,
+        "ratio": 3.36
+      },
+      "overall": {
+        "input": 7262,
+        "output": 684,
+        "total": 7946,
+        "ratio": 10.62
+      }
+    }
   }
 ]

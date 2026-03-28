@@ -790,5 +790,137 @@
         "ratio": 10.62
       }
     }
+  },
+  {
+    "run_id": "20260328043308",
+    "date": "2026-03-28",
+    "time": "04:33:08",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+        "source_url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+        "source_url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+        "source_url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+        "source_domain": "venturebeat.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 34,
+      "passed": 3,
+      "pass_rate_pct": 8.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 14492,
+        "output": 0,
+        "total": 14492,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 12765,
+        "output": 193,
+        "total": 12958,
+        "ratio": 66.14
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 13709,
+        "output": 630,
+        "total": 14339,
+        "ratio": 21.76
+      },
+      "overall": {
+        "input": 40966,
+        "output": 823,
+        "total": 41789,
+        "ratio": 49.78
+      }
+    }
+  },
+  {
+    "run_id": "20260328043447",
+    "date": "2026-03-28",
+    "time": "04:34:47",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "RPA matters, but AI changes how automation works",
+        "source_url": "https://www.artificialintelligence-news.com/news/rpa-still-matters-but-ai-is-changing-how-automation-works/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "AI agents enter banking roles at Bank of America",
+        "source_url": "https://www.artificialintelligence-news.com/news/ai-agents-enter-banking-roles-at-bank-of-america/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "This startup wants to change how mathematicians do math",
+        "source_url": "https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 3,
+      "pass_rate_pct": 10.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4331,
+        "output": 0,
+        "total": 4331,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 728,
+        "output": 165,
+        "total": 893,
+        "ratio": 4.41
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1669,
+        "output": 551,
+        "total": 2220,
+        "ratio": 3.03
+      },
+      "overall": {
+        "input": 6728,
+        "output": 716,
+        "total": 7444,
+        "ratio": 9.4
+      }
+    }
   }
 ]

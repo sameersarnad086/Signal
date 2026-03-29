@@ -922,5 +922,131 @@
         "ratio": 9.4
       }
     }
+  },
+  {
+    "run_id": "20260329050006",
+    "date": "2026-03-29",
+    "time": "05:00:06",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
+        "source_url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
+        "source_url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Anthropic\u2019s Claude popularity with paying consumers is skyrocketing",
+        "source_url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 31,
+      "passed": 3,
+      "pass_rate_pct": 9.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 928,
+        "output": 0,
+        "total": 928,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 452,
+        "output": 176,
+        "total": 628,
+        "ratio": 2.57
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1404,
+        "output": 567,
+        "total": 1971,
+        "ratio": 2.48
+      },
+      "overall": {
+        "input": 2784,
+        "output": 743,
+        "total": 3527,
+        "ratio": 3.75
+      }
+    }
+  },
+  {
+    "run_id": "20260329050212",
+    "date": "2026-03-29",
+    "time": "05:02:12",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
+        "source_url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "The class of 2025 is using AI in job interviews, and a startup industry is cashing in",
+        "source_url": "https://thenextweb.com/news/gen-z-ai-job-interviews-class-2025-hiring",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 2,
+      "pass_rate_pct": 7.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8402,
+        "output": 0,
+        "total": 8402,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 470,
+        "output": 125,
+        "total": 595,
+        "ratio": 3.76
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1461,
+        "output": 421,
+        "total": 1882,
+        "ratio": 3.47
+      },
+      "overall": {
+        "input": 10333,
+        "output": 546,
+        "total": 10879,
+        "ratio": 18.92
+      }
+    }
   }
 ]

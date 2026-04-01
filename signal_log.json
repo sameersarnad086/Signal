@@ -1246,5 +1246,125 @@
         "ratio": 10.28
       }
     }
+  },
+  {
+    "run_id": "20260401051257",
+    "date": "2026-04-01",
+    "time": "05:12:57",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Mercor says it was hit by cyberattack tied to compromise of open-source LiteLLM project",
+        "source_url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
+        "source_url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise",
+        "source_url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 31,
+      "passed": 3,
+      "pass_rate_pct": 9.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2531,
+        "output": 0,
+        "total": 2531,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 428,
+        "output": 172,
+        "total": 600,
+        "ratio": 2.49
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1406,
+        "output": 609,
+        "total": 2015,
+        "ratio": 2.31
+      },
+      "overall": {
+        "input": 4365,
+        "output": 781,
+        "total": 5146,
+        "ratio": 5.59
+      }
+    }
+  },
+  {
+    "run_id": "20260401051455",
+    "date": "2026-04-01",
+    "time": "05:14:55",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
+        "source_url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 1,
+      "pass_rate_pct": 3.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8310,
+        "output": 0,
+        "total": 8310,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 126,
+        "output": 59,
+        "total": 185,
+        "ratio": 2.14
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1182,
+        "output": 229,
+        "total": 1411,
+        "ratio": 5.16
+      },
+      "overall": {
+        "input": 9618,
+        "output": 288,
+        "total": 9906,
+        "ratio": 33.4
+      }
+    }
   }
 ]

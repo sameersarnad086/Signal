@@ -1366,5 +1366,131 @@
         "ratio": 33.4
       }
     }
+  },
+  {
+    "run_id": "20260402044240",
+    "date": "2026-04-02",
+    "time": "04:42:40",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "A former Swiss president just filed criminal charges over AI-generated abuse. The target is Grok.",
+        "source_url": "https://thenextweb.com/news/swiss-minister-grok-criminal-charges-defamation",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "A new way to improve your chances",
+        "source_url": "https://thenextweb.com/news/probability-ai-decision-making",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Shifting to AI model customization is an architectural imperative",
+        "source_url": "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 31,
+      "passed": 3,
+      "pass_rate_pct": 9.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4376,
+        "output": 0,
+        "total": 4376,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 825,
+        "output": 174,
+        "total": 999,
+        "ratio": 4.74
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1743,
+        "output": 487,
+        "total": 2230,
+        "ratio": 3.58
+      },
+      "overall": {
+        "input": 6944,
+        "output": 661,
+        "total": 7605,
+        "ratio": 10.51
+      }
+    }
+  },
+  {
+    "run_id": "20260402044447",
+    "date": "2026-04-02",
+    "time": "04:44:47",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "DeepL\u2019s Borderless Business report reveals 83% of enterprises are still behind on language AI",
+        "source_url": "https://www.artificialintelligence-news.com/news/deepls-borderless-business-report-reveals-83-of-enterprises-are-still-behind-on-language-ai/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Hershey applies AI across its supply chain operations",
+        "source_url": "https://www.artificialintelligence-news.com/news/hershey-applies-ai-across-its-supply-chain-operations/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 2,
+      "pass_rate_pct": 6.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 9314,
+        "output": 0,
+        "total": 9314,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 624,
+        "output": 113,
+        "total": 737,
+        "ratio": 5.52
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1619,
+        "output": 364,
+        "total": 1983,
+        "ratio": 4.45
+      },
+      "overall": {
+        "input": 11557,
+        "output": 477,
+        "total": 12034,
+        "ratio": 24.23
+      }
+    }
   }
 ]

@@ -1618,5 +1618,71 @@
         "ratio": 22.5
       }
     }
+  },
+  {
+    "run_id": "20260404043026",
+    "date": "2026-04-04",
+    "time": "04:30:26",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+        "source_url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files \u2014 no coding required",
+        "source_url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Microsoft just shipped the clearest signal yet that it is building an AI empire without OpenAI",
+        "source_url": "https://thenextweb.com/news/microsoft-mai-models-openai-independence",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 31,
+      "passed": 3,
+      "pass_rate_pct": 9.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 10552,
+        "output": 0,
+        "total": 10552,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 8601,
+        "output": 201,
+        "total": 8802,
+        "ratio": 42.79
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 9521,
+        "output": 533,
+        "total": 10054,
+        "ratio": 17.86
+      },
+      "overall": {
+        "input": 28674,
+        "output": 734,
+        "total": 29408,
+        "ratio": 39.07
+      }
+    }
   }
 ]

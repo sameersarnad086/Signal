@@ -1684,5 +1684,125 @@
         "ratio": 39.07
       }
     }
+  },
+  {
+    "run_id": "20260405050122",
+    "date": "2026-04-05",
+    "time": "05:01:22",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Evaluating the ethics of autonomous systems",
+        "source_url": "https://news.mit.edu/2026/evaluating-autonomous-systems-ethics-0402",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 2,
+        "title": "There are more AI health tools than ever\u2014but how well do they work?",
+        "source_url": "https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "The Pentagon\u2019s culture war tactic against Anthropic has backfired",
+        "source_url": "https://www.technologyreview.com/2026/03/30/1134881/the-pentagons-culture-war-tactic-against-anthropic-has-backfired/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 3,
+      "pass_rate_pct": 10.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2188,
+        "output": 0,
+        "total": 2188,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 509,
+        "output": 163,
+        "total": 672,
+        "ratio": 3.12
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1469,
+        "output": 538,
+        "total": 2007,
+        "ratio": 2.73
+      },
+      "overall": {
+        "input": 4166,
+        "output": 701,
+        "total": 4867,
+        "ratio": 5.94
+      }
+    }
+  },
+  {
+    "run_id": "20260405050314",
+    "date": "2026-04-05",
+    "time": "05:03:14",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "How many products does Microsoft have named 'Copilot'?",
+        "source_url": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
+        "source_domain": "teybannerman.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 1,
+      "pass_rate_pct": 3.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 9302,
+        "output": 0,
+        "total": 9302,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 286,
+        "output": 59,
+        "total": 345,
+        "ratio": 4.85
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1332,
+        "output": 259,
+        "total": 1591,
+        "ratio": 5.14
+      },
+      "overall": {
+        "input": 10920,
+        "output": 318,
+        "total": 11238,
+        "ratio": 34.34
+      }
+    }
   }
 ]

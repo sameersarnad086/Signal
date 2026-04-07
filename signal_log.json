@@ -1936,5 +1936,137 @@
         "ratio": 18.42
       }
     }
+  },
+  {
+    "run_id": "20260407045913",
+    "date": "2026-04-07",
+    "time": "04:59:13",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Google quietly launched an AI dictation app that works offline",
+        "source_url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "OpenAI\u2019s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek",
+        "source_url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Google\u2019s free offline dictation app just made paying $15 a month for Wispr Flow hard to justify",
+        "source_url": "https://thenextweb.com/news/google-offline-dictation-app-ios",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 3,
+      "pass_rate_pct": 10.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3314,
+        "output": 0,
+        "total": 3314,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 625,
+        "output": 170,
+        "total": 795,
+        "ratio": 3.68
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1568,
+        "output": 524,
+        "total": 2092,
+        "ratio": 2.99
+      },
+      "overall": {
+        "input": 5507,
+        "output": 694,
+        "total": 6201,
+        "ratio": 7.94
+      }
+    }
+  },
+  {
+    "run_id": "20260407050039",
+    "date": "2026-04-07",
+    "time": "05:00:39",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Google quietly launched an AI dictation app that works offline",
+        "source_url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Google\u2019s free offline dictation app just made paying $15 a month for Wispr Flow hard to justify",
+        "source_url": "https://thenextweb.com/news/google-offline-dictation-app-ios",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "AI is changing how small online sellers decide what to make",
+        "source_url": "https://www.technologyreview.com/2026/04/06/1135118/ai-online-seller-alibaba-accio/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 3,
+      "pass_rate_pct": 10.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8529,
+        "output": 0,
+        "total": 8529,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 661,
+        "output": 165,
+        "total": 826,
+        "ratio": 4.01
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1587,
+        "output": 509,
+        "total": 2096,
+        "ratio": 3.12
+      },
+      "overall": {
+        "input": 10777,
+        "output": 674,
+        "total": 11451,
+        "ratio": 15.99
+      }
+    }
   }
 ]

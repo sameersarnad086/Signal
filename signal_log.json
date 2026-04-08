@@ -2068,5 +2068,125 @@
         "ratio": 15.99
       }
     }
+  },
+  {
+    "run_id": "20260408050044",
+    "date": "2026-04-08",
+    "time": "05:00:44",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "I can\u2019t help rooting for tiny open source AI model maker Arcee",
+        "source_url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative",
+        "source_url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Uber is the latest to be won over by Amazon\u2019s AI chips",
+        "source_url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 3,
+      "pass_rate_pct": 10.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1160,
+        "output": 0,
+        "total": 1160,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 445,
+        "output": 175,
+        "total": 620,
+        "ratio": 2.54
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1392,
+        "output": 533,
+        "total": 1925,
+        "ratio": 2.61
+      },
+      "overall": {
+        "input": 2997,
+        "output": 708,
+        "total": 3705,
+        "ratio": 4.23
+      }
+    }
+  },
+  {
+    "run_id": "20260408050307",
+    "date": "2026-04-08",
+    "time": "05:03:07",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Google Maps uses Gemini to write captions for your photos",
+        "source_url": "https://thenextweb.com/news/google-maps-gemini-ai-photo-captions",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 1,
+      "pass_rate_pct": 3.4
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 9546,
+        "output": 0,
+        "total": 9546,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 316,
+        "output": 60,
+        "total": 376,
+        "ratio": 5.27
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1349,
+        "output": 233,
+        "total": 1582,
+        "ratio": 5.79
+      },
+      "overall": {
+        "input": 11211,
+        "output": 293,
+        "total": 11504,
+        "ratio": 38.26
+      }
+    }
   }
 ]

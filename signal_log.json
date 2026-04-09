@@ -2188,5 +2188,137 @@
         "ratio": 38.26
       }
     }
+  },
+  {
+    "run_id": "20260409045814",
+    "date": "2026-04-09",
+    "time": "04:58:14",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Show HN: Is Hormuz open yet?",
+        "source_url": "https://www.ishormuzopenyet.com/",
+        "source_domain": "www.ishormuzopenyet.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Poke makes using AI agents as easy as sending a text",
+        "source_url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict",
+        "source_url": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 3,
+      "pass_rate_pct": 12.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2421,
+        "output": 0,
+        "total": 2421,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 801,
+        "output": 165,
+        "total": 966,
+        "ratio": 4.85
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1731,
+        "output": 572,
+        "total": 2303,
+        "ratio": 3.03
+      },
+      "overall": {
+        "input": 4953,
+        "output": 737,
+        "total": 5690,
+        "ratio": 6.72
+      }
+    }
+  },
+  {
+    "run_id": "20260409045902",
+    "date": "2026-04-09",
+    "time": "04:59:02",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Poke makes using AI agents as easy as sending a text",
+        "source_url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Tubi is the first streamer to launch a native app within ChatGPT",
+        "source_url": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Astropad\u2019s Workbench reimagines remote desktop for AI agents, not IT support",
+        "source_url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 3,
+      "pass_rate_pct": 12.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2884,
+        "output": 0,
+        "total": 2884,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 431,
+        "output": 158,
+        "total": 589,
+        "ratio": 2.73
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1384,
+        "output": 568,
+        "total": 1952,
+        "ratio": 2.44
+      },
+      "overall": {
+        "input": 4699,
+        "output": 726,
+        "total": 5425,
+        "ratio": 6.47
+      }
+    }
   }
 ]

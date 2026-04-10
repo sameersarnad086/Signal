@@ -2320,5 +2320,125 @@
         "ratio": 6.47
       }
     }
+  },
+  {
+    "run_id": "20260410051300",
+    "date": "2026-04-10",
+    "time": "05:13:00",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "ChatGPT finally offers $100/month Pro plan",
+        "source_url": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Florida AG announces investigation into OpenAI over shooting that allegedly involved ChatGPT",
+        "source_url": "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Is Anthropic limiting the release of Mythos to protect the internet \u2014 or Anthropic?",
+        "source_url": "https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 3,
+      "pass_rate_pct": 12.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1193,
+        "output": 0,
+        "total": 1193,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 627,
+        "output": 234,
+        "total": 861,
+        "ratio": 2.68
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1416,
+        "output": 553,
+        "total": 1969,
+        "ratio": 2.56
+      },
+      "overall": {
+        "input": 3236,
+        "output": 787,
+        "total": 4023,
+        "ratio": 4.11
+      }
+    }
+  },
+  {
+    "run_id": "20260410051458",
+    "date": "2026-04-10",
+    "time": "05:14:58",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "ChatGPT finally offers $100/month Pro plan",
+        "source_url": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 1,
+      "pass_rate_pct": 4.2
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 7215,
+        "output": 0,
+        "total": 7215,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 150,
+        "output": 59,
+        "total": 209,
+        "ratio": 2.54
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1194,
+        "output": 257,
+        "total": 1451,
+        "ratio": 4.65
+      },
+      "overall": {
+        "input": 8559,
+        "output": 316,
+        "total": 8875,
+        "ratio": 27.09
+      }
+    }
   }
 ]

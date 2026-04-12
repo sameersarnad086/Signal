@@ -2566,5 +2566,125 @@
         "ratio": 17.43
       }
     }
+  },
+  {
+    "run_id": "20260412051158",
+    "date": "2026-04-12",
+    "time": "05:11:58",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "AI is changing how small online sellers decide what to make",
+        "source_url": "https://www.technologyreview.com/2026/04/06/1135118/ai-online-seller-alibaba-accio/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "New technique makes AI models leaner and faster while they\u2019re still learning",
+        "source_url": "https://news.mit.edu/2026/new-technique-makes-ai-models-leaner-faster-while-still-learning-0409",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 3,
+        "title": "Anthropic temporarily banned OpenClaw\u2019s creator from accessing Claude",
+        "source_url": "https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 22,
+      "passed": 3,
+      "pass_rate_pct": 13.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2103,
+        "output": 0,
+        "total": 2103,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 463,
+        "output": 164,
+        "total": 627,
+        "ratio": 2.82
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1409,
+        "output": 508,
+        "total": 1917,
+        "ratio": 2.77
+      },
+      "overall": {
+        "input": 3975,
+        "output": 672,
+        "total": 4647,
+        "ratio": 5.92
+      }
+    }
+  },
+  {
+    "run_id": "20260412051334",
+    "date": "2026-04-12",
+    "time": "05:13:34",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "AI is making us faster, more productive, and worse at thinking",
+        "source_url": "https://thenextweb.com/news/ai-intelligence-losing-our-own",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 23,
+      "passed": 1,
+      "pass_rate_pct": 4.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 6948,
+        "output": 0,
+        "total": 6948,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 316,
+        "output": 54,
+        "total": 370,
+        "ratio": 5.85
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1346,
+        "output": 211,
+        "total": 1557,
+        "ratio": 6.38
+      },
+      "overall": {
+        "input": 8610,
+        "output": 265,
+        "total": 8875,
+        "ratio": 32.49
+      }
+    }
   }
 ]

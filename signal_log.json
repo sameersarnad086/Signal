@@ -2686,5 +2686,137 @@
         "ratio": 32.49
       }
     }
+  },
+  {
+    "run_id": "20260413052807",
+    "date": "2026-04-13",
+    "time": "05:28:07",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI\u2019s new $100 ChatGPT Pro plan targets Claude Max with five times the Codex access",
+        "source_url": "https://thenextweb.com/news/openais-new-100-chatgpt-pro-plan-targets-claude-max-with-five-times-the-codex-access",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Anthropic brings Claude into Microsoft Word, and legal contract review leads its use cases",
+        "source_url": "https://thenextweb.com/news/dario-amodei-london-united-kingdom",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Trump officials may be encouraging banks to test Anthropic\u2019s Mythos model",
+        "source_url": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 3,
+      "pass_rate_pct": 15.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2621,
+        "output": 0,
+        "total": 2621,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 834,
+        "output": 166,
+        "total": 1000,
+        "ratio": 5.02
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1773,
+        "output": 584,
+        "total": 2357,
+        "ratio": 3.04
+      },
+      "overall": {
+        "input": 5228,
+        "output": 750,
+        "total": 5978,
+        "ratio": 6.97
+      }
+    }
+  },
+  {
+    "run_id": "20260413052907",
+    "date": "2026-04-13",
+    "time": "05:29:07",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Anthropic brings Claude into Microsoft Word, and legal contract review leads its use cases",
+        "source_url": "https://thenextweb.com/news/dario-amodei-london-united-kingdom",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "From LLMs to hallucinations, here\u2019s a simple guide to common AI terms",
+        "source_url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "At the HumanX conference, everyone was talking about Claude",
+        "source_url": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 3,
+      "pass_rate_pct": 12.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4118,
+        "output": 0,
+        "total": 4118,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 610,
+        "output": 154,
+        "total": 764,
+        "ratio": 3.96
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1537,
+        "output": 483,
+        "total": 2020,
+        "ratio": 3.18
+      },
+      "overall": {
+        "input": 6265,
+        "output": 637,
+        "total": 6902,
+        "ratio": 9.84
+      }
+    }
   }
 ]

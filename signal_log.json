@@ -2818,5 +2818,137 @@
         "ratio": 9.84
       }
     }
+  },
+  {
+    "run_id": "20260414051046",
+    "date": "2026-04-14",
+    "time": "05:10:46",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Why opinion on AI is so divided",
+        "source_url": "https://www.technologyreview.com/2026/04/13/1135720/why-opinion-on-ai-is-so-divided/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Want to understand the current state of AI? Check out these charts.",
+        "source_url": "https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Companies expand AI adoption while keeping control",
+        "source_url": "https://www.artificialintelligence-news.com/news/companies-expand-ai-adoption-while-keeping-control/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 3,
+      "pass_rate_pct": 11.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1249,
+        "output": 0,
+        "total": 1249,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 648,
+        "output": 169,
+        "total": 817,
+        "ratio": 3.83
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1597,
+        "output": 557,
+        "total": 2154,
+        "ratio": 2.87
+      },
+      "overall": {
+        "input": 3494,
+        "output": 726,
+        "total": 4220,
+        "ratio": 4.81
+      }
+    }
+  },
+  {
+    "run_id": "20260414051230",
+    "date": "2026-04-14",
+    "time": "05:12:30",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Companies expand AI adoption while keeping control",
+        "source_url": "https://www.artificialintelligence-news.com/news/companies-expand-ai-adoption-while-keeping-control/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Why companies like Apple are building AI agents with limits",
+        "source_url": "https://www.artificialintelligence-news.com/news/why-companies-like-apple-are-building-ai-agents-with-limits/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "OpenAI has bought AI personal finance startup Hiro",
+        "source_url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 3,
+      "pass_rate_pct": 10.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8208,
+        "output": 0,
+        "total": 8208,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 649,
+        "output": 182,
+        "total": 831,
+        "ratio": 3.57
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1569,
+        "output": 539,
+        "total": 2108,
+        "ratio": 2.91
+      },
+      "overall": {
+        "input": 10426,
+        "output": 721,
+        "total": 11147,
+        "ratio": 14.46
+      }
+    }
   }
 ]

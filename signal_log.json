@@ -3214,5 +3214,137 @@
         "ratio": 10.34
       }
     }
+  },
+  {
+    "run_id": "20260417051613",
+    "date": "2026-04-17",
+    "time": "05:16:13",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Factory hits $1.5B valuation to build AI coding for enterprises",
+        "source_url": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it was never taught",
+        "source_url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop",
+        "source_url": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 3,
+      "pass_rate_pct": 10.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1145,
+        "output": 0,
+        "total": 1145,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 436,
+        "output": 156,
+        "total": 592,
+        "ratio": 2.79
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1418,
+        "output": 650,
+        "total": 2068,
+        "ratio": 2.18
+      },
+      "overall": {
+        "input": 2999,
+        "output": 806,
+        "total": 3805,
+        "ratio": 3.72
+      }
+    }
+  },
+  {
+    "run_id": "20260417051741",
+    "date": "2026-04-17",
+    "time": "05:17:41",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop",
+        "source_url": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Samsung turns its smart home into a remote care system for ageing families",
+        "source_url": "https://thenextweb.com/news/samsung-smartthings-family-care-elderly-monitoring-ambient-sensing",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Solidroad raises $25 million to replace manual customer support QA with AI that reviews every conversation",
+        "source_url": "https://thenextweb.com/news/solidroad-25-million-series-a-ai-customer-support-qa",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 3,
+      "pass_rate_pct": 10.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5707,
+        "output": 0,
+        "total": 5707,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 826,
+        "output": 186,
+        "total": 1012,
+        "ratio": 4.44
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1764,
+        "output": 579,
+        "total": 2343,
+        "ratio": 3.05
+      },
+      "overall": {
+        "input": 8297,
+        "output": 765,
+        "total": 9062,
+        "ratio": 10.85
+      }
+    }
   }
 ]

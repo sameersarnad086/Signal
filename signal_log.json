@@ -3472,5 +3472,125 @@
         "ratio": 24.72
       }
     }
+  },
+  {
+    "run_id": "20260419051555",
+    "date": "2026-04-19",
+    "time": "05:15:55",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI Agents SDK improves governance with sandbox execution",
+        "source_url": "https://www.artificialintelligence-news.com/news/openai-agents-sdk-improves-governance-sandbox-execution/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Cadence expands AI and robotic partnerships with Nvidia, Google Cloud",
+        "source_url": "https://www.artificialintelligence-news.com/news/cadence-expands-ai-and-robotics-partnerships-with-nvidia-google-cloud/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Commvault launches a \u2018Ctrl-Z\u2019 for cloud AI workloads",
+        "source_url": "https://www.artificialintelligence-news.com/news/commvault-launches-ctrl-z-for-cloud-ai-workloads/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 3,
+      "pass_rate_pct": 10.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1074,
+        "output": 0,
+        "total": 1074,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 810,
+        "output": 171,
+        "total": 981,
+        "ratio": 4.74
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1737,
+        "output": 411,
+        "total": 2148,
+        "ratio": 4.23
+      },
+      "overall": {
+        "input": 3621,
+        "output": 582,
+        "total": 4203,
+        "ratio": 6.22
+      }
+    }
+  },
+  {
+    "run_id": "20260419051729",
+    "date": "2026-04-19",
+    "time": "05:17:29",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "The App Store is booming again, and AI may be why",
+        "source_url": "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 1,
+      "pass_rate_pct": 3.4
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 9085,
+        "output": 0,
+        "total": 9085,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 143,
+        "output": 56,
+        "total": 199,
+        "ratio": 2.55
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1194,
+        "output": 229,
+        "total": 1423,
+        "ratio": 5.21
+      },
+      "overall": {
+        "input": 10422,
+        "output": 285,
+        "total": 10707,
+        "ratio": 36.57
+      }
+    }
   }
 ]

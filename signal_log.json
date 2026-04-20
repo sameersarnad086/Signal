@@ -3592,5 +3592,71 @@
         "ratio": 36.57
       }
     }
+  },
+  {
+    "run_id": "20260420052721",
+    "date": "2026-04-20",
+    "time": "05:27:21",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "The 12-month window",
+        "source_url": "https://techcrunch.com/2026/04/19/the-12-month-window/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Google is in talks with Marvell to build custom AI inference chips as it diversifies beyond Broadcom",
+        "source_url": "https://thenextweb.com/news/google-marvell-ai-chips-inference-tpu-broadcom",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Stanford\u2019s AI Index finds China has nearly closed the performance gap with the US despite spending 23 times less",
+        "source_url": "https://thenextweb.com/news/stanford-ai-index-2026-china-us-performance-gap",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 3,
+      "pass_rate_pct": 12.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 6023,
+        "output": 0,
+        "total": 6023,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 825,
+        "output": 181,
+        "total": 1006,
+        "ratio": 4.56
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1734,
+        "output": 596,
+        "total": 2330,
+        "ratio": 2.91
+      },
+      "overall": {
+        "input": 8582,
+        "output": 777,
+        "total": 9359,
+        "ratio": 11.05
+      }
+    }
   }
 ]

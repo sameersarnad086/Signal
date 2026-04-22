@@ -3784,5 +3784,131 @@
         "ratio": 22.31
       }
     }
+  },
+  {
+    "run_id": "20260422051318",
+    "date": "2026-04-22",
+    "time": "05:13:18",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "SpaceX says it has agreement to acquire Cursor for $60B",
+        "source_url": "https://twitter.com/spacex/status/2046713419978453374",
+        "source_domain": "twitter.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "LLMs+",
+        "source_url": "https://www.technologyreview.com/2026/04/21/1135645/llm-large-language-models-ai/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Supercharged scams",
+        "source_url": "https://www.technologyreview.com/2026/04/21/1135647/supercharged-scams-ai-artificial-intelligence/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 3,
+      "pass_rate_pct": 10.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2764,
+        "output": 0,
+        "total": 2764,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 940,
+        "output": 225,
+        "total": 1165,
+        "ratio": 4.18
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1765,
+        "output": 513,
+        "total": 2278,
+        "ratio": 3.44
+      },
+      "overall": {
+        "input": 5469,
+        "output": 738,
+        "total": 6207,
+        "ratio": 7.41
+      }
+    }
+  },
+  {
+    "run_id": "20260422051527",
+    "date": "2026-04-22",
+    "time": "05:15:27",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "LLMs+",
+        "source_url": "https://www.technologyreview.com/2026/04/21/1135645/llm-large-language-models-ai/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Meta will record employees\u2019 keystrokes and use it to train its AI models",
+        "source_url": "https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 2,
+      "pass_rate_pct": 6.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 9465,
+        "output": 0,
+        "total": 9465,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 321,
+        "output": 113,
+        "total": 434,
+        "ratio": 2.84
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1325,
+        "output": 405,
+        "total": 1730,
+        "ratio": 3.27
+      },
+      "overall": {
+        "input": 11111,
+        "output": 518,
+        "total": 11629,
+        "ratio": 21.45
+      }
+    }
   }
 ]

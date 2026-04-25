@@ -4162,5 +4162,125 @@
         "ratio": 36.07
       }
     }
+  },
+  {
+    "run_id": "20260425045959",
+    "date": "2026-04-25",
+    "time": "04:59:59",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Why AI agents need interaction infrastructure",
+        "source_url": "https://www.artificialintelligence-news.com/news/why-ai-agents-need-interaction-infrastructure/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "The billion-dollar startup with a different idea for AI",
+        "source_url": "https://www.artificialintelligence-news.com/news/the-billion-dollar-startup-with-a-different-idea-for-ai-ami-labs-yann-lecun/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "NVIDIA and Google infrastructure cuts AI inference costs",
+        "source_url": "https://www.artificialintelligence-news.com/news/nvidia-and-google-infrastructure-cuts-ai-inference-costs/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 3,
+      "pass_rate_pct": 10.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1423,
+        "output": 0,
+        "total": 1423,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 797,
+        "output": 168,
+        "total": 965,
+        "ratio": 4.74
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1722,
+        "output": 551,
+        "total": 2273,
+        "ratio": 3.13
+      },
+      "overall": {
+        "input": 3942,
+        "output": 719,
+        "total": 4661,
+        "ratio": 5.48
+      }
+    }
+  },
+  {
+    "run_id": "20260425050149",
+    "date": "2026-04-25",
+    "time": "05:01:49",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Marked-up Mac minis flood eBay amid shortages driven by AI",
+        "source_url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 1,
+      "pass_rate_pct": 3.4
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 9072,
+        "output": 0,
+        "total": 9072,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 146,
+        "output": 53,
+        "total": 199,
+        "ratio": 2.75
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1191,
+        "output": 235,
+        "total": 1426,
+        "ratio": 5.07
+      },
+      "overall": {
+        "input": 10409,
+        "output": 288,
+        "total": 10697,
+        "ratio": 36.14
+      }
+    }
   }
 ]

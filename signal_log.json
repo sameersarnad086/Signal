@@ -4402,5 +4402,125 @@
         "ratio": 34.15
       }
     }
+  },
+  {
+    "run_id": "20260427053932",
+    "date": "2026-04-27",
+    "time": "05:39:32",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Teaching AI models to say \u201cI\u2019m not sure\u201d",
+        "source_url": "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 2,
+        "title": "10 Things That Matter in AI Right Now",
+        "source_url": "https://www.technologyreview.com/2026/04/21/1135643/10-ai-artificial-intelligence-trends-technologies-research-2026/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Sony AI robot beats players as humanoid robot wins Beijing race",
+        "source_url": "https://www.artificialintelligence-news.com/news/sony-ai-robot-table-tennis-humanoid-robot-beijing-race/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 23,
+      "passed": 3,
+      "pass_rate_pct": 13.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2071,
+        "output": 0,
+        "total": 2071,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 532,
+        "output": 159,
+        "total": 691,
+        "ratio": 3.35
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1475,
+        "output": 498,
+        "total": 1973,
+        "ratio": 2.96
+      },
+      "overall": {
+        "input": 4078,
+        "output": 657,
+        "total": 4735,
+        "ratio": 6.21
+      }
+    }
+  },
+  {
+    "run_id": "20260427054040",
+    "date": "2026-04-27",
+    "time": "05:40:40",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "AI should elevate your thinking, not replace it",
+        "source_url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+        "source_domain": "www.koshyjohn.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 1,
+      "pass_rate_pct": 3.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 9023,
+        "output": 0,
+        "total": 9023,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 269,
+        "output": 58,
+        "total": 327,
+        "ratio": 4.64
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1308,
+        "output": 248,
+        "total": 1556,
+        "ratio": 5.27
+      },
+      "overall": {
+        "input": 10600,
+        "output": 306,
+        "total": 10906,
+        "ratio": 34.64
+      }
+    }
   }
 ]

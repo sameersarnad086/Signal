@@ -4522,5 +4522,125 @@
         "ratio": 34.64
       }
     }
+  },
+  {
+    "run_id": "20260428054517",
+    "date": "2026-04-28",
+    "time": "05:45:17",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI is building a phone that would make apps obsolete. The supply chain says it might actually ship.",
+        "source_url": "https://thenextweb.com/news/openai-qualcomm-ai-phone-agents-replace-apps",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Microsoft drops its exclusive licence to OpenAI\u2019s technology",
+        "source_url": "https://thenextweb.com/news/microsoft-openai-exclusive-licence-ends",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Sequoia and Nvidia back AlphaGo creator David Silver\u2019s Ineffable Intelligence at $5.1 billion",
+        "source_url": "https://thenextweb.com/news/ineffable-intelligence-david-silver-sequoia-nvidia-5-billion",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 22,
+      "passed": 3,
+      "pass_rate_pct": 13.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4571,
+        "output": 0,
+        "total": 4571,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 957,
+        "output": 181,
+        "total": 1138,
+        "ratio": 5.29
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1858,
+        "output": 465,
+        "total": 2323,
+        "ratio": 4.0
+      },
+      "overall": {
+        "input": 7386,
+        "output": 646,
+        "total": 8032,
+        "ratio": 11.43
+      }
+    }
+  },
+  {
+    "run_id": "20260428054622",
+    "date": "2026-04-28",
+    "time": "05:46:22",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI could be making a phone with AI agents replacing apps",
+        "source_url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 1,
+      "pass_rate_pct": 4.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 7338,
+        "output": 0,
+        "total": 7338,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 166,
+        "output": 59,
+        "total": 225,
+        "ratio": 2.81
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1217,
+        "output": 281,
+        "total": 1498,
+        "ratio": 4.33
+      },
+      "overall": {
+        "input": 8721,
+        "output": 340,
+        "total": 9061,
+        "ratio": 25.65
+      }
+    }
   }
 ]

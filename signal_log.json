@@ -4888,5 +4888,71 @@
         "ratio": 38.46
       }
     }
+  },
+  {
+    "run_id": "20260501055423",
+    "date": "2026-05-01",
+    "time": "05:54:23",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "AI integration demands integrity, not just innovation: Amy Trahey on building accountability into an AI-driven world",
+        "source_url": "https://thenextweb.com/news/ai-integration-demands-integrity-not-just-innovation-amy-trahey-on-building-accountability-into-an-ai-driven-world",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "This startup\u2019s new mechanistic interpretability tool lets you debug LLMs",
+        "source_url": "https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "AI agent governance takes focus as regulators flag control gaps",
+        "source_url": "https://www.artificialintelligence-news.com/news/ai-agent-governance-control-gaps/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5624,
+        "output": 0,
+        "total": 5624,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 784,
+        "output": 160,
+        "total": 944,
+        "ratio": 4.9
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1735,
+        "output": 556,
+        "total": 2291,
+        "ratio": 3.12
+      },
+      "overall": {
+        "input": 8143,
+        "output": 716,
+        "total": 8859,
+        "ratio": 11.37
+      }
+    }
   }
 ]

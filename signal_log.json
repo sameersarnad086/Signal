@@ -4954,5 +4954,71 @@
         "ratio": 11.37
       }
     }
+  },
+  {
+    "run_id": "20260502052337",
+    "date": "2026-05-02",
+    "time": "05:23:37",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Meta buys robotics startup to bolster its humanoid AI ambitions",
+        "source_url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
+        "source_url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Operationalizing AI for Scale and Sovereignty",
+        "source_url": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 3,
+      "pass_rate_pct": 10.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3345,
+        "output": 0,
+        "total": 3345,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 471,
+        "output": 181,
+        "total": 652,
+        "ratio": 2.6
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1432,
+        "output": 569,
+        "total": 2001,
+        "ratio": 2.52
+      },
+      "overall": {
+        "input": 5248,
+        "output": 750,
+        "total": 5998,
+        "ratio": 7.0
+      }
+    }
   }
 ]

@@ -5206,5 +5206,125 @@
         "ratio": 9.94
       }
     }
+  },
+  {
+    "run_id": "20260505052808",
+    "date": "2026-05-05",
+    "time": "05:28:08",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "As workers worry about AI, Nvidia\u2019s Jensen Huang says AI is \u2018creating an enormous number of jobs\u2019",
+        "source_url": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "OpenAI\u2019s cozy partner Cerebras is on track for a blockbuster IPO",
+        "source_url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Image AI models now drive app growth, beating chatbot upgrades",
+        "source_url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 688,
+        "output": 0,
+        "total": 688,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 431,
+        "output": 180,
+        "total": 611,
+        "ratio": 2.39
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1400,
+        "output": 521,
+        "total": 1921,
+        "ratio": 2.69
+      },
+      "overall": {
+        "input": 2519,
+        "output": 701,
+        "total": 3220,
+        "ratio": 3.59
+      }
+    }
+  },
+  {
+    "run_id": "20260505052925",
+    "date": "2026-05-05",
+    "time": "05:29:25",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "As workers worry about AI, Nvidia\u2019s Jensen Huang says AI is \u2018creating an enormous number of jobs\u2019",
+        "source_url": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 1,
+      "pass_rate_pct": 3.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 9314,
+        "output": 0,
+        "total": 9314,
+        "ratio": 0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 144,
+        "output": 60,
+        "total": 204,
+        "ratio": 2.4
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1211,
+        "output": 281,
+        "total": 1492,
+        "ratio": 4.31
+      },
+      "overall": {
+        "input": 10669,
+        "output": 341,
+        "total": 11010,
+        "ratio": 31.29
+      }
+    }
   }
 ]

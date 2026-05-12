@@ -5600,5 +5600,135 @@
         "ratio": 3.94
       }
     }
+  },
+  {
+    "run_id": "20260512112944",
+    "date": "2026-05-12",
+    "time": "11:29:44",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Thinking Machines wants to build an AI that actually listens while it talks",
+        "source_url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
+        "source_url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Digg tries again, this time as an AI news aggregator",
+        "source_url": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 21,
+      "passed": 3,
+      "pass_rate_pct": 14.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 962,
+        "output": 261,
+        "total": 1223,
+        "ratio": 3.69
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 487,
+        "output": 169,
+        "total": 656,
+        "ratio": 2.88
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1452,
+        "output": 565,
+        "total": 2017,
+        "ratio": 2.57
+      },
+      "overall": {
+        "input": 2901,
+        "output": 995,
+        "total": 3896,
+        "ratio": 2.92
+      }
+    }
+  },
+  {
+    "run_id": "20260512113017",
+    "date": "2026-05-12",
+    "time": "11:30:17",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Claude Platform on AWS",
+        "source_url": "https://claude.com/blog/claude-platform-on-aws",
+        "source_domain": "claude.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 1,
+      "pass_rate_pct": 4.2
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 7153,
+        "output": 1590,
+        "total": 8743,
+        "ratio": 4.5
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 240,
+        "output": 52,
+        "total": 292,
+        "ratio": 4.62
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1267,
+        "output": 243,
+        "total": 1510,
+        "ratio": 5.21
+      },
+      "overall": {
+        "input": 8660,
+        "output": 1885,
+        "total": 10545,
+        "ratio": 4.59
+      }
+    }
   }
 ]

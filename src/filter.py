@@ -111,9 +111,11 @@ def filter_article_with_retry(article, config, gate_12_model, gate_3_model, max_
         try:
             return filter_article(article, config, gate_12_model, gate_3_model)
         except Exception as e:
-            if "429" in str(e) and attempt < max_retries - 1:
+            error_str = str(e)
+            is_retryable = "429" in error_str or "503" in error_str or "UNAVAILABLE" in error_str
+            if is_retryable and attempt < max_retries - 1:
                 wait_time = 30 * (attempt + 1)
-                print(f"Rate limit hit. Waiting {wait_time}s before retry {attempt + 2}/{max_retries}...")
+                print(f"Transient error ({error_str[:50]}). Waiting {wait_time}s before retry {attempt + 2}/{max_retries}...")
                 time.sleep(wait_time)
             else:
                 raise

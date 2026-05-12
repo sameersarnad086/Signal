@@ -5,13 +5,29 @@ import time
 import google.genai as genai
 from dotenv import load_dotenv
 
-GATE_12_MODEL = "models/gemma-3-12b-it"
+GATE_12_MODEL = "models/gemma-4-27b-it"
 GATE_3_MODEL = "models/gemini-2.5-flash-lite"
+
+def verify_and_get_models(client):
+    available = [m.name for m in client.models.list()]
+    
+    gate_12_fallback = "models/gemini-2.5-flash-lite"
+    gate_3_fallback = "models/gemini-2.5-flash-lite"
+    
+    gate_12_model = GATE_12_MODEL if GATE_12_MODEL in available else gate_12_fallback
+    gate_3_model = GATE_3_MODEL if GATE_3_MODEL in available else gate_3_fallback
+
+    if gate_12_model != GATE_12_MODEL:
+        print(f"WARNING: {GATE_12_MODEL} not available. Falling back to {gate_12_fallback}")
+    if gate_3_model != GATE_3_MODEL:
+        print(f"WARNING: {GATE_3_MODEL} not available. Falling back to {gate_3_fallback}")
+
+    return gate_12_model, gate_3_model
 
 load_dotenv()
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
-def filter_article(article, config):
+def filter_article(article, config,gate_12_model, gate_3_model):
     prompt_12 = f"""
 You are a content filter for a personalised AI learning agent.
 Evaluate this article against the user profile.
@@ -38,7 +54,7 @@ Respond in this exact JSON format and nothing else:
 """
 
     response_12 = client.models.generate_content(
-        model=GATE_12_MODEL,
+        model=gate_12_model,
         contents=prompt_12
     )
 
@@ -74,7 +90,7 @@ Respond in this exact JSON format and nothing else:
 """
 
     response_3 = client.models.generate_content(
-        model=GATE_3_MODEL,
+        model=gate_3_model,
         contents=prompt_3
     )
 
@@ -90,10 +106,10 @@ Respond in this exact JSON format and nothing else:
     return result_3
 
 
-def filter_article_with_retry(article, config, max_retries=3):
+def filter_article_with_retry(article, config, gate_12_model, gate_3_model, max_retries=3):
     for attempt in range(max_retries):
         try:
-            return filter_article(article, config)
+            return filter_article(article, config, gate_12_model, gate_3_model)
         except Exception as e:
             if "429" in str(e) and attempt < max_retries - 1:
                 wait_time = 30 * (attempt + 1)
@@ -104,6 +120,7 @@ def filter_article_with_retry(article, config, max_retries=3):
 
 
 def filter_articles(articles, config):
+    gate_12_model, gate_3_model = verify_and_get_models(client)
     passed = []
     rejected = []
     total_tokens_gates12 = {"input": 0, "output": 0}
@@ -111,7 +128,7 @@ def filter_articles(articles, config):
 
     for article in articles:
         print(f"Filtering: {article['title'][:60]}...")
-        result = filter_article_with_retry(article, config)
+        result = filter_article_with_retry(article, config,gate_12_model, gate_3_model)
 
         total_tokens_gates12["input"] += result.get("tokens_gates12", {}).get("input", 0)
         total_tokens_gates12["output"] += result.get("tokens_gates12", {}).get("output", 0)
@@ -129,4 +146,4 @@ def filter_articles(articles, config):
             break
 
     print(f"\nFilter summary: {len(passed)} passed, {len(rejected)} rejected")
-    return passed, total_tokens_gates12, total_tokens_gate3
+    return passed, total_tokens_gates12, total_tokens_gate3, gate_12_model, gate_3_model

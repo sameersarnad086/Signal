@@ -29,7 +29,7 @@ def run_signal():
             continue
 
         print("Filtering articles...")
-        passed_articles, tokens_gates12, tokens_gate3 = filter_articles(fresh_articles, user)
+        passed_articles, tokens_gates12, tokens_gate3, gate_12_model, gate_3_model = filter_articles(fresh_articles, user)
 
         if not passed_articles:
             print(f"No articles passed the filter for {user['name']} today.")
@@ -83,7 +83,9 @@ def run_signal():
                 "output": usage.candidates_token_count
             },
             articles_fetched=len(fresh_articles),
-            articles_passed=len(passed_articles)
-)
+            articles_passed=len(passed_articles),
+            gate_12_model=gate_12_model,
+            gate_3_model=gate_3_model,
+        )
 
 run_signal()

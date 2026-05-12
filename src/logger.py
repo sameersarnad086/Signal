@@ -6,7 +6,7 @@ LOG_FILE = "signal_log.json"
 
 def log_run(user, passed_articles, delivery_channel,
             tokens_gates12, tokens_gate3, tokens_summary,
-            articles_fetched, articles_passed):
+            articles_fetched, articles_passed, gate_12_model, gate_3_model):
 
     def ratio(inp, out):
         return round(inp / out, 2) if out > 0 else 0
@@ -15,6 +15,11 @@ def log_run(user, passed_articles, delivery_channel,
         "run_id": datetime.now().strftime("%Y%m%d%H%M%S"),
         "date": datetime.now().strftime("%Y-%m-%d"),
         "time": datetime.now().strftime("%H:%M:%S"),
+        "models_used": {
+            "gates_12": gate_12_model,
+            "gate_3": gate_3_model,
+            "summarisation": "models/gemini-2.5-flash"
+            },
         "user": {
             "name": user["name"],
             "learning_layer": user["learning_layer"],

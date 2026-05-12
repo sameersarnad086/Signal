@@ -5326,5 +5326,279 @@
         "ratio": 31.29
       }
     }
+  },
+  {
+    "run_id": "20260512162054",
+    "date": "2026-05-12",
+    "time": "16:20:54",
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Claude Platform on AWS",
+        "source_url": "https://claude.com/blog/claude-platform-on-aws",
+        "source_domain": "claude.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Three things in AI to watch, according to a Nobel-winning economist",
+        "source_url": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Fostering breakthrough AI innovation through customer-back engineering",
+        "source_url": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 3,
+      "pass_rate_pct": 10.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2170,
+        "output": 455,
+        "total": 2625,
+        "ratio": 4.77
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 616,
+        "output": 167,
+        "total": 783,
+        "ratio": 3.69
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1562,
+        "output": 614,
+        "total": 2176,
+        "ratio": 2.54
+      },
+      "overall": {
+        "input": 4348,
+        "output": 1236,
+        "total": 5584,
+        "ratio": 3.52
+      }
+    }
+  },
+  {
+    "run_id": "20260512162129",
+    "date": "2026-05-12",
+    "time": "16:21:29",
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Laserfiche unveils AI agents for natural language workflows",
+        "source_url": "https://www.artificialintelligence-news.com/news/laserfiche-ai-agents-act-autonomously-for-the-platforms-users/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "AI automates HR compliance, except for the area tech companies need",
+        "source_url": "https://www.artificialintelligence-news.com/news/ai-automates-hr-compliance-except-for-the-area-tech-companies-need/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Bain sees US$100 billion SaaS market in agentic AI automation",
+        "source_url": "https://www.artificialintelligence-news.com/news/bain-agentic-ai-saas-market/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 3,
+      "pass_rate_pct": 10.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4067,
+        "output": 813,
+        "total": 4880,
+        "ratio": 5.0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 834,
+        "output": 173,
+        "total": 1007,
+        "ratio": 4.82
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1756,
+        "output": 549,
+        "total": 2305,
+        "ratio": 3.2
+      },
+      "overall": {
+        "input": 6657,
+        "output": 1535,
+        "total": 8192,
+        "ratio": 4.34
+      }
+    }
+  },
+  {
+    "run_id": "20260512164323",
+    "date": "2026-05-12",
+    "time": "16:43:23",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Implementing advanced AI technologies in finance",
+        "source_url": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
+        "source_url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "China is earning roughly $500m an hour from exports, and AI-related goods are doing the heavy lifting",
+        "source_url": "https://thenextweb.com/news/china-500m-per-hour-exports",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 3,
+      "pass_rate_pct": 12.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1231,
+        "output": 265,
+        "total": 1496,
+        "ratio": 4.65
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 712,
+        "output": 173,
+        "total": 885,
+        "ratio": 4.12
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1678,
+        "output": 405,
+        "total": 2083,
+        "ratio": 4.14
+      },
+      "overall": {
+        "input": 3621,
+        "output": 843,
+        "total": 4464,
+        "ratio": 4.3
+      }
+    }
+  },
+  {
+    "run_id": "20260512164428",
+    "date": "2026-05-12",
+    "time": "16:44:28",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Thinking Machines wants to build an AI that actually listens while it talks",
+        "source_url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
+        "source_url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "RingCentral adds Shopify, Calendly, and WhatsApp to AI Receptionist",
+        "source_url": "https://www.artificialintelligence-news.com/news/ringcentral-ai-adds-shopify-calendly-and-whatsapp-to-ai-receptionist/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4912,
+        "output": 1083,
+        "total": 5995,
+        "ratio": 4.54
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 611,
+        "output": 162,
+        "total": 773,
+        "ratio": 3.77
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1571,
+        "output": 556,
+        "total": 2127,
+        "ratio": 2.83
+      },
+      "overall": {
+        "input": 7094,
+        "output": 1801,
+        "total": 8895,
+        "ratio": 3.94
+      }
+    }
   }
 ]

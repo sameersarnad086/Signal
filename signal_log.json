@@ -5730,5 +5730,141 @@
         "ratio": 4.59
       }
     }
+  },
+  {
+    "run_id": "20260513060242",
+    "date": "2026-05-13",
+    "time": "06:02:42",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI just acquired the consulting firm it was born alongside. The model company is now the services company.",
+        "source_url": "https://thenextweb.com/news/tomoro-openai-deployment-company-consulting",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "A Berlin side project just became the orchestration layer of SAP\u2019s AI platform. n8n is now worth $5.2 billion.",
+        "source_url": "https://thenextweb.com/news/n8n-sap-joule-studio-workflow-automation",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Google killed the Chromebook. Its replacement turns your cursor into an AI agent.",
+        "source_url": "https://thenextweb.com/news/google-killed-the-chromebook-its-replacement-turns-your-cursor-into-an-ai-agent",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 23,
+      "passed": 3,
+      "pass_rate_pct": 13.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1628,
+        "output": 281,
+        "total": 1909,
+        "ratio": 5.79
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 977,
+        "output": 181,
+        "total": 1158,
+        "ratio": 5.4
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1886,
+        "output": 529,
+        "total": 2415,
+        "ratio": 3.57
+      },
+      "overall": {
+        "input": 4491,
+        "output": 991,
+        "total": 5482,
+        "ratio": 4.53
+      }
+    }
+  },
+  {
+    "run_id": "20260513060316",
+    "date": "2026-05-13",
+    "time": "06:03:16",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Google killed the Chromebook. Its replacement turns your cursor into an AI agent.",
+        "source_url": "https://thenextweb.com/news/google-killed-the-chromebook-its-replacement-turns-your-cursor-into-an-ai-agent",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Universal AI is \u201ca pathway to AI fluency that\u2019s accessible and approachable to anyone, anywhere\u201d",
+        "source_url": "https://news.mit.edu/2026/universal-ai-pathway-to-ai-fluency-accessible-to-anyone-0512",
+        "source_domain": "news.mit.edu"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 2,
+      "pass_rate_pct": 7.4
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8272,
+        "output": 1721,
+        "total": 9993,
+        "ratio": 4.81
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 469,
+        "output": 106,
+        "total": 575,
+        "ratio": 4.42
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1460,
+        "output": 406,
+        "total": 1866,
+        "ratio": 3.6
+      },
+      "overall": {
+        "input": 10201,
+        "output": 2233,
+        "total": 12434,
+        "ratio": 4.57
+      }
+    }
   }
 ]

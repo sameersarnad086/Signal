@@ -5866,5 +5866,147 @@
         "ratio": 4.57
       }
     }
+  },
+  {
+    "run_id": "20260514060217",
+    "date": "2026-05-14",
+    "time": "06:02:17",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "JBS Dev: On imperfect data and the AI last mile \u2013 from model capability to cost sustainability",
+        "source_url": "https://www.artificialintelligence-news.com/news/jbs-dev-on-imperfect-data-and-the-ai-last-mile-from-model-capability-to-cost-sustainability/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Hugging Face hosted malicious software masquerading as OpenAI release",
+        "source_url": "https://www.artificialintelligence-news.com/news/malware-on-hugging-face-malicious-software-masquerading-as-openai-release/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Universal AI is \u201ca pathway to AI fluency that\u2019s accessible and approachable to anyone, anywhere\u201d",
+        "source_url": "https://news.mit.edu/2026/universal-ai-pathway-to-ai-fluency-accessible-to-anyone-0512",
+        "source_domain": "news.mit.edu"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 3,
+      "pass_rate_pct": 12.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1621,
+        "output": 349,
+        "total": 1970,
+        "ratio": 4.64
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 724,
+        "output": 163,
+        "total": 887,
+        "ratio": 4.44
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1675,
+        "output": 563,
+        "total": 2238,
+        "ratio": 2.98
+      },
+      "overall": {
+        "input": 4020,
+        "output": 1075,
+        "total": 5095,
+        "ratio": 3.74
+      }
+    }
+  },
+  {
+    "run_id": "20260514060310",
+    "date": "2026-05-14",
+    "time": "06:03:10",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Study: Firms often use automation to control certain workers\u2019 wages",
+        "source_url": "https://news.mit.edu/2026/study-firms-often-use-automation-control-certain-workers-wages-0507",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 2,
+        "title": "AI tools are everywhere, so why do most people still use them like it\u2019s 2015?",
+        "source_url": "https://thenextweb.com/news/ai-tools-everywhere-adoption-stuck",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Meta launches Incognito Chat on WhatsApp, the first AI mode it says even Meta cannot read",
+        "source_url": "https://thenextweb.com/news/meta-whatsapp-incognito-chat-private-ai",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4227,
+        "output": 942,
+        "total": 5169,
+        "ratio": 4.49
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 760,
+        "output": 163,
+        "total": 923,
+        "ratio": 4.66
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1666,
+        "output": 468,
+        "total": 2134,
+        "ratio": 3.56
+      },
+      "overall": {
+        "input": 6653,
+        "output": 1573,
+        "total": 8226,
+        "ratio": 4.23
+      }
+    }
   }
 ]

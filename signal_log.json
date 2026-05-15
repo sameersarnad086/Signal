@@ -6008,5 +6008,141 @@
         "ratio": 4.23
       }
     }
+  },
+  {
+    "run_id": "20260515060903",
+    "date": "2026-05-15",
+    "time": "06:09:03",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Figma\u2019s numbers say AI is a tailwind. Its stock price says the market isn\u2019t sure.",
+        "source_url": "https://thenextweb.com/news/figma-q1-earnings-ai-monetization-stock-rebound",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Thrive Capital bets $100 million on Shopify, because sometimes the best AI trade is a beaten-down stock",
+        "source_url": "https://thenextweb.com/news/thrive-capital-shopify-public-market-ai-commerce",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Palantir\u2019s numbers are working. For the first time, the story is not.",
+        "source_url": "https://thenextweb.com/news/palantir-retail-sell-off-germany-military-rejection",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 3,
+      "pass_rate_pct": 11.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1248,
+        "output": 210,
+        "total": 1458,
+        "ratio": 5.94
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 993,
+        "output": 183,
+        "total": 1176,
+        "ratio": 5.43
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1900,
+        "output": 507,
+        "total": 2407,
+        "ratio": 3.75
+      },
+      "overall": {
+        "input": 4141,
+        "output": 900,
+        "total": 5041,
+        "ratio": 4.6
+      }
+    }
+  },
+  {
+    "run_id": "20260515060933",
+    "date": "2026-05-15",
+    "time": "06:09:33",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI says Codex is coming to your phone",
+        "source_url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
+        "source_url": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
+        "source_domain": "www.theregister.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 2,
+      "pass_rate_pct": 7.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8935,
+        "output": 1814,
+        "total": 10749,
+        "ratio": 4.93
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 451,
+        "output": 112,
+        "total": 563,
+        "ratio": 4.03
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1461,
+        "output": 369,
+        "total": 1830,
+        "ratio": 3.96
+      },
+      "overall": {
+        "input": 10847,
+        "output": 2295,
+        "total": 13142,
+        "ratio": 4.73
+      }
+    }
   }
 ]

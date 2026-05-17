@@ -6286,5 +6286,135 @@
         "ratio": 4.13
       }
     }
+  },
+  {
+    "run_id": "20260517060106",
+    "date": "2026-05-17",
+    "time": "06:01:06",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other\u2019s credibility. Now the jury will pick a side.",
+        "source_url": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Data readiness for agentic AI in financial services",
+        "source_url": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Establishing AI and data sovereignty in the age of autonomous systems",
+        "source_url": "https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1095,
+        "output": 290,
+        "total": 1385,
+        "ratio": 3.78
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 566,
+        "output": 172,
+        "total": 738,
+        "ratio": 3.29
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1532,
+        "output": 582,
+        "total": 2114,
+        "ratio": 2.63
+      },
+      "overall": {
+        "input": 3193,
+        "output": 1044,
+        "total": 4237,
+        "ratio": 3.06
+      }
+    }
+  },
+  {
+    "run_id": "20260517060149",
+    "date": "2026-05-17",
+    "time": "06:01:49",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
+        "source_url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
+        "source_domain": "openai.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 1,
+      "pass_rate_pct": 3.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8865,
+        "output": 1807,
+        "total": 10672,
+        "ratio": 4.91
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 252,
+        "output": 61,
+        "total": 313,
+        "ratio": 4.13
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1280,
+        "output": 220,
+        "total": 1500,
+        "ratio": 5.82
+      },
+      "overall": {
+        "input": 10397,
+        "output": 2088,
+        "total": 12485,
+        "ratio": 4.98
+      }
+    }
   }
 ]

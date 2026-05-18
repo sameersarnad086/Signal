@@ -6416,5 +6416,141 @@
         "ratio": 4.98
       }
     }
+  },
+  {
+    "run_id": "20260518063740",
+    "date": "2026-05-18",
+    "time": "06:37:40",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "GenCAD",
+        "source_url": "https://gencad.github.io/",
+        "source_domain": "gencad.github.io"
+      },
+      {
+        "bit_number": 2,
+        "title": "Show HN: Semble \u2013 Code search for agents that uses 98% fewer tokens than grep",
+        "source_url": "https://github.com/MinishLab/semble",
+        "source_domain": "github.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Apple\u2019s Siri app in iOS 27 will auto-delete your chats. It may also launch as a beta, again.",
+        "source_url": "https://thenextweb.com/news/apple-ios-27-siri-app-auto-deleting-chats-privacy-beta",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 3,
+      "pass_rate_pct": 12.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2659,
+        "output": 400,
+        "total": 3059,
+        "ratio": 6.65
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 1337,
+        "output": 169,
+        "total": 1506,
+        "ratio": 7.91
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 2217,
+        "output": 514,
+        "total": 2731,
+        "ratio": 4.31
+      },
+      "overall": {
+        "input": 6213,
+        "output": 1083,
+        "total": 7296,
+        "ratio": 5.74
+      }
+    }
+  },
+  {
+    "run_id": "20260518063808",
+    "date": "2026-05-18",
+    "time": "06:38:08",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Show HN: Semble \u2013 Code search for agents that uses 98% fewer tokens than grep",
+        "source_url": "https://github.com/MinishLab/semble",
+        "source_domain": "github.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "The seven new job titles that AI created, from Claude Evangelist to Chief AI Officer",
+        "source_url": "https://thenextweb.com/news/new-ai-jobs-evangelist-philosopher-vibecoder-fde",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 2,
+      "pass_rate_pct": 7.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 9328,
+        "output": 1818,
+        "total": 11146,
+        "ratio": 5.13
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 1088,
+        "output": 108,
+        "total": 1196,
+        "ratio": 10.07
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 2046,
+        "output": 342,
+        "total": 2388,
+        "ratio": 5.98
+      },
+      "overall": {
+        "input": 12462,
+        "output": 2268,
+        "total": 14730,
+        "ratio": 5.49
+      }
+    }
   }
 ]

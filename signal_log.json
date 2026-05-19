@@ -6552,5 +6552,147 @@
         "ratio": 5.49
       }
     }
+  },
+  {
+    "run_id": "20260519063318",
+    "date": "2026-05-19",
+    "time": "06:33:18",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Here\u2019s why Elon Musk lost his suit against OpenAI",
+        "source_url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "What to expect from Google this week",
+        "source_url": "https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "The last six months in LLMs in five minutes",
+        "source_url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+        "source_domain": "simonwillison.net"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 3,
+      "pass_rate_pct": 10.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1798,
+        "output": 380,
+        "total": 2178,
+        "ratio": 4.73
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 634,
+        "output": 168,
+        "total": 802,
+        "ratio": 3.77
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1570,
+        "output": 523,
+        "total": 2093,
+        "ratio": 3.0
+      },
+      "overall": {
+        "input": 4002,
+        "output": 1071,
+        "total": 5073,
+        "ratio": 3.74
+      }
+    }
+  },
+  {
+    "run_id": "20260519063451",
+    "date": "2026-05-19",
+    "time": "06:34:51",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "SandboxAQ brings its drug discovery models to Claude \u2014 no PhD in computing required",
+        "source_url": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Amazon\u2019s new Alexa+ powered feature can generate podcast episodes",
+        "source_url": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Amazon\u2019s new Alexa feature generates entire podcast episodes using AI and licensed journalism from 200+ newsrooms",
+        "source_url": "https://thenextweb.com/news/amazon-alexa-podcasts-ai-generated-episodes",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 3,
+      "pass_rate_pct": 10.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 6625,
+        "output": 1402,
+        "total": 8027,
+        "ratio": 4.73
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 605,
+        "output": 173,
+        "total": 778,
+        "ratio": 3.5
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1542,
+        "output": 504,
+        "total": 2046,
+        "ratio": 3.06
+      },
+      "overall": {
+        "input": 8772,
+        "output": 2079,
+        "total": 10851,
+        "ratio": 4.22
+      }
+    }
   }
 ]

@@ -6694,5 +6694,147 @@
         "ratio": 4.22
       }
     }
+  },
+  {
+    "run_id": "20260520063307",
+    "date": "2026-05-20",
+    "time": "06:33:07",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Google just declared itself a contender in AI design at IO 2026",
+        "source_url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "You can now talk to your Gmail inbox, as seen at Google IO 2026",
+        "source_url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "How to use Google\u2019s new AI agents to go beyond your standard searches",
+        "source_url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3786,
+        "output": 923,
+        "total": 4709,
+        "ratio": 4.1
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 422,
+        "output": 171,
+        "total": 593,
+        "ratio": 2.47
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1402,
+        "output": 560,
+        "total": 1962,
+        "ratio": 2.5
+      },
+      "overall": {
+        "input": 5610,
+        "output": 1654,
+        "total": 7264,
+        "ratio": 3.39
+      }
+    }
+  },
+  {
+    "run_id": "20260520063333",
+    "date": "2026-05-20",
+    "time": "06:33:33",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Google just declared itself a contender in AI design at IO 2026",
+        "source_url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "You can now talk to your Gmail inbox, as seen at Google IO 2026",
+        "source_url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "How to use Google\u2019s new AI agents to go beyond your standard searches",
+        "source_url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 3,
+      "pass_rate_pct": 10.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4623,
+        "output": 1090,
+        "total": 5713,
+        "ratio": 4.24
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 422,
+        "output": 161,
+        "total": 583,
+        "ratio": 2.62
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1400,
+        "output": 576,
+        "total": 1976,
+        "ratio": 2.43
+      },
+      "overall": {
+        "input": 6445,
+        "output": 1827,
+        "total": 8272,
+        "ratio": 3.53
+      }
+    }
   }
 ]

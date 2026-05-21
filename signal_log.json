@@ -6836,5 +6836,147 @@
         "ratio": 3.53
       }
     }
+  },
+  {
+    "run_id": "20260521063443",
+    "date": "2026-05-21",
+    "time": "06:34:43",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Technology usually creates jobs for young, skilled workers. Will AI do the same?",
+        "source_url": "https://news.mit.edu/2026/technology-creates-jobs-young-skilled-workers-ai-0521",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 2,
+        "title": "Q&A: Expanding MIT\u2019s global reach through Universal Learning",
+        "source_url": "https://news.mit.edu/2026/qa-expanding-mit-global-reach-through-universal-learning-0512",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 3,
+        "title": "Jensen Huang says he\u2019s found a \u2018brand new\u2019 $200B market for Nvidia",
+        "source_url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 3,
+      "pass_rate_pct": 10.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1321,
+        "output": 389,
+        "total": 1710,
+        "ratio": 3.4
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 427,
+        "output": 180,
+        "total": 607,
+        "ratio": 2.37
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1365,
+        "output": 532,
+        "total": 1897,
+        "ratio": 2.57
+      },
+      "overall": {
+        "input": 3113,
+        "output": 1101,
+        "total": 4214,
+        "ratio": 2.83
+      }
+    }
+  },
+  {
+    "run_id": "20260521063515",
+    "date": "2026-05-21",
+    "time": "06:35:15",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Amazon launches Alexa for Shopping as Rufus moves behind the scenes",
+        "source_url": "https://www.artificialintelligence-news.com/news/amazon-alexa-for-shopping-rufus-ai-assistant/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
+        "source_url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Canva launches inside Google Gemini, completing its push to be the design layer for every major AI assistant",
+        "source_url": "https://thenextweb.com/news/canva-google-gemini-connected-app-design",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 31,
+      "passed": 3,
+      "pass_rate_pct": 9.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8385,
+        "output": 1142,
+        "total": 9527,
+        "ratio": 7.34
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 4346,
+        "output": 171,
+        "total": 4517,
+        "ratio": 25.42
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 5278,
+        "output": 533,
+        "total": 5811,
+        "ratio": 9.9
+      },
+      "overall": {
+        "input": 18009,
+        "output": 1846,
+        "total": 19855,
+        "ratio": 9.76
+      }
+    }
   }
 ]

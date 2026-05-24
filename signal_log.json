@@ -7256,5 +7256,141 @@
         "ratio": 4.67
       }
     }
+  },
+  {
+    "run_id": "20260524062201",
+    "date": "2026-05-24",
+    "time": "06:22:01",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Nvidia\u2019s Vera chip is the US$200 billion bet Jensen Huang doesn\u2019t want you to overlook",
+        "source_url": "https://www.artificialintelligence-news.com/news/nvidia-vera-chip-200-billion-market/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Alibaba is designing AI chips around agents, and that changes what the race is actually about",
+        "source_url": "https://www.artificialintelligence-news.com/news/alibaba-zhenwu-m890-ai-agent-chip-roadmap/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
+        "source_url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+        "source_domain": "venturebeat.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 3,
+      "pass_rate_pct": 11.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4639,
+        "output": 198,
+        "total": 4837,
+        "ratio": 23.43
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 4384,
+        "output": 178,
+        "total": 4562,
+        "ratio": 24.63
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 5324,
+        "output": 575,
+        "total": 5899,
+        "ratio": 9.26
+      },
+      "overall": {
+        "input": 14347,
+        "output": 951,
+        "total": 15298,
+        "ratio": 15.09
+      }
+    }
+  },
+  {
+    "run_id": "20260524062307",
+    "date": "2026-05-24",
+    "time": "06:23:07",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Time to talk about my writerdeck",
+        "source_url": "https://veronicaexplains.net/my-first-writerdeck/",
+        "source_domain": "veronicaexplains.net"
+      },
+      {
+        "bit_number": 2,
+        "title": "Berlin\u2019s Peec AI more than doubled revenue to $10M ARR in six months. Its product helps brands show up in ChatGPT.",
+        "source_url": "https://thenextweb.com/news/peec-ai-berlin-10-million-arr-geo-ai-search",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 2,
+      "pass_rate_pct": 6.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 9334,
+        "output": 1957,
+        "total": 11291,
+        "ratio": 4.77
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 585,
+        "output": 120,
+        "total": 705,
+        "ratio": 4.88
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1549,
+        "output": 388,
+        "total": 1937,
+        "ratio": 3.99
+      },
+      "overall": {
+        "input": 11468,
+        "output": 2465,
+        "total": 13933,
+        "ratio": 4.65
+      }
+    }
   }
 ]

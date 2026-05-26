@@ -7528,5 +7528,147 @@
         "ratio": 4.73
       }
     }
+  },
+  {
+    "run_id": "20260526063112",
+    "date": "2026-05-26",
+    "time": "06:31:12",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Using AI to write better code more slowly",
+        "source_url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+        "source_domain": "nolanlawson.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Roundtables: Can AI Learn to Understand the World?",
+        "source_url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Scaling creativity in the age of AI",
+        "source_url": "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 22,
+      "passed": 3,
+      "pass_rate_pct": 13.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2869,
+        "output": 660,
+        "total": 3529,
+        "ratio": 4.35
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 655,
+        "output": 183,
+        "total": 838,
+        "ratio": 3.58
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1608,
+        "output": 514,
+        "total": 2122,
+        "ratio": 3.13
+      },
+      "overall": {
+        "input": 5132,
+        "output": 1357,
+        "total": 6489,
+        "ratio": 3.78
+      }
+    }
+  },
+  {
+    "run_id": "20260526063149",
+    "date": "2026-05-26",
+    "time": "06:31:49",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Only 3.3 per cent of users pay for Copilot, so Microsoft is finally making it optional",
+        "source_url": "https://thenextweb.com/news/only-3-3-per-cent-of-users-pay-for-copilot-so-microsoft-is-finally-making-it-optional",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "India\u2019s AI ambitions hinge on turning 200 million workers into 350 million",
+        "source_url": "https://thenextweb.com/news/india-ai-workforce-reskilling-ibm-patel",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "What ClickUp\u2019s mass layoff tells us about the future of work",
+        "source_url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 3,
+      "pass_rate_pct": 10.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 7979,
+        "output": 1637,
+        "total": 9616,
+        "ratio": 4.87
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 777,
+        "output": 169,
+        "total": 946,
+        "ratio": 4.6
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1714,
+        "output": 548,
+        "total": 2262,
+        "ratio": 3.13
+      },
+      "overall": {
+        "input": 10470,
+        "output": 2354,
+        "total": 12824,
+        "ratio": 4.45
+      }
+    }
   }
 ]

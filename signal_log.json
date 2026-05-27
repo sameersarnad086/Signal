@@ -7670,5 +7670,135 @@
         "ratio": 4.45
       }
     }
+  },
+  {
+    "run_id": "20260527064634",
+    "date": "2026-05-27",
+    "time": "06:46:34",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Autonomous AI systems test governance in physical environments",
+        "source_url": "https://www.artificialintelligence-news.com/news/autonomous-ai-systems-governance-physical-environments/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "DuckDuckGo installs are up 30% as users reject being \u2018force-fed\u2019 Google\u2019s AI Search",
+        "source_url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "OpenRouter more than doubles valuation to $1.3B in a year",
+        "source_url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 22,
+      "passed": 3,
+      "pass_rate_pct": 13.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3591,
+        "output": 750,
+        "total": 4341,
+        "ratio": 4.79
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 578,
+        "output": 178,
+        "total": 756,
+        "ratio": 3.25
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1526,
+        "output": 534,
+        "total": 2060,
+        "ratio": 2.86
+      },
+      "overall": {
+        "input": 5695,
+        "output": 1462,
+        "total": 7157,
+        "ratio": 3.9
+      }
+    }
+  },
+  {
+    "run_id": "20260527064822",
+    "date": "2026-05-27",
+    "time": "06:48:22",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "DuckDuckGo installs are up 30% as users reject being \u2018force-fed\u2019 Google\u2019s AI Search",
+        "source_url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 1,
+      "pass_rate_pct": 3.4
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 9076,
+        "output": 1888,
+        "total": 10964,
+        "ratio": 4.81
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 168,
+        "output": 52,
+        "total": 220,
+        "ratio": 3.23
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1229,
+        "output": 264,
+        "total": 1493,
+        "ratio": 4.66
+      },
+      "overall": {
+        "input": 10473,
+        "output": 2204,
+        "total": 12677,
+        "ratio": 4.75
+      }
+    }
   }
 ]

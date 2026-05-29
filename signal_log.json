@@ -7936,5 +7936,147 @@
         "ratio": 4.55
       }
     }
+  },
+  {
+    "run_id": "20260529063824",
+    "date": "2026-05-29",
+    "time": "06:38:24",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "The AI Hype Index: AI gets booed in graduation season",
+        "source_url": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Rethinking organizational design in the age of agentic AI",
+        "source_url": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "A reality check on the AI jobs hysteria",
+        "source_url": "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 23,
+      "passed": 3,
+      "pass_rate_pct": 13.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 829,
+        "output": 202,
+        "total": 1031,
+        "ratio": 4.1
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 574,
+        "output": 169,
+        "total": 743,
+        "ratio": 3.4
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1545,
+        "output": 659,
+        "total": 2204,
+        "ratio": 2.34
+      },
+      "overall": {
+        "input": 2948,
+        "output": 1030,
+        "total": 3978,
+        "ratio": 2.86
+      }
+    }
+  },
+  {
+    "run_id": "20260529063844",
+    "date": "2026-05-29",
+    "time": "06:38:44",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Anthropic\u2019s Claude Opus 4.8 is its most honest AI model yet, and Mythos is coming in weeks",
+        "source_url": "https://thenextweb.com/news/anthropics-claude-opus-4-8-is-its-most-honest-ai-model-yet-and-mythos-is-coming-in-weeks",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "The hybrid model: why the smartest finance teams aren\u2019t going all-in on AI",
+        "source_url": "https://thenextweb.com/news/hybrid-model-smartest-finance-teams-ai",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Glean\u2019s top line crosses $300M as AI budget-cutting becomes its major selling point",
+        "source_url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 3,
+      "pass_rate_pct": 12.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3768,
+        "output": 696,
+        "total": 4464,
+        "ratio": 5.41
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 809,
+        "output": 174,
+        "total": 983,
+        "ratio": 4.65
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1756,
+        "output": 578,
+        "total": 2334,
+        "ratio": 3.04
+      },
+      "overall": {
+        "input": 6333,
+        "output": 1448,
+        "total": 7781,
+        "ratio": 4.37
+      }
+    }
   }
 ]

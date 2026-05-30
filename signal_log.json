@@ -8078,5 +8078,147 @@
         "ratio": 4.37
       }
     }
+  },
+  {
+    "run_id": "20260530060058",
+    "date": "2026-05-30",
+    "time": "06:00:58",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "How the Pope\u2019s Magnifica Humanitas offers a template for individuals to meet the AI moment",
+        "source_url": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Dutch Uptmz acquired by Aizy to build one AI ad platform across Google, Microsoft and Meta",
+        "source_url": "https://thenextweb.com/news/aizy-acquires-uptmz-ai-performance-marketing",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "MCP is dead?",
+        "source_url": "https://www.quandri.io/engineering-blog/mcp-is-dead",
+        "source_domain": "www.quandri.io"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 3,
+      "pass_rate_pct": 12.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3670,
+        "output": 662,
+        "total": 4332,
+        "ratio": 5.54
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 753,
+        "output": 153,
+        "total": 906,
+        "ratio": 4.92
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1686,
+        "output": 525,
+        "total": 2211,
+        "ratio": 3.21
+      },
+      "overall": {
+        "input": 6109,
+        "output": 1340,
+        "total": 7449,
+        "ratio": 4.56
+      }
+    }
+  },
+  {
+    "run_id": "20260530060119",
+    "date": "2026-05-30",
+    "time": "06:01:19",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Anthropic releases Claude Opus 4.8",
+        "source_url": "https://www.artificialintelligence-news.com/news/anthropic-releases-claude-opus-4-8-news/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Coders are refusing to work without AI\u00a0\u2014\u00a0and that could come back to bite them",
+        "source_url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "So you\u2019ve heard these AI terms and nodded along; let\u2019s fix that",
+        "source_url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 3,
+      "pass_rate_pct": 10.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8542,
+        "output": 1680,
+        "total": 10222,
+        "ratio": 5.08
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 581,
+        "output": 163,
+        "total": 744,
+        "ratio": 3.56
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1527,
+        "output": 507,
+        "total": 2034,
+        "ratio": 3.01
+      },
+      "overall": {
+        "input": 10650,
+        "output": 2350,
+        "total": 13000,
+        "ratio": 4.53
+      }
+    }
   }
 ]

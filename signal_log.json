@@ -8220,5 +8220,135 @@
         "ratio": 4.53
       }
     }
+  },
+  {
+    "run_id": "20260531064011",
+    "date": "2026-05-31",
+    "time": "06:40:11",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Meta is building an AI pendant. It also plans a business subscription called Wearables for Work.",
+        "source_url": "https://thenextweb.com/news/meta-ai-pendant-limitless-wearables-for-work",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Domain expertise has always been the real moat",
+        "source_url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+        "source_domain": "www.brethorsting.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Scaling safe enterprise AI with OpenAI governance frameworks",
+        "source_url": "https://www.artificialintelligence-news.com/news/scaling-safe-enterprise-ai-openai-governance-frameworks/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 3,
+      "pass_rate_pct": 12.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4383,
+        "output": 761,
+        "total": 5144,
+        "ratio": 5.76
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 863,
+        "output": 174,
+        "total": 1037,
+        "ratio": 4.96
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1783,
+        "output": 516,
+        "total": 2299,
+        "ratio": 3.46
+      },
+      "overall": {
+        "input": 7029,
+        "output": 1451,
+        "total": 8480,
+        "ratio": 4.84
+      }
+    }
+  },
+  {
+    "run_id": "20260531064033",
+    "date": "2026-05-31",
+    "time": "06:40:33",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "I put Google\u2019s 24/7 AI assistant Gemini Spark to work, and it\u2019s actually pretty useful",
+        "source_url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 1,
+      "pass_rate_pct": 3.4
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8769,
+        "output": 1827,
+        "total": 10596,
+        "ratio": 4.8
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 153,
+        "output": 58,
+        "total": 211,
+        "ratio": 2.64
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1216,
+        "output": 259,
+        "total": 1475,
+        "ratio": 4.69
+      },
+      "overall": {
+        "input": 10138,
+        "output": 2144,
+        "total": 12282,
+        "ratio": 4.73
+      }
+    }
   }
 ]

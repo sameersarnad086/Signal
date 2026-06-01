@@ -8350,5 +8350,76 @@
         "ratio": 4.73
       }
     }
+  },
+  {
+    "run_id": "20260601072918",
+    "date": "2026-06-01",
+    "time": "07:29:18",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "It\u2019s time to address the looming crisis in entry-level work",
+        "source_url": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "MiniMax eyes a Shanghai listing after a 400% run in Hong Kong",
+        "source_url": "https://thenextweb.com/news/minimax-shanghai-star-market-listing",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "China formalises tougher outbound-investment rules after the Meta-Manus blockade",
+        "source_url": "https://thenextweb.com/news/china-toughens-outbound-investment-rules-meta-manus",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 23,
+      "passed": 3,
+      "pass_rate_pct": 13.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2269,
+        "output": 412,
+        "total": 2681,
+        "ratio": 5.51
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 818,
+        "output": 181,
+        "total": 999,
+        "ratio": 4.52
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1746,
+        "output": 528,
+        "total": 2274,
+        "ratio": 3.31
+      },
+      "overall": {
+        "input": 4833,
+        "output": 1121,
+        "total": 5954,
+        "ratio": 4.31
+      }
+    }
   }
 ]

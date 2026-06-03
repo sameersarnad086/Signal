@@ -8557,5 +8557,147 @@
         "ratio": 4.53
       }
     }
+  },
+  {
+    "run_id": "20260603072235",
+    "date": "2026-06-03",
+    "time": "07:22:35",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Uber caps employee AI spending after blowing through budget in 4 months",
+        "source_url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
+        "source_url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Martin Scorsese becomes the latest \u2014 and most unlikely \u2014 Hollywood voice for AI",
+        "source_url": "https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 3,
+      "pass_rate_pct": 12.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 893,
+        "output": 263,
+        "total": 1156,
+        "ratio": 3.4
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 416,
+        "output": 172,
+        "total": 588,
+        "ratio": 2.42
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1376,
+        "output": 515,
+        "total": 1891,
+        "ratio": 2.67
+      },
+      "overall": {
+        "input": 2685,
+        "output": 950,
+        "total": 3635,
+        "ratio": 2.83
+      }
+    }
+  },
+  {
+    "run_id": "20260603072322",
+    "date": "2026-06-03",
+    "time": "07:23:22",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Uber caps employee AI spending after blowing through budget in 4 months",
+        "source_url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Microsoft launches Scout, an OpenClaw-inspired personal assistant",
+        "source_url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "How small businesses can leverage AI",
+        "source_url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 3,
+      "pass_rate_pct": 10.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1661,
+        "output": 454,
+        "total": 2115,
+        "ratio": 3.66
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 462,
+        "output": 168,
+        "total": 630,
+        "ratio": 2.75
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1408,
+        "output": 502,
+        "total": 1910,
+        "ratio": 2.8
+      },
+      "overall": {
+        "input": 3531,
+        "output": 1124,
+        "total": 4655,
+        "ratio": 3.14
+      }
+    }
   }
 ]

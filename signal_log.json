@@ -8699,5 +8699,147 @@
         "ratio": 3.14
       }
     }
+  },
+  {
+    "run_id": "20260604070616",
+    "date": "2026-06-04",
+    "time": "07:06:16",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "How E.ON uses SAP S/4HANA to modernise the grid with AI",
+        "source_url": "https://www.artificialintelligence-news.com/news/how-e-on-uses-sap-s-4hana-to-modernise-the-grid-with-ai/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Walmart\u2019s AI workflows meet the realities of the balance sheet",
+        "source_url": "https://www.artificialintelligence-news.com/news/walmart-limits-ai-use-as-workflows-meet-the-realities-of-the-balance-sheet/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Anthropic IPO filing marks AI maturing into enterprise utility",
+        "source_url": "https://www.artificialintelligence-news.com/news/anthropic-ipo-filing-marks-ai-maturing-enterprise-utility/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 3,
+      "pass_rate_pct": 11.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1501,
+        "output": 262,
+        "total": 1763,
+        "ratio": 5.73
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 852,
+        "output": 192,
+        "total": 1044,
+        "ratio": 4.44
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1794,
+        "output": 538,
+        "total": 2332,
+        "ratio": 3.33
+      },
+      "overall": {
+        "input": 4147,
+        "output": 992,
+        "total": 5139,
+        "ratio": 4.18
+      }
+    }
+  },
+  {
+    "run_id": "20260604070636",
+    "date": "2026-06-04",
+    "time": "07:06:36",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Walmart\u2019s AI workflows meet the realities of the balance sheet",
+        "source_url": "https://www.artificialintelligence-news.com/news/walmart-limits-ai-use-as-workflows-meet-the-realities-of-the-balance-sheet/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "GitHub Copilot users see token-based price hikes",
+        "source_url": "https://www.artificialintelligence-news.com/news/github-copilots-billing-changes-users-see-use-based-price-hikes/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Lovable signs multiyear deal with Google Cloud to up usage 5x, source says",
+        "source_url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 3,
+      "pass_rate_pct": 10.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2105,
+        "output": 377,
+        "total": 2482,
+        "ratio": 5.58
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 718,
+        "output": 177,
+        "total": 895,
+        "ratio": 4.06
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1669,
+        "output": 571,
+        "total": 2240,
+        "ratio": 2.92
+      },
+      "overall": {
+        "input": 4492,
+        "output": 1125,
+        "total": 5617,
+        "ratio": 3.99
+      }
+    }
   }
 ]

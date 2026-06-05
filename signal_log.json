@@ -8841,5 +8841,141 @@
         "ratio": 3.99
       }
     }
+  },
+  {
+    "run_id": "20260605064858",
+    "date": "2026-06-05",
+    "time": "06:48:58",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Upwind, the next-gen wiz, now secures every corner of the AI stack",
+        "source_url": "https://thenextweb.com/news/upwind-the-next-gen-wiz-now-secures-every-corner-of-the-ai-stack",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Canada unveils $2.3bn AI strategy as Carney takes cues from Pope Leo on safety",
+        "source_url": "https://thenextweb.com/news/carney-canada-ai-strategy-pope-leo",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Publishing professionals are becoming prime targets for impersonation",
+        "source_url": "https://thenextweb.com/news/publishing-professionals-impersonation-ai-fraud-mark-gottlieb",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 23,
+      "passed": 3,
+      "pass_rate_pct": 13.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1233,
+        "output": 203,
+        "total": 1436,
+        "ratio": 6.07
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 978,
+        "output": 163,
+        "total": 1141,
+        "ratio": 6.0
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1894,
+        "output": 520,
+        "total": 2414,
+        "ratio": 3.64
+      },
+      "overall": {
+        "input": 4105,
+        "output": 886,
+        "total": 4991,
+        "ratio": 4.63
+      }
+    }
+  },
+  {
+    "run_id": "20260605064919",
+    "date": "2026-06-05",
+    "time": "06:49:19",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Meta launches an AI assistant that tells Facebook creators why their content works, not just that it did",
+        "source_url": "https://thenextweb.com/news/meta-launches-an-ai-assistant-that-tells-facebook-creators-why-their-content-works-not-just-that-it-did",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "MIT researchers teach AI models to interpret charts",
+        "source_url": "https://news.mit.edu/2026/mit-researchers-teach-ai-models-to-interpret-charts-0603",
+        "source_domain": "news.mit.edu"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 2,
+      "pass_rate_pct": 8.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 7270,
+        "output": 1540,
+        "total": 8810,
+        "ratio": 4.72
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 467,
+        "output": 128,
+        "total": 595,
+        "ratio": 3.65
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1467,
+        "output": 376,
+        "total": 1843,
+        "ratio": 3.9
+      },
+      "overall": {
+        "input": 9204,
+        "output": 2044,
+        "total": 11248,
+        "ratio": 4.5
+      }
+    }
   }
 ]

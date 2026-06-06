@@ -8977,5 +8977,141 @@
         "ratio": 4.5
       }
     }
+  },
+  {
+    "run_id": "20260606060752",
+    "date": "2026-06-06",
+    "time": "06:07:52",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "The Meta hack shows there\u2019s more to AI security than Mythos",
+        "source_url": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "How small businesses can leverage AI",
+        "source_url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+        "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+        "source_domain": "blog.google"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 3,
+      "pass_rate_pct": 10.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3417,
+        "output": 559,
+        "total": 3976,
+        "ratio": 6.11
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 647,
+        "output": 162,
+        "total": 809,
+        "ratio": 3.99
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1598,
+        "output": 569,
+        "total": 2167,
+        "ratio": 2.81
+      },
+      "overall": {
+        "input": 5662,
+        "output": 1290,
+        "total": 6952,
+        "ratio": 4.39
+      }
+    }
+  },
+  {
+    "run_id": "20260606060816",
+    "date": "2026-06-06",
+    "time": "06:08:16",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Meta Business Agent drives AI-powered conversational commerce",
+        "source_url": "https://www.artificialintelligence-news.com/news/meta-business-agent-ai-powered-conversational-commerce/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Scout from M\u2019Soft is the agentic Autopilot that works across M365",
+        "source_url": "https://www.artificialintelligence-news.com/news/microsofts-autopilot-scout-is-the-agentic-autopilot-that-works-across-m365/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 2,
+      "pass_rate_pct": 6.9
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 9944,
+        "output": 1866,
+        "total": 11810,
+        "ratio": 5.33
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 576,
+        "output": 114,
+        "total": 690,
+        "ratio": 5.05
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1565,
+        "output": 395,
+        "total": 1960,
+        "ratio": 3.96
+      },
+      "overall": {
+        "input": 12085,
+        "output": 2375,
+        "total": 14460,
+        "ratio": 5.09
+      }
+    }
   }
 ]

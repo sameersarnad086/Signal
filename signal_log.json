@@ -9113,5 +9113,135 @@
         "ratio": 5.09
       }
     }
+  },
+  {
+    "run_id": "20260607064829",
+    "date": "2026-06-07",
+    "time": "06:48:29",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "How C3 AI agents will automate predictive maintenance for Shell",
+        "source_url": "https://www.artificialintelligence-news.com/news/how-c3-ai-agents-will-automate-predictive-maintenance-for-shell/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Meta Business Agent drives AI-powered conversational commerce",
+        "source_url": "https://www.artificialintelligence-news.com/news/meta-business-agent-ai-powered-conversational-commerce/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Scout from M\u2019Soft is the agentic Autopilot that works across M365",
+        "source_url": "https://www.artificialintelligence-news.com/news/microsofts-autopilot-scout-is-the-agentic-autopilot-that-works-across-m365/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 3,
+      "pass_rate_pct": 11.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1105,
+        "output": 196,
+        "total": 1301,
+        "ratio": 5.64
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 850,
+        "output": 163,
+        "total": 1013,
+        "ratio": 5.21
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1784,
+        "output": 476,
+        "total": 2260,
+        "ratio": 3.75
+      },
+      "overall": {
+        "input": 3739,
+        "output": 835,
+        "total": 4574,
+        "ratio": 4.48
+      }
+    }
+  },
+  {
+    "run_id": "20260607065103",
+    "date": "2026-06-07",
+    "time": "06:51:03",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "What to expect from WWDC 2026: Siri\u2019s highly anticipated revamp and Apple Intelligence updates",
+        "source_url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 1,
+      "pass_rate_pct": 3.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8233,
+        "output": 1704,
+        "total": 9937,
+        "ratio": 4.83
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 140,
+        "output": 63,
+        "total": 203,
+        "ratio": 2.22
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1202,
+        "output": 282,
+        "total": 1484,
+        "ratio": 4.26
+      },
+      "overall": {
+        "input": 9575,
+        "output": 2049,
+        "total": 11624,
+        "ratio": 4.67
+      }
+    }
   }
 ]

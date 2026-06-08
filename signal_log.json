@@ -9243,5 +9243,135 @@
         "ratio": 4.67
       }
     }
+  },
+  {
+    "run_id": "20260608071318",
+    "date": "2026-06-08",
+    "time": "07:13:18",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "PATH to boost AI training and career opportunities for industry-aligned jobs",
+        "source_url": "https://news.mit.edu/2026/mit-raise-georgia-state-university-announce-path-0604",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 2,
+        "title": "Teaching AI agents to ask better questions by playing \u201cBattleship\u201d",
+        "source_url": "https://news.mit.edu/2026/teaching-ai-agents-ask-better-questions-playing-battleship-0603",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 3,
+        "title": "How courts are coping with a flood of AI-generated lawsuits",
+        "source_url": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 23,
+      "passed": 3,
+      "pass_rate_pct": 13.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1401,
+        "output": 388,
+        "total": 1789,
+        "ratio": 3.61
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 479,
+        "output": 172,
+        "total": 651,
+        "ratio": 2.78
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1413,
+        "output": 560,
+        "total": 1973,
+        "ratio": 2.52
+      },
+      "overall": {
+        "input": 3293,
+        "output": 1120,
+        "total": 4413,
+        "ratio": 2.94
+      }
+    }
+  },
+  {
+    "run_id": "20260608071342",
+    "date": "2026-06-08",
+    "time": "07:13:42",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI adds Lockdown Mode to ChatGPT to block data theft from prompt injection attacks",
+        "source_url": "https://thenextweb.com/news/chatgpt-lockdown-mode-prompt-injection",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 1,
+      "pass_rate_pct": 3.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 7938,
+        "output": 1671,
+        "total": 9609,
+        "ratio": 4.75
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 309,
+        "output": 49,
+        "total": 358,
+        "ratio": 6.31
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1340,
+        "output": 231,
+        "total": 1571,
+        "ratio": 5.8
+      },
+      "overall": {
+        "input": 9587,
+        "output": 1951,
+        "total": 11538,
+        "ratio": 4.91
+      }
+    }
   }
 ]

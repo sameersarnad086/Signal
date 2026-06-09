@@ -9373,5 +9373,135 @@
         "ratio": 4.91
       }
     }
+  },
+  {
+    "run_id": "20260609063214",
+    "date": "2026-06-09",
+    "time": "06:32:14",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "FrontierCode",
+        "source_url": "https://cognition.ai/blog/frontier-code",
+        "source_domain": "cognition.ai"
+      },
+      {
+        "bit_number": 2,
+        "title": "Aviva deploys AI to stop \u00a3230M in sophisticated insurance fraud",
+        "source_url": "https://www.artificialintelligence-news.com/news/aviva-deploys-ai-stop-230m-sophisticated-insurance-fraud/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Weis Markets adds Instacart AI-powered shopping carts to stores",
+        "source_url": "https://www.artificialintelligence-news.com/news/weis-markets-instacart-ai-powered-shopping-caper-carts/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 21,
+      "passed": 3,
+      "pass_rate_pct": 14.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3200,
+        "output": 643,
+        "total": 3843,
+        "ratio": 4.98
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 804,
+        "output": 176,
+        "total": 980,
+        "ratio": 4.57
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1711,
+        "output": 467,
+        "total": 2178,
+        "ratio": 3.66
+      },
+      "overall": {
+        "input": 5715,
+        "output": 1286,
+        "total": 7001,
+        "ratio": 4.44
+      }
+    }
+  },
+  {
+    "run_id": "20260609063240",
+    "date": "2026-06-09",
+    "time": "06:32:40",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "FrontierCode",
+        "source_url": "https://cognition.ai/blog/frontier-code",
+        "source_domain": "cognition.ai"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 1,
+      "pass_rate_pct": 3.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8394,
+        "output": 1718,
+        "total": 10112,
+        "ratio": 4.89
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 228,
+        "output": 61,
+        "total": 289,
+        "ratio": 3.74
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1250,
+        "output": 223,
+        "total": 1473,
+        "ratio": 5.61
+      },
+      "overall": {
+        "input": 9872,
+        "output": 2002,
+        "total": 11874,
+        "ratio": 4.93
+      }
+    }
   }
 ]

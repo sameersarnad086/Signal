@@ -10059,5 +10059,76 @@
         "ratio": 4.92
       }
     }
+  },
+  {
+    "run_id": "20260614070639",
+    "date": "2026-06-14",
+    "time": "07:06:39",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+        "source_url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+        "source_domain": "www.wsj.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Amazon\u2019s CEO reportedly triggered the government crackdown that shut down Anthropic\u2019s most powerful AI",
+        "source_url": "https://thenextweb.com/news/amazon-jassy-triggered-anthropic-fable-mythos-crackdown",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "KPMG pulled its AI report after UBS, the NHS, and others said its claims about them were made up",
+        "source_url": "https://thenextweb.com/news/kpmg-ai-report-hallucinations-pulled",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 21,
+      "passed": 3,
+      "pass_rate_pct": 14.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2610,
+        "output": 445,
+        "total": 3055,
+        "ratio": 5.87
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 961,
+        "output": 164,
+        "total": 1125,
+        "ratio": 5.86
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1906,
+        "output": 585,
+        "total": 2491,
+        "ratio": 3.26
+      },
+      "overall": {
+        "input": 5477,
+        "output": 1194,
+        "total": 6671,
+        "ratio": 4.59
+      }
+    }
   }
 ]

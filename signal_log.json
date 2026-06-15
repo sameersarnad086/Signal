@@ -10130,5 +10130,76 @@
         "ratio": 4.59
       }
     }
+  },
+  {
+    "run_id": "20260615083653",
+    "date": "2026-06-15",
+    "time": "08:36:53",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "As Anthropic suspends access to new models, India debates its AI future",
+        "source_url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+        "source_url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+        "source_url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 3,
+      "pass_rate_pct": 11.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1375,
+        "output": 389,
+        "total": 1764,
+        "ratio": 3.53
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 454,
+        "output": 170,
+        "total": 624,
+        "ratio": 2.67
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1431,
+        "output": 552,
+        "total": 1983,
+        "ratio": 2.59
+      },
+      "overall": {
+        "input": 3260,
+        "output": 1111,
+        "total": 4371,
+        "ratio": 2.93
+      }
+    }
   }
 ]

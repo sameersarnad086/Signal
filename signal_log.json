@@ -10331,5 +10331,76 @@
         "ratio": 4.78
       }
     }
+  },
+  {
+    "run_id": "20260617073415",
+    "date": "2026-06-17",
+    "time": "07:34:15",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "A Czech AI startup says it can detect drones by sound for \u20ac150 per sensor, and it wants to wire up power grids first",
+        "source_url": "https://thenextweb.com/news/neuron-soundware-sound-shield-acoustic-drone-detection-czech-ai",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Qualcomm launches Snapdragon Reality Elite and a white-label toolkit for AI glasses, betting the next platform is not a phone",
+        "source_url": "https://thenextweb.com/news/qualcomm-snapdragon-reality-elite-start-ai-wearables-post-smartphone",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Google rolls out Android 17 with Gemini Intelligence, foldable gaming mode, and tighter privacy controls",
+        "source_url": "https://thenextweb.com/news/google-android-17-pixel-gemini-intelligence-foldable-gaming",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1675,
+        "output": 276,
+        "total": 1951,
+        "ratio": 6.07
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 990,
+        "output": 171,
+        "total": 1161,
+        "ratio": 5.79
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1904,
+        "output": 529,
+        "total": 2433,
+        "ratio": 3.6
+      },
+      "overall": {
+        "input": 4569,
+        "output": 976,
+        "total": 5545,
+        "ratio": 4.68
+      }
+    }
   }
 ]

@@ -10402,5 +10402,76 @@
         "ratio": 4.68
       }
     }
+  },
+  {
+    "run_id": "20260618071718",
+    "date": "2026-06-18",
+    "time": "07:17:18",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "ECB\u2019s Lagarde says AI could trigger financial crises and calls for Cold War-style non-proliferation governance",
+        "source_url": "https://thenextweb.com/news/ecb-lagarde-ai-financial-crisis-non-proliferation",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "A Colombian AI startup wants to assist half of Latin America\u2019s doctors. Andreessen Horowitz just backed it.",
+        "source_url": "https://thenextweb.com/news/telepatia-ai-healthcare-latin-america-33m-a16z",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "NEA\u2019s Tiffany Luck says enterprises are still figuring out their AI ROI",
+        "source_url": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4159,
+        "output": 903,
+        "total": 5062,
+        "ratio": 4.61
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 889,
+        "output": 195,
+        "total": 1084,
+        "ratio": 4.56
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1808,
+        "output": 537,
+        "total": 2345,
+        "ratio": 3.37
+      },
+      "overall": {
+        "input": 6856,
+        "output": 1635,
+        "total": 8491,
+        "ratio": 4.19
+      }
+    }
   }
 ]

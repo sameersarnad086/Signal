@@ -10473,5 +10473,147 @@
         "ratio": 4.19
       }
     }
+  },
+  {
+    "run_id": "20260619073855",
+    "date": "2026-06-19",
+    "time": "07:38:55",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "HSBC expands AI banking partnership with Google Cloud",
+        "source_url": "https://www.artificialintelligence-news.com/news/hsbc-google-cloud-ai-partnership/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Microsoft sells OpenAI models in China. OpenAI and Anthropic won\u2019t.",
+        "source_url": "https://www.artificialintelligence-news.com/news/microsoft-sells-openai-models-china/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Google Cloud generative AI automates council planning operations",
+        "source_url": "https://www.artificialintelligence-news.com/news/google-cloud-generative-ai-automates-council-planning-operations/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1402,
+        "output": 268,
+        "total": 1670,
+        "ratio": 5.23
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 807,
+        "output": 180,
+        "total": 987,
+        "ratio": 4.48
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1714,
+        "output": 462,
+        "total": 2176,
+        "ratio": 3.71
+      },
+      "overall": {
+        "input": 3923,
+        "output": 910,
+        "total": 4833,
+        "ratio": 4.31
+      }
+    }
+  },
+  {
+    "run_id": "20260619073914",
+    "date": "2026-06-19",
+    "time": "07:39:14",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Computer vision deployments drive retail productivity gains",
+        "source_url": "https://www.artificialintelligence-news.com/news/computer-vision-deployments-drive-retail-productivity-gains/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "A 201-year-old mutual bank just launched an AI Center of Excellence with a startup partner",
+        "source_url": "https://thenextweb.com/news/liberty-bank-ai-center-excellence-flare-partnership",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "UPS is building a real-time digital twin of its entire logistics network, updated every 10 minutes",
+        "source_url": "https://thenextweb.com/news/ups-ai-digital-twin-agentic-logistics-network",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 3,
+      "pass_rate_pct": 10.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4797,
+        "output": 824,
+        "total": 5621,
+        "ratio": 5.82
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 908,
+        "output": 171,
+        "total": 1079,
+        "ratio": 5.31
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1812,
+        "output": 493,
+        "total": 2305,
+        "ratio": 3.68
+      },
+      "overall": {
+        "input": 7517,
+        "output": 1488,
+        "total": 9005,
+        "ratio": 5.05
+      }
+    }
   }
 ]

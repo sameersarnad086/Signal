@@ -10615,5 +10615,141 @@
         "ratio": 5.05
       }
     }
+  },
+  {
+    "run_id": "20260620064611",
+    "date": "2026-06-20",
+    "time": "06:46:11",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Is the US government\u2019s Anthropic ban accidentally helping the brand?",
+        "source_url": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "The US banned Anthropic\u2019s Fable 5 release, but the numbers don\u2019t seem to care",
+        "source_url": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Billionaire Ambani wants AI in every call, app, and home",
+        "source_url": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 23,
+      "passed": 3,
+      "pass_rate_pct": 13.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2255,
+        "output": 587,
+        "total": 2842,
+        "ratio": 3.84
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 649,
+        "output": 183,
+        "total": 832,
+        "ratio": 3.55
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1590,
+        "output": 590,
+        "total": 2180,
+        "ratio": 2.69
+      },
+      "overall": {
+        "input": 4494,
+        "output": 1360,
+        "total": 5854,
+        "ratio": 3.3
+      }
+    }
+  },
+  {
+    "run_id": "20260620064632",
+    "date": "2026-06-20",
+    "time": "06:46:32",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Billionaire Ambani wants AI in every call, app, and home",
+        "source_url": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Hey, n00b, we didn't hire you to complete tasks",
+        "source_url": "https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete",
+        "source_domain": "newsletter.kentbeck.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 2,
+      "pass_rate_pct": 8.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 7551,
+        "output": 1587,
+        "total": 9138,
+        "ratio": 4.76
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 411,
+        "output": 118,
+        "total": 529,
+        "ratio": 3.48
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1400,
+        "output": 439,
+        "total": 1839,
+        "ratio": 3.19
+      },
+      "overall": {
+        "input": 9362,
+        "output": 2144,
+        "total": 11506,
+        "ratio": 4.37
+      }
+    }
   }
 ]

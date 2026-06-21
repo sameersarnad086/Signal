@@ -10751,5 +10751,76 @@
         "ratio": 4.37
       }
     }
+  },
+  {
+    "run_id": "20260621071752",
+    "date": "2026-06-21",
+    "time": "07:17:52",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Signal\u2019s Meredith Whittaker wants you to remember that AI chatbots \u2018are not your friends\u2019",
+        "source_url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "A startup claims it broke through a bottleneck that\u2019s holding back LLMs",
+        "source_url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "SAP and Google Cloud deploy agentic commerce architecture",
+        "source_url": "https://www.artificialintelligence-news.com/news/sap-and-google-cloud-deploy-agentic-commerce-architecture/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 3,
+      "pass_rate_pct": 12.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3166,
+        "output": 864,
+        "total": 4030,
+        "ratio": 3.66
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 596,
+        "output": 180,
+        "total": 776,
+        "ratio": 3.31
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1560,
+        "output": 578,
+        "total": 2138,
+        "ratio": 2.7
+      },
+      "overall": {
+        "input": 5322,
+        "output": 1622,
+        "total": 6944,
+        "ratio": 3.28
+      }
+    }
   }
 ]

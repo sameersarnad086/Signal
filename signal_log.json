@@ -10822,5 +10822,135 @@
         "ratio": 3.28
       }
     }
+  },
+  {
+    "run_id": "20260622083917",
+    "date": "2026-06-22",
+    "time": "08:39:17",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "WeChat begins testing Xiaowei as Tencent eyes a Q3 AI rollout",
+        "source_url": "https://thenextweb.com/news/tencent-tests-wechat-ai-assistant-xiaowei",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "London\u2019s Isometric lands $40M to certify the industrial economy with AI",
+        "source_url": "https://thenextweb.com/news/sometric-40m-series-a-ai-certification",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+        "source_url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+        "source_domain": "www.teachmecoolstuff.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 23,
+      "passed": 3,
+      "pass_rate_pct": 13.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5819,
+        "output": 1185,
+        "total": 7004,
+        "ratio": 4.91
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 887,
+        "output": 175,
+        "total": 1062,
+        "ratio": 5.07
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1794,
+        "output": 535,
+        "total": 2329,
+        "ratio": 3.35
+      },
+      "overall": {
+        "input": 8500,
+        "output": 1895,
+        "total": 10395,
+        "ratio": 4.49
+      }
+    }
+  },
+  {
+    "run_id": "20260622084015",
+    "date": "2026-06-22",
+    "time": "08:40:15",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "WeChat begins testing Xiaowei as Tencent eyes a Q3 AI rollout",
+        "source_url": "https://thenextweb.com/news/tencent-tests-wechat-ai-assistant-xiaowei",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 1,
+      "pass_rate_pct": 3.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8558,
+        "output": 1768,
+        "total": 10326,
+        "ratio": 4.84
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 308,
+        "output": 60,
+        "total": 368,
+        "ratio": 5.13
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1342,
+        "output": 240,
+        "total": 1582,
+        "ratio": 5.59
+      },
+      "overall": {
+        "input": 10208,
+        "output": 2068,
+        "total": 12276,
+        "ratio": 4.94
+      }
+    }
   }
 ]

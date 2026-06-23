@@ -10952,5 +10952,135 @@
         "ratio": 4.94
       }
     }
+  },
+  {
+    "run_id": "20260623063233",
+    "date": "2026-06-23",
+    "time": "06:32:33",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Amazon invites Indian users to beta-test a Hindi version of Alexa+",
+        "source_url": "https://thenextweb.com/news/amazon-alexa-plus-india-hindi-beta-testing",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Anthropic\u2019s new privacy policy collects biometric data from flagged Claude users",
+        "source_url": "https://thenextweb.com/news/anthropic-claude-id-verification-privacy-policy-persona-biometric",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Delivery robot startup Robot.com bets its next act on wheeled humanoids for kitchens and warehouses",
+        "source_url": "https://thenextweb.com/news/robot-com-kiwibot-r-noid-humanoid-workplace-physical-intelligence",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 23,
+      "passed": 3,
+      "pass_rate_pct": 13.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1620,
+        "output": 279,
+        "total": 1899,
+        "ratio": 5.81
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 967,
+        "output": 164,
+        "total": 1131,
+        "ratio": 5.9
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1880,
+        "output": 557,
+        "total": 2437,
+        "ratio": 3.38
+      },
+      "overall": {
+        "input": 4467,
+        "output": 1000,
+        "total": 5467,
+        "ratio": 4.47
+      }
+    }
+  },
+  {
+    "run_id": "20260623063443",
+    "date": "2026-06-23",
+    "time": "06:34:43",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Amazon invites Indian users to beta-test a Hindi version of Alexa+",
+        "source_url": "https://thenextweb.com/news/amazon-alexa-plus-india-hindi-beta-testing",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 1,
+      "pass_rate_pct": 4.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 7303,
+        "output": 1564,
+        "total": 8867,
+        "ratio": 4.67
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 315,
+        "output": 54,
+        "total": 369,
+        "ratio": 5.83
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1349,
+        "output": 230,
+        "total": 1579,
+        "ratio": 5.87
+      },
+      "overall": {
+        "input": 8967,
+        "output": 1848,
+        "total": 10815,
+        "ratio": 4.85
+      }
+    }
   }
 ]

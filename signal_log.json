@@ -11212,5 +11212,147 @@
         "ratio": 4.97
       }
     }
+  },
+  {
+    "run_id": "20260627060832",
+    "date": "2026-06-27",
+    "time": "06:08:32",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "U.S. allows Anthropic to release Mythos AI to \u2018trusted\u2019 US organizations",
+        "source_url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+        "source_domain": "www.semafor.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "The gap between open weights LLMs and closed source LLMs",
+        "source_url": "https://blog.doubleword.ai/frontier-os-llm",
+        "source_domain": "blog.doubleword.ai"
+      },
+      {
+        "bit_number": 3,
+        "title": "LLMs help robots understand vague instructions and focus on key details",
+        "source_url": "https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626",
+        "source_domain": "news.mit.edu"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 3,
+      "pass_rate_pct": 11.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2313,
+        "output": 439,
+        "total": 2752,
+        "ratio": 5.27
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 719,
+        "output": 177,
+        "total": 896,
+        "ratio": 4.06
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1644,
+        "output": 581,
+        "total": 2225,
+        "ratio": 2.83
+      },
+      "overall": {
+        "input": 4676,
+        "output": 1197,
+        "total": 5873,
+        "ratio": 3.91
+      }
+    }
+  },
+  {
+    "run_id": "20260627060932",
+    "date": "2026-06-27",
+    "time": "06:09:32",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "LLMs help robots understand vague instructions and focus on key details",
+        "source_url": "https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 2,
+        "title": "Samsung opens ChatGPT Enterprise and Codex access after AI restrictions",
+        "source_url": "https://www.artificialintelligence-news.com/news/samsung-chatgpt-enterprise-codex-employee-ai-use/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Anthropic\u00a0drops \u2018workplace AI\u00a0agents\u2019\u00a0directly inside Slack",
+        "source_url": "https://www.artificialintelligence-news.com/news/anthropic-slack-workplace-ai-agents/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 3,
+      "pass_rate_pct": 10.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4400,
+        "output": 888,
+        "total": 5288,
+        "ratio": 4.95
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 702,
+        "output": 156,
+        "total": 858,
+        "ratio": 4.5
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1622,
+        "output": 562,
+        "total": 2184,
+        "ratio": 2.89
+      },
+      "overall": {
+        "input": 6724,
+        "output": 1606,
+        "total": 8330,
+        "ratio": 4.19
+      }
+    }
   }
 ]

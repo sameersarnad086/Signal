@@ -11354,5 +11354,147 @@
         "ratio": 4.19
       }
     }
+  },
+  {
+    "run_id": "20260628064336",
+    "date": "2026-06-28",
+    "time": "06:43:36",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+        "source_url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Asian AI startups launch Mythos-like  models as Anthropic\u2019s export ban drags on",
+        "source_url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Ford hired AI and sacked humans. It backfired badly",
+        "source_url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+        "source_domain": "www.the-independent.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 3,
+      "pass_rate_pct": 12.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1515,
+        "output": 433,
+        "total": 1948,
+        "ratio": 3.5
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 568,
+        "output": 182,
+        "total": 750,
+        "ratio": 3.12
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1513,
+        "output": 509,
+        "total": 2022,
+        "ratio": 2.97
+      },
+      "overall": {
+        "input": 3596,
+        "output": 1124,
+        "total": 4720,
+        "ratio": 3.2
+      }
+    }
+  },
+  {
+    "run_id": "20260628064357",
+    "date": "2026-06-28",
+    "time": "06:43:57",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Ford hired AI and sacked humans. It backfired badly",
+        "source_url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+        "source_domain": "www.the-independent.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Omio scales travel product development using OpenAI models",
+        "source_url": "https://www.artificialintelligence-news.com/news/omio-scales-travel-product-development-using-openai-models/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Trustpilot just partnered with Shopify to put its reviews where AI search engines are already looking",
+        "source_url": "https://thenextweb.com/news/trustpilot-shopify-partnership-ai-search-reviews",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 6922,
+        "output": 1417,
+        "total": 8339,
+        "ratio": 4.88
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 856,
+        "output": 183,
+        "total": 1039,
+        "ratio": 4.68
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1765,
+        "output": 490,
+        "total": 2255,
+        "ratio": 3.6
+      },
+      "overall": {
+        "input": 9543,
+        "output": 2090,
+        "total": 11633,
+        "ratio": 4.57
+      }
+    }
   }
 ]

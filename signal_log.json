@@ -11916,5 +11916,147 @@
         "ratio": 4.01
       }
     }
+  },
+  {
+    "run_id": "20260702062433",
+    "date": "2026-07-02",
+    "time": "06:24:33",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Deploying retail AI to scale personalisation and customer insight",
+        "source_url": "https://www.artificialintelligence-news.com/news/deploying-retail-ai-to-scale-personalisation-customer-insight/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Japan\u2019s answer to its worker shortage: An AI model for 10 million robots",
+        "source_url": "https://www.artificialintelligence-news.com/news/japan-ai-robots-2040-national-ai-model/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Bank of England reviews AI rules for agentic AI in finance",
+        "source_url": "https://www.artificialintelligence-news.com/news/bank-of-england-agentic-ai-finance-rules/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 3,
+      "pass_rate_pct": 10.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1093,
+        "output": 194,
+        "total": 1287,
+        "ratio": 5.63
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 838,
+        "output": 183,
+        "total": 1021,
+        "ratio": 4.58
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1756,
+        "output": 511,
+        "total": 2267,
+        "ratio": 3.44
+      },
+      "overall": {
+        "input": 3687,
+        "output": 888,
+        "total": 4575,
+        "ratio": 4.15
+      }
+    }
+  },
+  {
+    "run_id": "20260702062830",
+    "date": "2026-07-02",
+    "time": "06:28:30",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "HP accelerates enterprise workflows with OpenAI Frontier",
+        "source_url": "https://www.artificialintelligence-news.com/news/hp-accelerates-enterprise-workflows-openai-frontier/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+        "source_url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Claude Science is Anthropic\u2019s newest flagship product",
+        "source_url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 3,
+      "pass_rate_pct": 10.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3569,
+        "output": 811,
+        "total": 4380,
+        "ratio": 4.4
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 590,
+        "output": 174,
+        "total": 764,
+        "ratio": 3.39
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1535,
+        "output": 485,
+        "total": 2020,
+        "ratio": 3.16
+      },
+      "overall": {
+        "input": 5694,
+        "output": 1470,
+        "total": 7164,
+        "ratio": 3.87
+      }
+    }
   }
 ]

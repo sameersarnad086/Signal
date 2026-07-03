@@ -12058,5 +12058,141 @@
         "ratio": 3.87
       }
     }
+  },
+  {
+    "run_id": "20260703060843",
+    "date": "2026-07-03",
+    "time": "06:08:43",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Anthropic is in talks with Samsung to manufacture a custom AI chip",
+        "source_url": "https://thenextweb.com/news/anthropic-samsung-custom-ai-chip-talks",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Kling AI raises two billion dollars as Kuaishou spins off its fastest-growing business",
+        "source_url": "https://thenextweb.com/news/kling-ai-2-billion-kuaishou-spinoff-video",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Microsoft launches a $2.5 billion AI deployment business with 6,000 engineers",
+        "source_url": "https://thenextweb.com/news/microsoft-frontier-company-2-5-billion-ai-deployment",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2057,
+        "output": 325,
+        "total": 2382,
+        "ratio": 6.33
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 965,
+        "output": 165,
+        "total": 1130,
+        "ratio": 5.85
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1870,
+        "output": 515,
+        "total": 2385,
+        "ratio": 3.63
+      },
+      "overall": {
+        "input": 4892,
+        "output": 1005,
+        "total": 5897,
+        "ratio": 4.87
+      }
+    }
+  },
+  {
+    "run_id": "20260703060913",
+    "date": "2026-07-03",
+    "time": "06:09:13",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Microsoft launches a $2.5 billion AI deployment business with 6,000 engineers",
+        "source_url": "https://thenextweb.com/news/microsoft-frontier-company-2-5-billion-ai-deployment",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Teaching AI to run with the turbines",
+        "source_url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 2,
+      "pass_rate_pct": 7.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8746,
+        "output": 1768,
+        "total": 10514,
+        "ratio": 4.95
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 503,
+        "output": 116,
+        "total": 619,
+        "ratio": 4.34
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1489,
+        "output": 409,
+        "total": 1898,
+        "ratio": 3.64
+      },
+      "overall": {
+        "input": 10738,
+        "output": 2293,
+        "total": 13031,
+        "ratio": 4.68
+      }
+    }
   }
 ]

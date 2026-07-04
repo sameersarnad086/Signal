@@ -12194,5 +12194,135 @@
         "ratio": 4.68
       }
     }
+  },
+  {
+    "run_id": "20260704055922",
+    "date": "2026-07-04",
+    "time": "05:59:22",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Mark Zuckerberg tells staff that AI agents haven\u2019t progressed as quickly as he\u2019d hoped",
+        "source_url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Meta quietly launches vibe-coded gaming app Pocket",
+        "source_url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Alibaba bans Claude Code after Anthropic is caught tracking Chinese users with hidden code",
+        "source_url": "https://thenextweb.com/news/alibaba-bans-claude-code-anthropic-tracking-chinese-users",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1940,
+        "output": 486,
+        "total": 2426,
+        "ratio": 3.99
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 593,
+        "output": 170,
+        "total": 763,
+        "ratio": 3.49
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1537,
+        "output": 582,
+        "total": 2119,
+        "ratio": 2.64
+      },
+      "overall": {
+        "input": 4070,
+        "output": 1238,
+        "total": 5308,
+        "ratio": 3.29
+      }
+    }
+  },
+  {
+    "run_id": "20260704055942",
+    "date": "2026-07-04",
+    "time": "05:59:42",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "The only AI glossary you\u2019ll need this year",
+        "source_url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 1,
+      "pass_rate_pct": 3.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8479,
+        "output": 1657,
+        "total": 10136,
+        "ratio": 5.12
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 144,
+        "output": 49,
+        "total": 193,
+        "ratio": 2.94
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1195,
+        "output": 228,
+        "total": 1423,
+        "ratio": 5.24
+      },
+      "overall": {
+        "input": 9818,
+        "output": 1934,
+        "total": 11752,
+        "ratio": 5.08
+      }
+    }
   }
 ]

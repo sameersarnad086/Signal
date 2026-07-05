@@ -12324,5 +12324,147 @@
         "ratio": 5.08
       }
     }
+  },
+  {
+    "run_id": "20260705062408",
+    "date": "2026-07-05",
+    "time": "06:24:08",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Takeda signs US$600M AI drug discovery deal with Insilico",
+        "source_url": "https://www.artificialintelligence-news.com/news/takeda-insilico-ai-drug-discovery-deal/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "NVIDIA BioNeMo accelerates Anthropic Claude Science",
+        "source_url": "https://www.artificialintelligence-news.com/news/nvidia-bionemo-accelerates-anthropic-claude-science/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Q&A: What is agentic AI today, and what do we want it to be?",
+        "source_url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+        "source_domain": "news.mit.edu"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1199,
+        "output": 269,
+        "total": 1468,
+        "ratio": 4.46
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 698,
+        "output": 170,
+        "total": 868,
+        "ratio": 4.11
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1620,
+        "output": 546,
+        "total": 2166,
+        "ratio": 2.97
+      },
+      "overall": {
+        "input": 3517,
+        "output": 985,
+        "total": 4502,
+        "ratio": 3.57
+      }
+    }
+  },
+  {
+    "run_id": "20260705062442",
+    "date": "2026-07-05",
+    "time": "06:24:42",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Starling Bank cuts 130 jobs as it bets on AI and looks beyond the UK",
+        "source_url": "https://thenextweb.com/news/starling-bank-130-job-cuts-ai-restructuring",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+        "source_url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Better Models: Worse Tools",
+        "source_url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+        "source_domain": "lucumr.pocoo.org"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 3,
+      "pass_rate_pct": 11.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 6710,
+        "output": 1382,
+        "total": 8092,
+        "ratio": 4.86
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 751,
+        "output": 166,
+        "total": 917,
+        "ratio": 4.52
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1675,
+        "output": 599,
+        "total": 2274,
+        "ratio": 2.8
+      },
+      "overall": {
+        "input": 9136,
+        "output": 2147,
+        "total": 11283,
+        "ratio": 4.26
+      }
+    }
   }
 ]

@@ -12537,5 +12537,141 @@
         "ratio": 4.47
       }
     }
+  },
+  {
+    "run_id": "20260707062943",
+    "date": "2026-07-07",
+    "time": "06:29:43",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Ternlight \u2013 7 MB embedding model that runs in browser (WASM)",
+        "source_url": "https://ternlight-demo.vercel.app/",
+        "source_domain": "ternlight-demo.vercel.app"
+      },
+      {
+        "bit_number": 2,
+        "title": "GLM 5.2 and the coming AI margin collapse",
+        "source_url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+        "source_domain": "martinalderson.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "The \u2018first\u2019 AI-run ransomware attack still needed a human",
+        "source_url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 3,
+      "pass_rate_pct": 12.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2868,
+        "output": 648,
+        "total": 3516,
+        "ratio": 4.43
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 689,
+        "output": 179,
+        "total": 868,
+        "ratio": 3.85
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1597,
+        "output": 528,
+        "total": 2125,
+        "ratio": 3.02
+      },
+      "overall": {
+        "input": 5154,
+        "output": 1355,
+        "total": 6509,
+        "ratio": 3.8
+      }
+    }
+  },
+  {
+    "run_id": "20260707063032",
+    "date": "2026-07-07",
+    "time": "06:30:32",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Ternlight \u2013 7 MB embedding model that runs in browser (WASM)",
+        "source_url": "https://ternlight-demo.vercel.app/",
+        "source_domain": "ternlight-demo.vercel.app"
+      },
+      {
+        "bit_number": 2,
+        "title": "You can now customize Siri\u2019s pace and expressivity in the latest iOS 27 beta",
+        "source_url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 2,
+      "pass_rate_pct": 7.4
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8496,
+        "output": 1780,
+        "total": 10276,
+        "ratio": 4.77
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 388,
+        "output": 117,
+        "total": 505,
+        "ratio": 3.32
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1366,
+        "output": 369,
+        "total": 1735,
+        "ratio": 3.7
+      },
+      "overall": {
+        "input": 10250,
+        "output": 2266,
+        "total": 12516,
+        "ratio": 4.52
+      }
+    }
   }
 ]

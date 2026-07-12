@@ -13223,5 +13223,76 @@
         "ratio": 4.67
       }
     }
+  },
+  {
+    "run_id": "20260712054212",
+    "date": "2026-07-12",
+    "time": "05:42:12",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI has folded safety into research again. Its head of safety is leaving.",
+        "source_url": "https://thenextweb.com/news/openai-heidecke-safety-head-leaving-research-merger",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Meta killed its Muse Image AI feature three days after launch. Hollywood had had enough.",
+        "source_url": "https://thenextweb.com/news/meta-muse-image-instagram-privacy-backlash-pulled",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "What xAI's Grok Build CLI Actually Sends to xAI",
+        "source_url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+        "source_domain": "gist.github.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 3,
+      "pass_rate_pct": 11.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2391,
+        "output": 407,
+        "total": 2798,
+        "ratio": 5.87
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 927,
+        "output": 178,
+        "total": 1105,
+        "ratio": 5.21
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1846,
+        "output": 535,
+        "total": 2381,
+        "ratio": 3.45
+      },
+      "overall": {
+        "input": 5164,
+        "output": 1120,
+        "total": 6284,
+        "ratio": 4.61
+      }
+    }
   }
 ]

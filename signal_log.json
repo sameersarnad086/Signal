@@ -13294,5 +13294,76 @@
         "ratio": 4.61
       }
     }
+  },
+  {
+    "run_id": "20260713055229",
+    "date": "2026-07-13",
+    "time": "05:52:29",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "The foundational elements of AI architecture that IT leaders need to scale",
+        "source_url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Your family\u2019s $300 stake in OpenAI",
+        "source_url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Achieving operational excellence with AI",
+        "source_url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 23,
+      "passed": 3,
+      "pass_rate_pct": 13.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1699,
+        "output": 478,
+        "total": 2177,
+        "ratio": 3.55
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 551,
+        "output": 168,
+        "total": 719,
+        "ratio": 3.28
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1514,
+        "output": 616,
+        "total": 2130,
+        "ratio": 2.46
+      },
+      "overall": {
+        "input": 3764,
+        "output": 1262,
+        "total": 5026,
+        "ratio": 2.98
+      }
+    }
   }
 ]

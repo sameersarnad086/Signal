@@ -13365,5 +13365,147 @@
         "ratio": 2.98
       }
     }
+  },
+  {
+    "run_id": "20260714051404",
+    "date": "2026-07-14",
+    "time": "05:14:04",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "AI agent crawlers now need permission. Here\u2019s how to get it",
+        "source_url": "https://www.artificialintelligence-news.com/news/ai-agent-crawlers-cloudflare-rules/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "How to shrink the token budget without shrinking the team",
+        "source_url": "https://www.artificialintelligence-news.com/news/shrink-token-budget-not-team/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "AWS GraphRAG deployment cuts drug research cycles by 87%",
+        "source_url": "https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 3,
+      "pass_rate_pct": 12.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1095,
+        "output": 198,
+        "total": 1293,
+        "ratio": 5.53
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 840,
+        "output": 182,
+        "total": 1022,
+        "ratio": 4.62
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1749,
+        "output": 504,
+        "total": 2253,
+        "ratio": 3.47
+      },
+      "overall": {
+        "input": 3684,
+        "output": 884,
+        "total": 4568,
+        "ratio": 4.17
+      }
+    }
+  },
+  {
+    "run_id": "20260714051430",
+    "date": "2026-07-14",
+    "time": "05:14:30",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "AI agent crawlers now need permission. Here\u2019s how to get it",
+        "source_url": "https://www.artificialintelligence-news.com/news/ai-agent-crawlers-cloudflare-rules/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Uber\u2019s product chief on hotels, robotaxis, and why the company doesn\u2019t want to be \u201ceverything for everyone\u201d",
+        "source_url": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Tesla\u2019s Cybercab drove across a car park, and the real news happened two days earlier",
+        "source_url": "https://thenextweb.com/news/teslas-cybercab-drove-across-a-car-park-and-the-real-news-happened-two-days-earlier",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 3,
+      "pass_rate_pct": 10.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 7712,
+        "output": 1656,
+        "total": 9368,
+        "ratio": 4.66
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 807,
+        "output": 176,
+        "total": 983,
+        "ratio": 4.59
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1756,
+        "output": 246,
+        "total": 2002,
+        "ratio": 7.14
+      },
+      "overall": {
+        "input": 10275,
+        "output": 2078,
+        "total": 12353,
+        "ratio": 4.94
+      }
+    }
   }
 ]

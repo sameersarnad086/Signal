@@ -13507,5 +13507,76 @@
         "ratio": 4.94
       }
     }
+  },
+  {
+    "run_id": "20260715051443",
+    "date": "2026-07-15",
+    "time": "05:14:43",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Can AI build a jet engine? JARVIS Challenge tests role of AI copilots in tough-tech engineering",
+        "source_url": "https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 2,
+        "title": "AI agents create virtual playgrounds to help robots get crucial training data",
+        "source_url": "https://news.mit.edu/2026/ai-agents-create-virtual-playgrounds-to-help-robots-get-crucial-training-data-0713",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 3,
+        "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+        "source_url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 23,
+      "passed": 3,
+      "pass_rate_pct": 13.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2070,
+        "output": 511,
+        "total": 2581,
+        "ratio": 4.05
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 433,
+        "output": 174,
+        "total": 607,
+        "ratio": 2.49
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1403,
+        "output": 609,
+        "total": 2012,
+        "ratio": 2.3
+      },
+      "overall": {
+        "input": 3906,
+        "output": 1294,
+        "total": 5200,
+        "ratio": 3.02
+      }
+    }
   }
 ]

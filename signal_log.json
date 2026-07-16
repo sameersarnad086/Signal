@@ -13578,5 +13578,135 @@
         "ratio": 3.02
       }
     }
+  },
+  {
+    "run_id": "20260716052447",
+    "date": "2026-07-16",
+    "time": "05:24:47",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
+        "source_url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
+        "source_domain": "www.siegelendowment.org"
+      },
+      {
+        "bit_number": 2,
+        "title": "Grok Build is open source",
+        "source_url": "https://github.com/xai-org/grok-build",
+        "source_domain": "github.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "OpenAI built an AI super-hacker to break its own models, then locked it away",
+        "source_url": "https://thenextweb.com/news/gpt-red-openai-ai-hacker",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 22,
+      "passed": 3,
+      "pass_rate_pct": 13.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2253,
+        "output": 406,
+        "total": 2659,
+        "ratio": 5.55
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 837,
+        "output": 188,
+        "total": 1025,
+        "ratio": 4.45
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1739,
+        "output": 525,
+        "total": 2264,
+        "ratio": 3.31
+      },
+      "overall": {
+        "input": 4829,
+        "output": 1119,
+        "total": 5948,
+        "ratio": 4.32
+      }
+    }
+  },
+  {
+    "run_id": "20260716052507",
+    "date": "2026-07-16",
+    "time": "05:25:07",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+        "source_url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 1,
+      "pass_rate_pct": 3.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 11401,
+        "output": 1670,
+        "total": 13071,
+        "ratio": 6.83
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 137,
+        "output": 60,
+        "total": 197,
+        "ratio": 2.28
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1190,
+        "output": 241,
+        "total": 1431,
+        "ratio": 4.94
+      },
+      "overall": {
+        "input": 12728,
+        "output": 1971,
+        "total": 14699,
+        "ratio": 6.46
+      }
+    }
   }
 ]

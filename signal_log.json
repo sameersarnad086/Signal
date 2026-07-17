@@ -13708,5 +13708,147 @@
         "ratio": 6.46
       }
     }
+  },
+  {
+    "run_id": "20260717052641",
+    "date": "2026-07-17",
+    "time": "05:26:41",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Google Vids now lets you star in your own AI videos",
+        "source_url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Roblox launches an AI-powered game-creation feature in its mobile app",
+        "source_url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Google\u2019s AI Mode now lets you link and interact with select apps",
+        "source_url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 30,
+      "passed": 3,
+      "pass_rate_pct": 10.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 679,
+        "output": 196,
+        "total": 875,
+        "ratio": 3.46
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 424,
+        "output": 174,
+        "total": 598,
+        "ratio": 2.44
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1381,
+        "output": 560,
+        "total": 1941,
+        "ratio": 2.47
+      },
+      "overall": {
+        "input": 2484,
+        "output": 930,
+        "total": 3414,
+        "ratio": 2.67
+      }
+    }
+  },
+  {
+    "run_id": "20260717052655",
+    "date": "2026-07-17",
+    "time": "05:26:55",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Google Vids now lets you star in your own AI videos",
+        "source_url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Google\u2019s AI Mode now lets you link and interact with select apps",
+        "source_url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Yes, you can now order DoorDash from the command line",
+        "source_url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 34,
+      "passed": 3,
+      "pass_rate_pct": 8.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 927,
+        "output": 247,
+        "total": 1174,
+        "ratio": 3.75
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 453,
+        "output": 166,
+        "total": 619,
+        "ratio": 2.73
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1404,
+        "output": 543,
+        "total": 1947,
+        "ratio": 2.59
+      },
+      "overall": {
+        "input": 2784,
+        "output": 956,
+        "total": 3740,
+        "ratio": 2.91
+      }
+    }
   }
 ]

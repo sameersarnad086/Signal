@@ -13850,5 +13850,147 @@
         "ratio": 2.91
       }
     }
+  },
+  {
+    "run_id": "20260718050916",
+    "date": "2026-07-18",
+    "time": "05:09:16",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+        "source_url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "What Anthropic\u2019s latest AI discovery does\u2014and doesn\u2019t\u2014show",
+        "source_url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
+        "source_url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+        "source_domain": "venturebeat.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 32,
+      "passed": 3,
+      "pass_rate_pct": 9.4
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5521,
+        "output": 579,
+        "total": 6100,
+        "ratio": 9.54
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 4120,
+        "output": 189,
+        "total": 4309,
+        "ratio": 21.8
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 5096,
+        "output": 577,
+        "total": 5673,
+        "ratio": 8.83
+      },
+      "overall": {
+        "input": 14737,
+        "output": 1345,
+        "total": 16082,
+        "ratio": 10.96
+      }
+    }
+  },
+  {
+    "run_id": "20260718050933",
+    "date": "2026-07-18",
+    "time": "05:09:33",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
+        "source_url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
+        "source_url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem \u2014 and most are still building the fix",
+        "source_url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+        "source_domain": "venturebeat.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 35,
+      "passed": 3,
+      "pass_rate_pct": 8.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 14292,
+        "output": 874,
+        "total": 15166,
+        "ratio": 16.35
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 11553,
+        "output": 184,
+        "total": 11737,
+        "ratio": 62.79
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 12526,
+        "output": 625,
+        "total": 13151,
+        "ratio": 20.04
+      },
+      "overall": {
+        "input": 38371,
+        "output": 1683,
+        "total": 40054,
+        "ratio": 22.8
+      }
+    }
   }
 ]

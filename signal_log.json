@@ -13992,5 +13992,147 @@
         "ratio": 22.8
       }
     }
+  },
+  {
+    "run_id": "20260719053652",
+    "date": "2026-07-19",
+    "time": "05:36:52",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
+        "source_url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem \u2014 and most are still building the fix",
+        "source_url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem \u2014 and most are shipping to production anyway",
+        "source_url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+        "source_domain": "venturebeat.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 3,
+      "pass_rate_pct": 10.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 11799,
+        "output": 206,
+        "total": 12005,
+        "ratio": 57.28
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 11544,
+        "output": 182,
+        "total": 11726,
+        "ratio": 63.43
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 12533,
+        "output": 638,
+        "total": 13171,
+        "ratio": 19.64
+      },
+      "overall": {
+        "input": 35876,
+        "output": 1026,
+        "total": 36902,
+        "ratio": 34.97
+      }
+    }
+  },
+  {
+    "run_id": "20260719053716",
+    "date": "2026-07-19",
+    "time": "05:37:16",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem \u2014 and most are calling chatbots agents",
+        "source_url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "China is rebuilding the smartphone around AI agents. ZTE\u2019s NaviX sold out in hours.",
+        "source_url": "https://thenextweb.com/news/china-agentic-ai-smartphones-zte-navix-doubao-waic",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Transcribe.cpp",
+        "source_url": "https://workshop.cjpais.com/projects/transcribe-cpp",
+        "source_domain": "workshop.cjpais.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 32,
+      "passed": 3,
+      "pass_rate_pct": 9.4
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 13422,
+        "output": 1242,
+        "total": 14664,
+        "ratio": 10.81
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 4804,
+        "output": 159,
+        "total": 4963,
+        "ratio": 30.21
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 5725,
+        "output": 567,
+        "total": 6292,
+        "ratio": 10.1
+      },
+      "overall": {
+        "input": 23951,
+        "output": 1968,
+        "total": 25919,
+        "ratio": 12.17
+      }
+    }
   }
 ]

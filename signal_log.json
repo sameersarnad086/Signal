@@ -14276,5 +14276,141 @@
         "ratio": 6.21
       }
     }
+  },
+  {
+    "run_id": "20260721053544",
+    "date": "2026-07-21",
+    "time": "05:35:44",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "AI is more likely than humans to form biases when hiring",
+        "source_url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "A Korean AI model scores every possible driving path for safety before the car moves. CVPR called it a highlight.",
+        "source_url": "https://thenextweb.com/news/safedrive-korea-self-driving-ai-cvpr-2026",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Kai-Fu Lee stopped building AI models and started selling enterprise data infrastructure. Now 01.ai is heading for a Hong Kong IPO.",
+        "source_url": "https://thenextweb.com/news/01ai-kai-fu-lee-hong-kong-ipo-2027-palantir-china",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 3,
+      "pass_rate_pct": 10.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2089,
+        "output": 385,
+        "total": 2474,
+        "ratio": 5.43
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 863,
+        "output": 177,
+        "total": 1040,
+        "ratio": 4.88
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1795,
+        "output": 550,
+        "total": 2345,
+        "ratio": 3.26
+      },
+      "overall": {
+        "input": 4747,
+        "output": 1112,
+        "total": 5859,
+        "ratio": 4.27
+      }
+    }
+  },
+  {
+    "run_id": "20260721053606",
+    "date": "2026-07-21",
+    "time": "05:36:06",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "AI is more likely than humans to form biases when hiring",
+        "source_url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem \u2014 and most are shipping to production anyway",
+        "source_url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+        "source_domain": "venturebeat.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 31,
+      "passed": 2,
+      "pass_rate_pct": 6.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 13204,
+        "output": 1936,
+        "total": 15140,
+        "ratio": 6.82
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 3891,
+        "output": 124,
+        "total": 4015,
+        "ratio": 31.38
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 4902,
+        "output": 413,
+        "total": 5315,
+        "ratio": 11.87
+      },
+      "overall": {
+        "input": 21997,
+        "output": 2473,
+        "total": 24470,
+        "ratio": 8.89
+      }
+    }
   }
 ]

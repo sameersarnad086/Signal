@@ -14412,5 +14412,147 @@
         "ratio": 8.89
       }
     }
+  },
+  {
+    "run_id": "20260722053422",
+    "date": "2026-07-22",
+    "time": "05:34:22",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "A better way to turn 2D designs into 3D models for rapid prototyping",
+        "source_url": "https://news.mit.edu/2026/turning-2d-designs-into-3d-models-for-rapid-prototyping-0716",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 2,
+        "title": "Poolside releases Laguna S 2.1, the open-weight coding model pitched as the West\u2019s answer to DeepSeek and Qwen",
+        "source_url": "https://thenextweb.com/news/poolside-laguna-s-2-1-open-weight-coding-model",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Google\u2019s Gemini 3.6 Flash targets enterprise agent token costs",
+        "source_url": "https://www.artificialintelligence-news.com/news/googles-gemini-3-6-flash-targets-enterprise-agent-token-costs/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 28,
+      "passed": 3,
+      "pass_rate_pct": 10.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4167,
+        "output": 863,
+        "total": 5030,
+        "ratio": 4.83
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 1100,
+        "output": 227,
+        "total": 1327,
+        "ratio": 4.85
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1698,
+        "output": 567,
+        "total": 2265,
+        "ratio": 2.99
+      },
+      "overall": {
+        "input": 6965,
+        "output": 1657,
+        "total": 8622,
+        "ratio": 4.2
+      }
+    }
+  },
+  {
+    "run_id": "20260722053441",
+    "date": "2026-07-22",
+    "time": "05:34:41",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Can AI build a jet engine? JARVIS Challenge tests role of AI copilots in tough-tech engineering",
+        "source_url": "https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 2,
+        "title": "Google\u2019s Gemini 3.6 Flash targets enterprise agent token costs",
+        "source_url": "https://www.artificialintelligence-news.com/news/googles-gemini-3-6-flash-targets-enterprise-agent-token-costs/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "The AI Slot Machine Effect: Why Generative Feeds Disrupt Deep Work And How to Reclaim Focus",
+        "source_url": "https://www.artificialintelligence-news.com/news/the-ai-slot-machine-effect-why-generative-feeds-disrupt-deep-work-and-how-to-reclaim-focus/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 3,
+      "pass_rate_pct": 10.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5085,
+        "output": 1063,
+        "total": 6148,
+        "ratio": 4.78
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 748,
+        "output": 175,
+        "total": 923,
+        "ratio": 4.27
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1705,
+        "output": 530,
+        "total": 2235,
+        "ratio": 3.22
+      },
+      "overall": {
+        "input": 7538,
+        "output": 1768,
+        "total": 9306,
+        "ratio": 4.26
+      }
+    }
   }
 ]

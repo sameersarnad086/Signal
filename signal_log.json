@@ -14814,5 +14814,147 @@
         "ratio": 5.0
       }
     }
+  },
+  {
+    "run_id": "20260725052844",
+    "date": "2026-07-25",
+    "time": "05:28:44",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Claude Opus 5",
+        "source_url": "https://www.anthropic.com/news/claude-opus-5",
+        "source_domain": "www.anthropic.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Claude Opus 5 matches Fable on coding at half the price, and Anthropic says it is the most aligned model it has ever shipped",
+        "source_url": "https://thenextweb.com/news/anthropic-claude-opus-5-launch-frontier-bench-coding",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Tesla\u2019s self-driving software is selling faster than ever, and it still needs a human driver",
+        "source_url": "https://thenextweb.com/news/tesla-fsd-subscribers-nearly-1-5-million-q2-2026",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 3,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3343,
+        "output": 601,
+        "total": 3944,
+        "ratio": 5.56
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 927,
+        "output": 172,
+        "total": 1099,
+        "ratio": 5.39
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1832,
+        "output": 550,
+        "total": 2382,
+        "ratio": 3.33
+      },
+      "overall": {
+        "input": 6102,
+        "output": 1323,
+        "total": 7425,
+        "ratio": 4.61
+      }
+    }
+  },
+  {
+    "run_id": "20260725052902",
+    "date": "2026-07-25",
+    "time": "05:29:02",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Claude Opus 5",
+        "source_url": "https://www.anthropic.com/news/claude-opus-5",
+        "source_domain": "www.anthropic.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Claude Opus 5 matches Fable on coding at half the price, and Anthropic says it is the most aligned model it has ever shipped",
+        "source_url": "https://thenextweb.com/news/anthropic-claude-opus-5-launch-frontier-bench-coding",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+        "source_url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 3,
+      "pass_rate_pct": 10.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4221,
+        "output": 765,
+        "total": 4986,
+        "ratio": 5.52
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 735,
+        "output": 185,
+        "total": 920,
+        "ratio": 3.97
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1665,
+        "output": 530,
+        "total": 2195,
+        "ratio": 3.14
+      },
+      "overall": {
+        "input": 6621,
+        "output": 1480,
+        "total": 8101,
+        "ratio": 4.47
+      }
+    }
   }
 ]

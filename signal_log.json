@@ -15358,5 +15358,76 @@
         "ratio": 4.8
       }
     }
+  },
+  {
+    "run_id": "20260729053647",
+    "date": "2026-07-29",
+    "time": "05:36:47",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Eight months ago Altman wanted an AI CEO. Now he says nobody does.",
+        "source_url": "https://thenextweb.com/news/sam-altman-ai-ceo-reversal-invest-like-the-best",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "1,134 AI insiders just asked Washington for a way to slow AI down",
+        "source_url": "https://thenextweb.com/news/pacing-the-frontier-ai-employees-letter-us-government",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "The AI that took their jobs is now renting their faces, for $15",
+        "source_url": "https://thenextweb.com/news/china-face-licensing-ai-microdramas-biometric-marketplace",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 3,
+      "pass_rate_pct": 12.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2458,
+        "output": 552,
+        "total": 3010,
+        "ratio": 4.45
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 926,
+        "output": 185,
+        "total": 1111,
+        "ratio": 5.01
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1836,
+        "output": 536,
+        "total": 2372,
+        "ratio": 3.43
+      },
+      "overall": {
+        "input": 5220,
+        "output": 1273,
+        "total": 6493,
+        "ratio": 4.1
+      }
+    }
   }
 ]

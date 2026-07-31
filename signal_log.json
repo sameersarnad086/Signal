@@ -15571,5 +15571,141 @@
         "ratio": 4.04
       }
     }
+  },
+  {
+    "run_id": "20260731055001",
+    "date": "2026-07-31",
+    "time": "05:50:01",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "I flagged two research papers for fake authors and both were accepted as orals",
+        "source_url": "https://geospatialml.com/posts/reviewing-ai-slop/",
+        "source_domain": "geospatialml.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "BYD\u2019s answer to its car-sales slump: a humanoid robot in every showroom",
+        "source_url": "https://thenextweb.com/news/byd-humanoid-robot-xiao-di-di-space-showrooms-august",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Microsoft is merging its many Copilots into one AI \u2018super app\u2019",
+        "source_url": "https://thenextweb.com/news/microsoft-copilot-super-app-nadella-consumer-enterprise",
+        "source_domain": "thenextweb.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 3,
+      "pass_rate_pct": 12.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2486,
+        "output": 444,
+        "total": 2930,
+        "ratio": 5.6
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 876,
+        "output": 185,
+        "total": 1061,
+        "ratio": 4.74
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1780,
+        "output": 498,
+        "total": 2278,
+        "ratio": 3.57
+      },
+      "overall": {
+        "input": 5142,
+        "output": 1127,
+        "total": 6269,
+        "ratio": 4.56
+      }
+    }
+  },
+  {
+    "run_id": "20260731055021",
+    "date": "2026-07-31",
+    "time": "05:50:21",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Microsoft is merging its many Copilots into one AI \u2018super app\u2019",
+        "source_url": "https://thenextweb.com/news/microsoft-copilot-super-app-nadella-consumer-enterprise",
+        "source_domain": "thenextweb.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "The AI Hype Index: Unsexy AI",
+        "source_url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 2,
+      "pass_rate_pct": 8.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 7319,
+        "output": 1661,
+        "total": 8980,
+        "ratio": 4.41
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 496,
+        "output": 119,
+        "total": 615,
+        "ratio": 4.17
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1480,
+        "output": 388,
+        "total": 1868,
+        "ratio": 3.81
+      },
+      "overall": {
+        "input": 9295,
+        "output": 2168,
+        "total": 11463,
+        "ratio": 4.29
+      }
+    }
   }
 ]

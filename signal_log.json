@@ -15778,5 +15778,76 @@
         "ratio": 3.01
       }
     }
+  },
+  {
+    "run_id": "20260802054119",
+    "date": "2026-08-02",
+    "time": "05:41:19",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+        "source_url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "The AI Hype Index: Unsexy AI",
+        "source_url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "The path to artificial superintelligence",
+        "source_url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 3,
+      "pass_rate_pct": 15.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2239,
+        "output": 575,
+        "total": 2814,
+        "ratio": 3.89
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 537,
+        "output": 176,
+        "total": 713,
+        "ratio": 3.05
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1492,
+        "output": 512,
+        "total": 2004,
+        "ratio": 2.91
+      },
+      "overall": {
+        "input": 4268,
+        "output": 1263,
+        "total": 5531,
+        "ratio": 3.38
+      }
+    }
   }
 ]

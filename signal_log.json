@@ -15849,5 +15849,76 @@
         "ratio": 3.38
       }
     }
+  },
+  {
+    "run_id": "20260803055650",
+    "date": "2026-08-03",
+    "time": "05:56:50",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+        "source_url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+        "source_domain": "www.modelrepublic.org"
+      },
+      {
+        "bit_number": 2,
+        "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+        "source_url": "https://qwen.ai/blog?id=qwen3.8",
+        "source_domain": "qwen.ai"
+      },
+      {
+        "bit_number": 3,
+        "title": "OpenAI called the Hugging Face attack unprecedented. But we\u2019ve been here before.",
+        "source_url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 17,
+      "passed": 3,
+      "pass_rate_pct": 17.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2367,
+        "output": 457,
+        "total": 2824,
+        "ratio": 5.18
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 794,
+        "output": 175,
+        "total": 969,
+        "ratio": 4.54
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1744,
+        "output": 547,
+        "total": 2291,
+        "ratio": 3.19
+      },
+      "overall": {
+        "input": 4905,
+        "output": 1179,
+        "total": 6084,
+        "ratio": 4.16
+      }
+    }
   }
 ]

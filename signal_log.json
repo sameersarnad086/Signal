@@ -16050,5 +16050,76 @@
         "ratio": 4.4
       }
     }
+  },
+  {
+    "run_id": "20260805053029",
+    "date": "2026-08-05",
+    "time": "05:30:29",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Eight Myths on Software Engineering and GenAI",
+        "source_url": "https://queue.acm.org/detail.cfm?id=3807963",
+        "source_domain": "queue.acm.org"
+      },
+      {
+        "bit_number": 2,
+        "title": "Pi's Minimalism Is Its Advantage",
+        "source_url": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
+        "source_domain": "earendil.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+        "source_url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 18,
+      "passed": 3,
+      "pass_rate_pct": 16.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2329,
+        "output": 439,
+        "total": 2768,
+        "ratio": 5.31
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 666,
+        "output": 176,
+        "total": 842,
+        "ratio": 3.78
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1584,
+        "output": 486,
+        "total": 2070,
+        "ratio": 3.26
+      },
+      "overall": {
+        "input": 4579,
+        "output": 1101,
+        "total": 5680,
+        "ratio": 4.16
+      }
+    }
   }
 ]

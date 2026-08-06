@@ -16121,5 +16121,141 @@
         "ratio": 4.16
       }
     }
+  },
+  {
+    "run_id": "20260806053302",
+    "date": "2026-08-06",
+    "time": "05:33:02",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "NVIDIA\u2019s Vera Whitepaper Has a Thread Loose",
+        "source_url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
+        "source_domain": "chipsandcheese.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Prime Agent: A self-improving RLM agent",
+        "source_url": "https://www.primeintellect.ai/blog/prime-agent",
+        "source_domain": "www.primeintellect.ai"
+      },
+      {
+        "bit_number": 3,
+        "title": "Here\u2019s why AI agents lie and cheat to reach their goals",
+        "source_url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 18,
+      "passed": 3,
+      "pass_rate_pct": 16.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2265,
+        "output": 475,
+        "total": 2740,
+        "ratio": 4.77
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 692,
+        "output": 172,
+        "total": 864,
+        "ratio": 4.02
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1609,
+        "output": 384,
+        "total": 1993,
+        "ratio": 4.19
+      },
+      "overall": {
+        "input": 4566,
+        "output": 1031,
+        "total": 5597,
+        "ratio": 4.43
+      }
+    }
+  },
+  {
+    "run_id": "20260806053317",
+    "date": "2026-08-06",
+    "time": "05:33:17",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+        "source_url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Hark previews its browser use agent for completing tasks",
+        "source_url": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 2,
+      "pass_rate_pct": 10.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5011,
+        "output": 1200,
+        "total": 6211,
+        "ratio": 4.18
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 275,
+        "output": 120,
+        "total": 395,
+        "ratio": 2.29
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1277,
+        "output": 394,
+        "total": 1671,
+        "ratio": 3.24
+      },
+      "overall": {
+        "input": 6563,
+        "output": 1714,
+        "total": 8277,
+        "ratio": 3.83
+      }
+    }
   }
 ]

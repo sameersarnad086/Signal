@@ -16257,5 +16257,141 @@
         "ratio": 3.83
       }
     }
+  },
+  {
+    "run_id": "20260807043625",
+    "date": "2026-08-07",
+    "time": "04:36:25",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+        "source_url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+        "source_domain": "www.theregister.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Herdr is joining Y Combinator. The runtime stays open",
+        "source_url": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
+        "source_domain": "herdr.dev"
+      },
+      {
+        "bit_number": 3,
+        "title": "ChatGPT brings unlimited text chats to free users",
+        "source_url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 17,
+      "passed": 3,
+      "pass_rate_pct": 17.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2300,
+        "output": 458,
+        "total": 2758,
+        "ratio": 5.02
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 707,
+        "output": 199,
+        "total": 906,
+        "ratio": 3.55
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1658,
+        "output": 624,
+        "total": 2282,
+        "ratio": 2.66
+      },
+      "overall": {
+        "input": 4665,
+        "output": 1281,
+        "total": 5946,
+        "ratio": 3.64
+      }
+    }
+  },
+  {
+    "run_id": "20260807043642",
+    "date": "2026-08-07",
+    "time": "04:36:42",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "ChatGPT brings unlimited text chats to free users",
+        "source_url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Na\u00efve raises $28.5M to automate the grunt work of setting up and running a company",
+        "source_url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 2,
+      "pass_rate_pct": 10.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5212,
+        "output": 1224,
+        "total": 6436,
+        "ratio": 4.26
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 279,
+        "output": 108,
+        "total": 387,
+        "ratio": 2.58
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1288,
+        "output": 426,
+        "total": 1714,
+        "ratio": 3.02
+      },
+      "overall": {
+        "input": 6779,
+        "output": 1758,
+        "total": 8537,
+        "ratio": 3.86
+      }
+    }
   }
 ]

@@ -16393,5 +16393,147 @@
         "ratio": 3.86
       }
     }
+  },
+  {
+    "run_id": "20260808035048",
+    "date": "2026-08-08",
+    "time": "03:50:48",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Trump\u2019s AI protectionism has come for robotics",
+        "source_url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
+        "source_url": "https://genesisopenmodels.anl.gov/",
+        "source_domain": "genesisopenmodels.anl.gov"
+      },
+      {
+        "bit_number": 3,
+        "title": "Managing AI Coding Costs at Scale",
+        "source_url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+        "source_domain": "www.databricks.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 17,
+      "passed": 3,
+      "pass_rate_pct": 17.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2321,
+        "output": 450,
+        "total": 2771,
+        "ratio": 5.16
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 677,
+        "output": 177,
+        "total": 854,
+        "ratio": 3.82
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1582,
+        "output": 485,
+        "total": 2067,
+        "ratio": 3.26
+      },
+      "overall": {
+        "input": 4580,
+        "output": 1112,
+        "total": 5692,
+        "ratio": 4.12
+      }
+    }
+  },
+  {
+    "run_id": "20260808035104",
+    "date": "2026-08-08",
+    "time": "03:51:04",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+        "source_url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+        "source_url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+        "source_url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 3,
+      "pass_rate_pct": 15.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3778,
+        "output": 829,
+        "total": 4607,
+        "ratio": 4.56
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 432,
+        "output": 171,
+        "total": 603,
+        "ratio": 2.53
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1396,
+        "output": 522,
+        "total": 1918,
+        "ratio": 2.67
+      },
+      "overall": {
+        "input": 5606,
+        "output": 1522,
+        "total": 7128,
+        "ratio": 3.68
+      }
+    }
   }
 ]

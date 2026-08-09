@@ -16535,5 +16535,135 @@
         "ratio": 3.68
       }
     }
+  },
+  {
+    "run_id": "20260809035808",
+    "date": "2026-08-09",
+    "time": "03:58:08",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI acquires presentation startup NextSlide",
+        "source_url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "OpenAI says it slowed Astra model development over security concerns",
+        "source_url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+        "source_url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 16,
+      "passed": 3,
+      "pass_rate_pct": 18.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2806,
+        "output": 582,
+        "total": 3388,
+        "ratio": 4.82
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 415,
+        "output": 178,
+        "total": 593,
+        "ratio": 2.33
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1362,
+        "output": 588,
+        "total": 1950,
+        "ratio": 2.32
+      },
+      "overall": {
+        "input": 4583,
+        "output": 1348,
+        "total": 5931,
+        "ratio": 3.4
+      }
+    }
+  },
+  {
+    "run_id": "20260809035821",
+    "date": "2026-08-09",
+    "time": "03:58:21",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI acquires presentation startup NextSlide",
+        "source_url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 17,
+      "passed": 1,
+      "pass_rate_pct": 5.9
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4755,
+        "output": 1062,
+        "total": 5817,
+        "ratio": 4.48
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 119,
+        "output": 62,
+        "total": 181,
+        "ratio": 1.92
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1159,
+        "output": 233,
+        "total": 1392,
+        "ratio": 4.97
+      },
+      "overall": {
+        "input": 6033,
+        "output": 1357,
+        "total": 7390,
+        "ratio": 4.45
+      }
+    }
   }
 ]

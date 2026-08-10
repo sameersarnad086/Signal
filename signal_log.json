@@ -16665,5 +16665,141 @@
         "ratio": 4.45
       }
     }
+  },
+  {
+    "run_id": "20260810041245",
+    "date": "2026-08-10",
+    "time": "04:12:45",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "How I use LLMs to learn complex topics",
+        "source_url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+        "source_domain": "laurentiugabriel.github.io"
+      },
+      {
+        "bit_number": 2,
+        "title": "OpenChamber: An Agentic Development Environment",
+        "source_url": "https://openchamber.dev/",
+        "source_domain": "openchamber.dev"
+      },
+      {
+        "bit_number": 3,
+        "title": "The benefits of medical AI assistance vary based on user expertise",
+        "source_url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+        "source_domain": "news.mit.edu"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 21,
+      "passed": 3,
+      "pass_rate_pct": 14.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2136,
+        "output": 456,
+        "total": 2592,
+        "ratio": 4.68
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 633,
+        "output": 182,
+        "total": 815,
+        "ratio": 3.48
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1533,
+        "output": 491,
+        "total": 2024,
+        "ratio": 3.12
+      },
+      "overall": {
+        "input": 4302,
+        "output": 1129,
+        "total": 5431,
+        "ratio": 3.81
+      }
+    }
+  },
+  {
+    "run_id": "20260810041305",
+    "date": "2026-08-10",
+    "time": "04:13:05",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "How I use LLMs to learn complex topics",
+        "source_url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+        "source_domain": "laurentiugabriel.github.io"
+      },
+      {
+        "bit_number": 2,
+        "title": "Anthropic is turning Claude Code\u2019s auto mode on by default",
+        "source_url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 2,
+      "pass_rate_pct": 8.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 6826,
+        "output": 1550,
+        "total": 8376,
+        "ratio": 4.4
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 397,
+        "output": 115,
+        "total": 512,
+        "ratio": 3.45
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1385,
+        "output": 404,
+        "total": 1789,
+        "ratio": 3.43
+      },
+      "overall": {
+        "input": 8608,
+        "output": 2069,
+        "total": 10677,
+        "ratio": 4.16
+      }
+    }
   }
 ]

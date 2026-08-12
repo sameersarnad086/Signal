@@ -16872,5 +16872,147 @@
         "ratio": 3.1
       }
     }
+  },
+  {
+    "run_id": "20260812042204",
+    "date": "2026-08-12",
+    "time": "04:22:04",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Novo Nordisk and AWS bring agentic AI into drug discovery",
+        "source_url": "https://www.artificialintelligence-news.com/news/novo-nordisk-ai-drug-discovery-aws/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Meta Muse Glimmer brings local AI agents to consumer GPUs",
+        "source_url": "https://www.artificialintelligence-news.com/news/meta-muse-glimmer-local-ai-agents-consumer-gpus/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "The limits of physics AI: where Siemens says the human stays in charge",
+        "source_url": "https://www.artificialintelligence-news.com/news/siemens-physics-ai-simulation-human-oversight/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 3,
+      "pass_rate_pct": 15.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1440,
+        "output": 282,
+        "total": 1722,
+        "ratio": 5.11
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 839,
+        "output": 180,
+        "total": 1019,
+        "ratio": 4.66
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1751,
+        "output": 504,
+        "total": 2255,
+        "ratio": 3.47
+      },
+      "overall": {
+        "input": 4030,
+        "output": 966,
+        "total": 4996,
+        "ratio": 4.17
+      }
+    }
+  },
+  {
+    "run_id": "20260812042224",
+    "date": "2026-08-12",
+    "time": "04:22:24",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI launches ChatGPT desktop app for Linux",
+        "source_url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Google\u2019s Gemini app surges to 1 billion users",
+        "source_url": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
+        "source_url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 3,
+      "pass_rate_pct": 12.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 7160,
+        "output": 1556,
+        "total": 8716,
+        "ratio": 4.6
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 440,
+        "output": 170,
+        "total": 610,
+        "ratio": 2.59
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1381,
+        "output": 504,
+        "total": 1885,
+        "ratio": 2.74
+      },
+      "overall": {
+        "input": 8981,
+        "output": 2230,
+        "total": 11211,
+        "ratio": 4.03
+      }
+    }
   }
 ]

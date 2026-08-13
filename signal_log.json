@@ -17014,5 +17014,141 @@
         "ratio": 4.03
       }
     }
+  },
+  {
+    "run_id": "20260813042743",
+    "date": "2026-08-13",
+    "time": "04:27:43",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Amazon will train on Twitch streamers\u2019 content by default, unless they opt out",
+        "source_url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+        "source_url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+        "source_url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 16,
+      "passed": 3,
+      "pass_rate_pct": 18.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 948,
+        "output": 267,
+        "total": 1215,
+        "ratio": 3.55
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 458,
+        "output": 179,
+        "total": 637,
+        "ratio": 2.56
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1428,
+        "output": 610,
+        "total": 2038,
+        "ratio": 2.34
+      },
+      "overall": {
+        "input": 2834,
+        "output": 1056,
+        "total": 3890,
+        "ratio": 2.68
+      }
+    }
+  },
+  {
+    "run_id": "20260813042804",
+    "date": "2026-08-13",
+    "time": "04:28:04",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+        "source_url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Delta",
+        "source_url": "https://zed.dev/blog/introducing-delta",
+        "source_domain": "zed.dev"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 2,
+      "pass_rate_pct": 10.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5342,
+        "output": 1271,
+        "total": 6613,
+        "ratio": 4.2
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 376,
+        "output": 107,
+        "total": 483,
+        "ratio": 3.51
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1350,
+        "output": 246,
+        "total": 1596,
+        "ratio": 5.49
+      },
+      "overall": {
+        "input": 7068,
+        "output": 1624,
+        "total": 8692,
+        "ratio": 4.35
+      }
+    }
   }
 ]

@@ -17150,5 +17150,147 @@
         "ratio": 4.35
       }
     }
+  },
+  {
+    "run_id": "20260814042428",
+    "date": "2026-08-14",
+    "time": "04:24:28",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Understanding is the new bottleneck",
+        "source_url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+        "source_domain": "www.geoffreylitt.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+        "source_url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+        "source_url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 18,
+      "passed": 3,
+      "pass_rate_pct": 16.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3098,
+        "output": 705,
+        "total": 3803,
+        "ratio": 4.39
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 588,
+        "output": 172,
+        "total": 760,
+        "ratio": 3.42
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1554,
+        "output": 550,
+        "total": 2104,
+        "ratio": 2.83
+      },
+      "overall": {
+        "input": 5240,
+        "output": 1427,
+        "total": 6667,
+        "ratio": 3.67
+      }
+    }
+  },
+  {
+    "run_id": "20260814042445",
+    "date": "2026-08-14",
+    "time": "04:24:45",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Understanding is the new bottleneck",
+        "source_url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+        "source_domain": "www.geoffreylitt.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+        "source_url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "OpenAI introduces \u2018Ultrafast,\u2019 a new mode that makes GPT-5.6 Sol work at 14x the speed",
+        "source_url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 3,
+      "pass_rate_pct": 15.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3559,
+        "output": 846,
+        "total": 4405,
+        "ratio": 4.21
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 578,
+        "output": 162,
+        "total": 740,
+        "ratio": 3.57
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1538,
+        "output": 562,
+        "total": 2100,
+        "ratio": 2.74
+      },
+      "overall": {
+        "input": 5675,
+        "output": 1570,
+        "total": 7245,
+        "ratio": 3.61
+      }
+    }
   }
 ]

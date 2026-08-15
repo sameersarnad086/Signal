@@ -17292,5 +17292,141 @@
         "ratio": 3.61
       }
     }
+  },
+  {
+    "run_id": "20260815031226",
+    "date": "2026-08-15",
+    "time": "03:12:26",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Samsung health AI models analyse wearable biosignal data",
+        "source_url": "https://www.artificialintelligence-news.com/news/samsung-health-ai-models-analyse-wearable-biosignal-data/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Google AI health coach to use Abbott glucose data",
+        "source_url": "https://www.artificialintelligence-news.com/news/google-ai-health-coach-abbott-glucose-data/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Okta targets AI agent token costs with MCP scoping",
+        "source_url": "https://www.artificialintelligence-news.com/news/okta-targets-ai-agent-token-costs-with-mcp-scoping/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 22,
+      "passed": 3,
+      "pass_rate_pct": 13.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1944,
+        "output": 459,
+        "total": 2403,
+        "ratio": 4.24
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 806,
+        "output": 166,
+        "total": 972,
+        "ratio": 4.86
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1728,
+        "output": 543,
+        "total": 2271,
+        "ratio": 3.18
+      },
+      "overall": {
+        "input": 4478,
+        "output": 1168,
+        "total": 5646,
+        "ratio": 3.83
+      }
+    }
+  },
+  {
+    "run_id": "20260815031251",
+    "date": "2026-08-15",
+    "time": "03:12:51",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Maximizing the value of your Claude Code sessions",
+        "source_url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+        "source_domain": "claude.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Meta\u2019s\u00a0\u2018open\u2019\u00a0AI, and a $250M deal gone very wrong",
+        "source_url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 2,
+      "pass_rate_pct": 8.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 7306,
+        "output": 1626,
+        "total": 8932,
+        "ratio": 4.49
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 505,
+        "output": 121,
+        "total": 626,
+        "ratio": 4.17
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1481,
+        "output": 399,
+        "total": 1880,
+        "ratio": 3.71
+      },
+      "overall": {
+        "input": 9292,
+        "output": 2146,
+        "total": 11438,
+        "ratio": 4.33
+      }
+    }
   }
 ]

@@ -17428,5 +17428,70 @@
         "ratio": 4.33
       }
     }
+  },
+  {
+    "run_id": "20260816032645",
+    "date": "2026-08-16",
+    "time": "03:26:45",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Scaling AI agents with trustworthy data",
+        "source_url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Does Mark Zuckerberg really believe AI is \u2018for everyone\u2019?",
+        "source_url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 18,
+      "passed": 2,
+      "pass_rate_pct": 11.1
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5025,
+        "output": 1217,
+        "total": 6242,
+        "ratio": 4.13
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 409,
+        "output": 113,
+        "total": 522,
+        "ratio": 3.62
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1399,
+        "output": 424,
+        "total": 1823,
+        "ratio": 3.3
+      },
+      "overall": {
+        "input": 6833,
+        "output": 1754,
+        "total": 8587,
+        "ratio": 3.9
+      }
+    }
   }
 ]

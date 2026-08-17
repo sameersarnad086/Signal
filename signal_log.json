@@ -17493,5 +17493,135 @@
         "ratio": 3.9
       }
     }
+  },
+  {
+    "run_id": "20260817032742",
+    "date": "2026-08-17",
+    "time": "03:27:42",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+        "source_url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+        "source_domain": "simonwillison.net"
+      },
+      {
+        "bit_number": 2,
+        "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+        "source_url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+        "source_domain": "www.reuters.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+        "source_domain": "www.bloomberg.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 17,
+      "passed": 3,
+      "pass_rate_pct": 17.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1884,
+        "output": 340,
+        "total": 2224,
+        "ratio": 5.54
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 902,
+        "output": 177,
+        "total": 1079,
+        "ratio": 5.1
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1856,
+        "output": 645,
+        "total": 2501,
+        "ratio": 2.88
+      },
+      "overall": {
+        "input": 4642,
+        "output": 1162,
+        "total": 5804,
+        "ratio": 3.99
+      }
+    }
+  },
+  {
+    "run_id": "20260817032800",
+    "date": "2026-08-17",
+    "time": "03:28:00",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+        "source_url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+        "source_domain": "simonwillison.net"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 1,
+      "pass_rate_pct": 5.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5427,
+        "output": 1288,
+        "total": 6715,
+        "ratio": 4.21
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 279,
+        "output": 71,
+        "total": 350,
+        "ratio": 3.93
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1318,
+        "output": 257,
+        "total": 1575,
+        "ratio": 5.13
+      },
+      "overall": {
+        "input": 7024,
+        "output": 1616,
+        "total": 8640,
+        "ratio": 4.35
+      }
+    }
   }
 ]

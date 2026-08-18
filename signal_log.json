@@ -17623,5 +17623,141 @@
         "ratio": 4.35
       }
     }
+  },
+  {
+    "run_id": "20260818032256",
+    "date": "2026-08-18",
+    "time": "03:22:56",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Anthropic\u2019s annualized revenue surges to $65B",
+        "source_url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "AI automation startup Relay shuts down, staff joins Google\u2019s Chrome team",
+        "source_url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+        "source_url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 3,
+      "pass_rate_pct": 15.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 677,
+        "output": 191,
+        "total": 868,
+        "ratio": 3.54
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 422,
+        "output": 182,
+        "total": 604,
+        "ratio": 2.32
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1373,
+        "output": 544,
+        "total": 1917,
+        "ratio": 2.52
+      },
+      "overall": {
+        "input": 2472,
+        "output": 917,
+        "total": 3389,
+        "ratio": 2.7
+      }
+    }
+  },
+  {
+    "run_id": "20260818032318",
+    "date": "2026-08-18",
+    "time": "03:23:18",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "AI automation startup Relay shuts down, staff joins Google\u2019s Chrome team",
+        "source_url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "AI;DR (AI; Didn't Read)",
+        "source_url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+        "source_domain": "www.rickmanelius.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 2,
+      "pass_rate_pct": 8.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 7033,
+        "output": 1643,
+        "total": 8676,
+        "ratio": 4.28
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 411,
+        "output": 124,
+        "total": 535,
+        "ratio": 3.31
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1392,
+        "output": 404,
+        "total": 1796,
+        "ratio": 3.45
+      },
+      "overall": {
+        "input": 8836,
+        "output": 2171,
+        "total": 11007,
+        "ratio": 4.07
+      }
+    }
   }
 ]

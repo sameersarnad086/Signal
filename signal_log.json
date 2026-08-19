@@ -17759,5 +17759,76 @@
         "ratio": 4.07
       }
     }
+  },
+  {
+    "run_id": "20260819032507",
+    "date": "2026-08-19",
+    "time": "03:25:07",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "We still don\u2019t know how people are really using AI",
+        "source_url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "AI\u2019s recursive self-improvement might not come so quickly after all",
+        "source_url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "OpenAI president urges enterprises to hasten AI security defences",
+        "source_url": "https://www.artificialintelligence-news.com/news/openai-president-urges-enterprises-hasten-ai-security-defences/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 22,
+      "passed": 3,
+      "pass_rate_pct": 13.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1719,
+        "output": 398,
+        "total": 2117,
+        "ratio": 4.32
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 653,
+        "output": 174,
+        "total": 827,
+        "ratio": 3.75
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1586,
+        "output": 524,
+        "total": 2110,
+        "ratio": 3.03
+      },
+      "overall": {
+        "input": 3958,
+        "output": 1096,
+        "total": 5054,
+        "ratio": 3.61
+      }
+    }
   }
 ]

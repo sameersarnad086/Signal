@@ -17830,5 +17830,141 @@
         "ratio": 3.61
       }
     }
+  },
+  {
+    "run_id": "20260820032443",
+    "date": "2026-08-20",
+    "time": "03:24:43",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Feature Request: Support AGENTS.md",
+        "source_url": "https://github.com/anthropics/claude-code/issues/6235",
+        "source_domain": "github.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "When AI art has no author: Study finds generated images often can\u2019t be traced to training data",
+        "source_url": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 3,
+        "title": "Q&A: Rethinking how innovation happens",
+        "source_url": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0817",
+        "source_domain": "news.mit.edu"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 3,
+      "pass_rate_pct": 15.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2166,
+        "output": 482,
+        "total": 2648,
+        "ratio": 4.49
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 535,
+        "output": 167,
+        "total": 702,
+        "ratio": 3.2
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1468,
+        "output": 569,
+        "total": 2037,
+        "ratio": 2.58
+      },
+      "overall": {
+        "input": 4169,
+        "output": 1218,
+        "total": 5387,
+        "ratio": 3.42
+      }
+    }
+  },
+  {
+    "run_id": "20260820032512",
+    "date": "2026-08-20",
+    "time": "03:25:12",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Stripe didn\u2019t really buy OpenRouter because of the \u2018singularity\u2019",
+        "source_url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Google packs Search and Gemini with new AI study tools",
+        "source_url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 2,
+      "pass_rate_pct": 7.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8459,
+        "output": 1666,
+        "total": 10125,
+        "ratio": 5.08
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 309,
+        "output": 128,
+        "total": 437,
+        "ratio": 2.41
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1308,
+        "output": 416,
+        "total": 1724,
+        "ratio": 3.14
+      },
+      "overall": {
+        "input": 10076,
+        "output": 2210,
+        "total": 12286,
+        "ratio": 4.56
+      }
+    }
   }
 ]

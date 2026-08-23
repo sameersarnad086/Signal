@@ -18167,5 +18167,141 @@
         "ratio": 5.51
       }
     }
+  },
+  {
+    "run_id": "20260823032929",
+    "date": "2026-08-23",
+    "time": "03:29:29",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Harvard\u2019s $699 startup bootcamp offers AI avatars of its instructors",
+        "source_url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Inherent, founded by DeepMind alumni, says its AI \u2018teammate\u2019 just outperformed Anthropic and OpenAI at replicating research",
+        "source_url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "OpenAI says California should strengthen its AI safety bill",
+        "source_url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 3,
+      "pass_rate_pct": 15.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1346,
+        "output": 392,
+        "total": 1738,
+        "ratio": 3.43
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 424,
+        "output": 157,
+        "total": 581,
+        "ratio": 2.7
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1395,
+        "output": 526,
+        "total": 1921,
+        "ratio": 2.65
+      },
+      "overall": {
+        "input": 3165,
+        "output": 1075,
+        "total": 4240,
+        "ratio": 2.94
+      }
+    }
+  },
+  {
+    "run_id": "20260823032952",
+    "date": "2026-08-23",
+    "time": "03:29:52",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Harvard\u2019s $699 startup bootcamp offers AI avatars of its instructors",
+        "source_url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Inherent, founded by DeepMind alumni, says its AI \u2018teammate\u2019 just outperformed Anthropic and OpenAI at replicating research",
+        "source_url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 2,
+      "pass_rate_pct": 7.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8531,
+        "output": 1692,
+        "total": 10223,
+        "ratio": 5.04
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 292,
+        "output": 115,
+        "total": 407,
+        "ratio": 2.54
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1315,
+        "output": 431,
+        "total": 1746,
+        "ratio": 3.05
+      },
+      "overall": {
+        "input": 10138,
+        "output": 2238,
+        "total": 12376,
+        "ratio": 4.53
+      }
+    }
   }
 ]

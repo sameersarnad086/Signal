@@ -18303,5 +18303,135 @@
         "ratio": 4.53
       }
     }
+  },
+  {
+    "run_id": "20260824033201",
+    "date": "2026-08-24",
+    "time": "03:32:01",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Is it legal to train AI models on copyrighted books? It\u2019s complicated",
+        "source_url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "How AI coding tools are contributing to the popularity of JavaScript",
+        "source_url": "https://www.artificialintelligence-news.com/news/how-ai-coding-tools-are-contributing-to-the-popularity-of-javascript/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Stripe agrees to buy OpenRouter as AI model routing expands",
+        "source_url": "https://www.artificialintelligence-news.com/news/stripe-openrouter-acquisition-ai-model-routing/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 14,
+      "passed": 3,
+      "pass_rate_pct": 21.4
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3210,
+        "output": 785,
+        "total": 3995,
+        "ratio": 4.09
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 698,
+        "output": 167,
+        "total": 865,
+        "ratio": 4.18
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1631,
+        "output": 551,
+        "total": 2182,
+        "ratio": 2.96
+      },
+      "overall": {
+        "input": 5539,
+        "output": 1503,
+        "total": 7042,
+        "ratio": 3.69
+      }
+    }
+  },
+  {
+    "run_id": "20260824033216",
+    "date": "2026-08-24",
+    "time": "03:32:16",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Linkdaze\u2019s smart calendar is built to run a household, not just track a schedule",
+        "source_url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 1,
+      "pass_rate_pct": 5.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 6517,
+        "output": 1281,
+        "total": 7798,
+        "ratio": 5.09
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 147,
+        "output": 55,
+        "total": 202,
+        "ratio": 2.67
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1205,
+        "output": 238,
+        "total": 1443,
+        "ratio": 5.06
+      },
+      "overall": {
+        "input": 7869,
+        "output": 1574,
+        "total": 9443,
+        "ratio": 5.0
+      }
+    }
   }
 ]

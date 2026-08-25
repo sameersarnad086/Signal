@@ -18433,5 +18433,135 @@
         "ratio": 5.0
       }
     }
+  },
+  {
+    "run_id": "20260825032617",
+    "date": "2026-08-25",
+    "time": "03:26:17",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "LLMs could control their host machines by exploiting inference engines",
+        "source_url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+        "source_domain": "boydkane.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Generating scenarios for extreme events, without extreme data",
+        "source_url": "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 3,
+        "title": "XPENG IRON humanoid robot draws record physical AI funding",
+        "source_url": "https://www.artificialintelligence-news.com/news/xpeng-iron-humanoid-robot-draws-record-physical-ai-funding/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 3,
+      "pass_rate_pct": 15.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3586,
+        "output": 779,
+        "total": 4365,
+        "ratio": 4.6
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 685,
+        "output": 147,
+        "total": 832,
+        "ratio": 4.66
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1611,
+        "output": 529,
+        "total": 2140,
+        "ratio": 3.05
+      },
+      "overall": {
+        "input": 5882,
+        "output": 1455,
+        "total": 7337,
+        "ratio": 4.04
+      }
+    }
+  },
+  {
+    "run_id": "20260825032634",
+    "date": "2026-08-25",
+    "time": "03:26:34",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Instinct\u2019s powerful AI assistant is raising privacy and security concerns",
+        "source_url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 1,
+      "pass_rate_pct": 3.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8562,
+        "output": 1717,
+        "total": 10279,
+        "ratio": 4.99
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 151,
+        "output": 61,
+        "total": 212,
+        "ratio": 2.48
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1202,
+        "output": 247,
+        "total": 1449,
+        "ratio": 4.87
+      },
+      "overall": {
+        "input": 9915,
+        "output": 2025,
+        "total": 11940,
+        "ratio": 4.9
+      }
+    }
   }
 ]

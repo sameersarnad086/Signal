@@ -18563,5 +18563,141 @@
         "ratio": 4.9
       }
     }
+  },
+  {
+    "run_id": "20260826033254",
+    "date": "2026-08-26",
+    "time": "03:32:54",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "MIT AI forecasts extreme weather without historical data",
+        "source_url": "https://www.artificialintelligence-news.com/news/mit-ai-forecasts-extreme-weather-without-historical-data/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Kids outlearn AI\u2014and we still don\u2019t know why",
+        "source_url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "India\u2019s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+        "source_url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 18,
+      "passed": 3,
+      "pass_rate_pct": 16.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4523,
+        "output": 921,
+        "total": 5444,
+        "ratio": 4.91
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 606,
+        "output": 175,
+        "total": 781,
+        "ratio": 3.46
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1553,
+        "output": 547,
+        "total": 2100,
+        "ratio": 2.84
+      },
+      "overall": {
+        "input": 6682,
+        "output": 1643,
+        "total": 8325,
+        "ratio": 4.07
+      }
+    }
+  },
+  {
+    "run_id": "20260826033312",
+    "date": "2026-08-26",
+    "time": "03:33:12",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "India\u2019s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+        "source_url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Claude Cowork finally remembers what you told the app in chat",
+        "source_url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 26,
+      "passed": 2,
+      "pass_rate_pct": 7.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8748,
+        "output": 1665,
+        "total": 10413,
+        "ratio": 5.25
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 286,
+        "output": 118,
+        "total": 404,
+        "ratio": 2.42
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1300,
+        "output": 409,
+        "total": 1709,
+        "ratio": 3.18
+      },
+      "overall": {
+        "input": 10334,
+        "output": 2192,
+        "total": 12526,
+        "ratio": 4.71
+      }
+    }
   }
 ]

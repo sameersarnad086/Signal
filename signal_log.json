@@ -18699,5 +18699,141 @@
         "ratio": 4.71
       }
     }
+  },
+  {
+    "run_id": "20260827125944",
+    "date": "2026-08-27",
+    "time": "12:59:44",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "A quarter of Nvidia\u2019s business next year comes from labs it is financing",
+        "source_url": "https://www.artificialintelligence-news.com/news/nvidia-circular-financing-ai-labs/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "AI helps design new materials that work in the real world",
+        "source_url": "https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 3,
+        "title": "The inside story on why OpenAI agents hacked Hugging Face",
+        "source_url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 21,
+      "passed": 3,
+      "pass_rate_pct": 14.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1834,
+        "output": 411,
+        "total": 2245,
+        "ratio": 4.46
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 616,
+        "output": 181,
+        "total": 797,
+        "ratio": 3.4
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1554,
+        "output": 518,
+        "total": 2072,
+        "ratio": 3.0
+      },
+      "overall": {
+        "input": 4004,
+        "output": 1110,
+        "total": 5114,
+        "ratio": 3.61
+      }
+    }
+  },
+  {
+    "run_id": "20260827130007",
+    "date": "2026-08-27",
+    "time": "13:00:07",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+        "source_url": "https://github.com/SenteLabsAI/OpenExecutive",
+        "source_domain": "github.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
+        "source_url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 27,
+      "passed": 2,
+      "pass_rate_pct": 7.4
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 10646,
+        "output": 1688,
+        "total": 12334,
+        "ratio": 6.31
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 392,
+        "output": 136,
+        "total": 528,
+        "ratio": 2.88
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1372,
+        "output": 399,
+        "total": 1771,
+        "ratio": 3.44
+      },
+      "overall": {
+        "input": 12410,
+        "output": 2223,
+        "total": 14633,
+        "ratio": 5.58
+      }
+    }
   }
 ]

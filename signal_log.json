@@ -18835,5 +18835,76 @@
         "ratio": 5.58
       }
     }
+  },
+  {
+    "run_id": "20260828143125",
+    "date": "2026-08-28",
+    "time": "14:31:25",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "I spent a day at a robot \u201ccarnival\u201d in Shanghai. Here\u2019s what I saw.",
+        "source_url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Luanti removed from Google Play due to baseless AI copyright notice",
+        "source_url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
+        "source_domain": "blog.luanti.org"
+      },
+      {
+        "bit_number": 3,
+        "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+        "source_url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+        "source_domain": "venturebeat.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 3,
+      "pass_rate_pct": 15.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4889,
+        "output": 846,
+        "total": 5735,
+        "ratio": 5.78
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 2141,
+        "output": 239,
+        "total": 2380,
+        "ratio": 8.96
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 2882,
+        "output": 547,
+        "total": 3429,
+        "ratio": 5.27
+      },
+      "overall": {
+        "input": 9912,
+        "output": 1632,
+        "total": 11544,
+        "ratio": 6.07
+      }
+    }
   }
 ]

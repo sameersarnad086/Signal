@@ -18977,5 +18977,135 @@
         "ratio": 2.64
       }
     }
+  },
+  {
+    "run_id": "20260830082839",
+    "date": "2026-08-30",
+    "time": "08:28:39",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Bill Gates says we\u2019ve passed AI\u2019s danger thresholds. Now what?",
+        "source_url": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Sony Music, Warner sue Anthropic, alleging a \u201cbrazen campaign\u201d of intellectual property theft",
+        "source_url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "\u201cWe\u2019re not doing 30 bets a year\u201d: Vijay Pande on betting small after running $4 billion at a16z",
+        "source_url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 17,
+      "passed": 3,
+      "pass_rate_pct": 17.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1775,
+        "output": 469,
+        "total": 2244,
+        "ratio": 3.78
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 542,
+        "output": 191,
+        "total": 733,
+        "ratio": 2.84
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1520,
+        "output": 576,
+        "total": 2096,
+        "ratio": 2.64
+      },
+      "overall": {
+        "input": 3837,
+        "output": 1236,
+        "total": 5073,
+        "ratio": 3.1
+      }
+    }
+  },
+  {
+    "run_id": "20260830082859",
+    "date": "2026-08-30",
+    "time": "08:28:59",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Orchestration is the new challenge for CX in the age of AI agents",
+        "source_url": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+        "source_domain": "venturebeat.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 29,
+      "passed": 1,
+      "pass_rate_pct": 3.4
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 14196,
+        "output": 1813,
+        "total": 16009,
+        "ratio": 7.83
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 1983,
+        "output": 66,
+        "total": 2049,
+        "ratio": 30.05
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 3029,
+        "output": 261,
+        "total": 3290,
+        "ratio": 11.61
+      },
+      "overall": {
+        "input": 19208,
+        "output": 2140,
+        "total": 21348,
+        "ratio": 8.98
+      }
+    }
   }
 ]

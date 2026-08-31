@@ -19107,5 +19107,147 @@
         "ratio": 8.98
       }
     }
+  },
+  {
+    "run_id": "20260831084930",
+    "date": "2026-08-31",
+    "time": "08:49:30",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+        "source_url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "When agents act on their own, governance has to live in the data layer",
+        "source_url": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Orchestration is the new challenge for CX in the age of AI agents",
+        "source_url": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+        "source_domain": "venturebeat.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 15,
+      "passed": 3,
+      "pass_rate_pct": 20.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5360,
+        "output": 540,
+        "total": 5900,
+        "ratio": 9.93
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 3939,
+        "output": 171,
+        "total": 4110,
+        "ratio": 23.04
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 4885,
+        "output": 574,
+        "total": 5459,
+        "ratio": 8.51
+      },
+      "overall": {
+        "input": 14184,
+        "output": 1285,
+        "total": 15469,
+        "ratio": 11.04
+      }
+    }
+  },
+  {
+    "run_id": "20260831084953",
+    "date": "2026-08-31",
+    "time": "08:49:53",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+        "source_url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+        "source_url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+        "source_domain": "venturebeat.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Understanding ChatGPT Work",
+        "source_url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+        "source_domain": "simonwillison.net"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 23,
+      "passed": 3,
+      "pass_rate_pct": 13.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 8802,
+        "output": 1281,
+        "total": 10083,
+        "ratio": 6.87
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 1868,
+        "output": 189,
+        "total": 2057,
+        "ratio": 9.88
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 2798,
+        "output": 571,
+        "total": 3369,
+        "ratio": 4.9
+      },
+      "overall": {
+        "input": 13468,
+        "output": 2041,
+        "total": 15509,
+        "ratio": 6.6
+      }
+    }
   }
 ]

@@ -19521,5 +19521,135 @@
         "ratio": 6.79
       }
     }
+  },
+  {
+    "run_id": "20260903071925",
+    "date": "2026-09-03",
+    "time": "07:19:25",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Muse Spark 1.3",
+        "source_url": "https://developer.meta.com/ai/models/muse-spark/",
+        "source_domain": "developer.meta.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+        "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+        "source_domain": "blog.google"
+      },
+      {
+        "bit_number": 3,
+        "title": "TechCrunch Disrupt 2026\u2019s new Real World AI Stage features Nvidia, robots, and extinct animals",
+        "source_url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 18,
+      "passed": 3,
+      "pass_rate_pct": 16.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2511,
+        "output": 551,
+        "total": 3062,
+        "ratio": 4.56
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 676,
+        "output": 184,
+        "total": 860,
+        "ratio": 3.67
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1612,
+        "output": 527,
+        "total": 2139,
+        "ratio": 3.06
+      },
+      "overall": {
+        "input": 4799,
+        "output": 1262,
+        "total": 6061,
+        "ratio": 3.8
+      }
+    }
+  },
+  {
+    "run_id": "20260903071941",
+    "date": "2026-09-03",
+    "time": "07:19:41",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+        "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+        "source_domain": "blog.google"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 1,
+      "pass_rate_pct": 5.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 6515,
+        "output": 1340,
+        "total": 7855,
+        "ratio": 4.86
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 263,
+        "output": 65,
+        "total": 328,
+        "ratio": 4.05
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1312,
+        "output": 258,
+        "total": 1570,
+        "ratio": 5.09
+      },
+      "overall": {
+        "input": 8090,
+        "output": 1663,
+        "total": 9753,
+        "ratio": 4.86
+      }
+    }
   }
 ]

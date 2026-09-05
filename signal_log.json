@@ -19781,5 +19781,135 @@
         "ratio": 4.36
       }
     }
+  },
+  {
+    "run_id": "20260905070356",
+    "date": "2026-09-05",
+    "time": "07:03:56",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Artificial Analysis Intelligence Index v4.2",
+        "source_url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
+        "source_domain": "artificialanalysis.ai"
+      },
+      {
+        "bit_number": 2,
+        "title": "GPT-6 Astra on OpenRouter",
+        "source_url": "https://openrouter.ai/openai/gpt-6-astra",
+        "source_domain": "openrouter.ai"
+      },
+      {
+        "bit_number": 3,
+        "title": "From MIT to IBM, expediting AI and quantum deployment",
+        "source_url": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
+        "source_domain": "news.mit.edu"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 18,
+      "passed": 3,
+      "pass_rate_pct": 16.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1932,
+        "output": 370,
+        "total": 2302,
+        "ratio": 5.22
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 621,
+        "output": 184,
+        "total": 805,
+        "ratio": 3.38
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1520,
+        "output": 502,
+        "total": 2022,
+        "ratio": 3.03
+      },
+      "overall": {
+        "input": 4073,
+        "output": 1056,
+        "total": 5129,
+        "ratio": 3.86
+      }
+    }
+  },
+  {
+    "run_id": "20260905070410",
+    "date": "2026-09-05",
+    "time": "07:04:10",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Facilitating AI integration with simplicity at scale",
+        "source_url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 1,
+      "pass_rate_pct": 5.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5181,
+        "output": 1246,
+        "total": 6427,
+        "ratio": 4.16
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 184,
+        "output": 63,
+        "total": 247,
+        "ratio": 2.92
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1238,
+        "output": 226,
+        "total": 1464,
+        "ratio": 5.48
+      },
+      "overall": {
+        "input": 6603,
+        "output": 1535,
+        "total": 8138,
+        "ratio": 4.3
+      }
+    }
   }
 ]

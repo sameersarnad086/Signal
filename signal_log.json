@@ -19911,5 +19911,135 @@
         "ratio": 4.3
       }
     }
+  },
+  {
+    "run_id": "20260906071501",
+    "date": "2026-09-06",
+    "time": "07:15:01",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+        "source_url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Hikers rescued after using Google Gemini for planning",
+        "source_url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "OpenAI confirms \u2018wiki incident,\u2019 says it\u2019s \u2018working on a framework\u2019 for more disclosure",
+        "source_url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 22,
+      "passed": 3,
+      "pass_rate_pct": 13.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 664,
+        "output": 208,
+        "total": 872,
+        "ratio": 3.19
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 409,
+        "output": 169,
+        "total": 578,
+        "ratio": 2.42
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1366,
+        "output": 555,
+        "total": 1921,
+        "ratio": 2.46
+      },
+      "overall": {
+        "input": 2439,
+        "output": 932,
+        "total": 3371,
+        "ratio": 2.62
+      }
+    }
+  },
+  {
+    "run_id": "20260906071516",
+    "date": "2026-09-06",
+    "time": "07:15:16",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "M&T Bank expands enterprise AI after years of technology overhaul",
+        "source_url": "https://www.artificialintelligence-news.com/news/mt-bank-enterprise-ai-15000-employees/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 23,
+      "passed": 1,
+      "pass_rate_pct": 4.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 6626,
+        "output": 1449,
+        "total": 8075,
+        "ratio": 4.57
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 290,
+        "output": 54,
+        "total": 344,
+        "ratio": 5.37
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1329,
+        "output": 248,
+        "total": 1577,
+        "ratio": 5.36
+      },
+      "overall": {
+        "input": 8245,
+        "output": 1751,
+        "total": 9996,
+        "ratio": 4.71
+      }
+    }
   }
 ]

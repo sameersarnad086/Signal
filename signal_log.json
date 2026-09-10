@@ -20313,5 +20313,76 @@
         "ratio": 4.04
       }
     }
+  },
+  {
+    "run_id": "20260910072946",
+    "date": "2026-09-10",
+    "time": "07:29:46",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "OpenAI adds a prominent AI doomer to its board of directors",
+        "source_url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Apple Watch\u2019s new AI features are normalizing the idea that technology is always listening",
+        "source_url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "What OpenAI\u2019s latest controversy tells us about the future of math",
+        "source_url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 17,
+      "passed": 3,
+      "pass_rate_pct": 17.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2068,
+        "output": 602,
+        "total": 2670,
+        "ratio": 3.44
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 484,
+        "output": 173,
+        "total": 657,
+        "ratio": 2.8
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1457,
+        "output": 564,
+        "total": 2021,
+        "ratio": 2.58
+      },
+      "overall": {
+        "input": 4009,
+        "output": 1339,
+        "total": 5348,
+        "ratio": 2.99
+      }
+    }
   }
 ]

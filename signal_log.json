@@ -20384,5 +20384,76 @@
         "ratio": 2.99
       }
     }
+  },
+  {
+    "run_id": "20260911072535",
+    "date": "2026-09-11",
+    "time": "07:25:35",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+        "source_url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Astra for Coding: Why Are We Doing This Again?",
+        "source_url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+        "source_domain": "lucumr.pocoo.org"
+      },
+      {
+        "bit_number": 3,
+        "title": "OpenAI Agents API",
+        "source_url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+        "source_domain": "developers.openai.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 17,
+      "passed": 3,
+      "pass_rate_pct": 17.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2195,
+        "output": 470,
+        "total": 2665,
+        "ratio": 4.67
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 700,
+        "output": 160,
+        "total": 860,
+        "ratio": 4.38
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1614,
+        "output": 527,
+        "total": 2141,
+        "ratio": 3.06
+      },
+      "overall": {
+        "input": 4509,
+        "output": 1157,
+        "total": 5666,
+        "ratio": 3.9
+      }
+    }
   }
 ]

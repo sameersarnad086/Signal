@@ -20455,5 +20455,76 @@
         "ratio": 3.9
       }
     }
+  },
+  {
+    "run_id": "20260912071801",
+    "date": "2026-09-12",
+    "time": "07:18:01",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Roundtables: AI\u2019s apocalypse crisis",
+        "source_url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+        "source_url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Y Combinator\u2019s Garry Tan wants US open-weight AI labs to \u2018distill\u2019 frontier models, too",
+        "source_url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 16,
+      "passed": 3,
+      "pass_rate_pct": 18.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2005,
+        "output": 554,
+        "total": 2559,
+        "ratio": 3.62
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 503,
+        "output": 168,
+        "total": 671,
+        "ratio": 2.99
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1483,
+        "output": 591,
+        "total": 2074,
+        "ratio": 2.51
+      },
+      "overall": {
+        "input": 3991,
+        "output": 1313,
+        "total": 5304,
+        "ratio": 3.04
+      }
+    }
   }
 ]

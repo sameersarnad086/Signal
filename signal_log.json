@@ -20668,5 +20668,141 @@
         "ratio": 3.45
       }
     }
+  },
+  {
+    "run_id": "20260915075743",
+    "date": "2026-09-15",
+    "time": "07:57:43",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Nvidia CEO Jensen Huang tells Trump \u2018we\u2019re not going to let [an AI slowdown] happen\u2019",
+        "source_url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
+        "source_url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Microsoft AI opens review on Humanist AI Code of Conduct",
+        "source_url": "https://www.artificialintelligence-news.com/news/microsoft-ai-opens-review-humanist-ai-code-of-conduct/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 3,
+      "pass_rate_pct": 15.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2572,
+        "output": 667,
+        "total": 3239,
+        "ratio": 3.86
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 585,
+        "output": 166,
+        "total": 751,
+        "ratio": 3.52
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1553,
+        "output": 557,
+        "total": 2110,
+        "ratio": 2.79
+      },
+      "overall": {
+        "input": 4710,
+        "output": 1390,
+        "total": 6100,
+        "ratio": 3.39
+      }
+    }
+  },
+  {
+    "run_id": "20260915075807",
+    "date": "2026-09-15",
+    "time": "07:58:07",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "With iOS 27, I\u2019m actually using Siri again",
+        "source_url": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "AI agents blew the whistle on their cheating colleagues",
+        "source_url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 25,
+      "passed": 2,
+      "pass_rate_pct": 8.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 7334,
+        "output": 1555,
+        "total": 8889,
+        "ratio": 4.72
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 323,
+        "output": 118,
+        "total": 441,
+        "ratio": 2.74
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1324,
+        "output": 380,
+        "total": 1704,
+        "ratio": 3.48
+      },
+      "overall": {
+        "input": 8981,
+        "output": 2053,
+        "total": 11034,
+        "ratio": 4.37
+      }
+    }
   }
 ]

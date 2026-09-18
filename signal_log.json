@@ -21064,5 +21064,147 @@
         "ratio": 4.39
       }
     }
+  },
+  {
+    "run_id": "20260918073330",
+    "date": "2026-09-18",
+    "time": "07:33:30",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
+        "source_url": "https://www.artificialintelligence-news.com/news/agentforce-coworker-adecco-group-rollout/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Lidl deploys driverless truck for store deliveries in Germany",
+        "source_url": "https://www.artificialintelligence-news.com/news/lidl-autonomous-truck-germany/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Microsoft AI CEO criticises Anthropic over model \u2018rights\u2019",
+        "source_url": "https://www.artificialintelligence-news.com/news/microsoft-ai-ceo-criticises-anthropic-over-model-rights/",
+        "source_domain": "www.artificialintelligence-news.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 21,
+      "passed": 3,
+      "pass_rate_pct": 14.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1680,
+        "output": 338,
+        "total": 2018,
+        "ratio": 4.97
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 884,
+        "output": 193,
+        "total": 1077,
+        "ratio": 4.58
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1794,
+        "output": 383,
+        "total": 2177,
+        "ratio": 4.68
+      },
+      "overall": {
+        "input": 4358,
+        "output": 914,
+        "total": 5272,
+        "ratio": 4.77
+      }
+    }
+  },
+  {
+    "run_id": "20260918073355",
+    "date": "2026-09-18",
+    "time": "07:33:55",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
+        "source_url": "https://www.artificialintelligence-news.com/news/agentforce-coworker-adecco-group-rollout/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "How to Write with an LLM",
+        "source_url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+        "source_domain": "sockpuppet.org"
+      },
+      {
+        "bit_number": 3,
+        "title": "PrismML hopes its tiny LLM will change how we all use AI",
+        "source_url": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 24,
+      "passed": 3,
+      "pass_rate_pct": 12.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 6458,
+        "output": 1445,
+        "total": 7903,
+        "ratio": 4.47
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 739,
+        "output": 161,
+        "total": 900,
+        "ratio": 4.59
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1671,
+        "output": 514,
+        "total": 2185,
+        "ratio": 3.25
+      },
+      "overall": {
+        "input": 8868,
+        "output": 2120,
+        "total": 10988,
+        "ratio": 4.18
+      }
+    }
   }
 ]

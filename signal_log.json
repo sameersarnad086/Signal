@@ -21336,5 +21336,76 @@
         "ratio": 4.4
       }
     }
+  },
+  {
+    "run_id": "20260921080807",
+    "date": "2026-09-21",
+    "time": "08:08:07",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "How to Improve Visibility Across Your Enterprise AI Ecosystem",
+        "source_url": "https://www.artificialintelligence-news.com/news/how-to-improve-visibility-across-your-enterprise-ai-ecosystem/",
+        "source_domain": "www.artificialintelligence-news.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "World model companies are keeping a lot of secrets",
+        "source_url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Is the AI industry really ready to slow down?",
+        "source_url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 17,
+      "passed": 3,
+      "pass_rate_pct": 17.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1062,
+        "output": 263,
+        "total": 1325,
+        "ratio": 4.04
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 542,
+        "output": 184,
+        "total": 726,
+        "ratio": 2.95
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1474,
+        "output": 554,
+        "total": 2028,
+        "ratio": 2.66
+      },
+      "overall": {
+        "input": 3078,
+        "output": 1001,
+        "total": 4079,
+        "ratio": 3.07
+      }
+    }
   }
 ]

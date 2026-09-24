@@ -21608,5 +21608,135 @@
         "ratio": 3.35
       }
     }
+  },
+  {
+    "run_id": "20260924074459",
+    "date": "2026-09-24",
+    "time": "07:44:59",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Everything new coming to Meta\u2019s AI agent Muse",
+        "source_url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+        "source_url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "The AI Hype Index: AI loves cheating",
+        "source_url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 3,
+      "pass_rate_pct": 15.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3188,
+        "output": 700,
+        "total": 3888,
+        "ratio": 4.55
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 476,
+        "output": 165,
+        "total": 641,
+        "ratio": 2.88
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1424,
+        "output": 582,
+        "total": 2006,
+        "ratio": 2.45
+      },
+      "overall": {
+        "input": 5088,
+        "output": 1447,
+        "total": 6535,
+        "ratio": 3.52
+      }
+    }
+  },
+  {
+    "run_id": "20260924074515",
+    "date": "2026-09-24",
+    "time": "07:45:15",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Everything new coming to Meta\u2019s AI agent Muse",
+        "source_url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 1,
+      "pass_rate_pct": 5.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5443,
+        "output": 1307,
+        "total": 6750,
+        "ratio": 4.16
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 158,
+        "output": 57,
+        "total": 215,
+        "ratio": 2.77
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1203,
+        "output": 266,
+        "total": 1469,
+        "ratio": 4.52
+      },
+      "overall": {
+        "input": 6804,
+        "output": 1630,
+        "total": 8434,
+        "ratio": 4.17
+      }
+    }
   }
 ]

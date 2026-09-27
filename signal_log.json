@@ -21945,5 +21945,135 @@
         "ratio": 3.29
       }
     }
+  },
+  {
+    "run_id": "20260927082809",
+    "date": "2026-09-27",
+    "time": "08:28:09",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+        "source_url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Insurers claim AI is already increasing healthcare costs",
+        "source_url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "I created an interactive digital avatar of myself \u2014 and you can talk to it",
+        "source_url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 18,
+      "passed": 3,
+      "pass_rate_pct": 16.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1789,
+        "output": 552,
+        "total": 2341,
+        "ratio": 3.24
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 414,
+        "output": 172,
+        "total": 586,
+        "ratio": 2.41
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1373,
+        "output": 574,
+        "total": 1947,
+        "ratio": 2.39
+      },
+      "overall": {
+        "input": 3576,
+        "output": 1298,
+        "total": 4874,
+        "ratio": 2.76
+      }
+    }
+  },
+  {
+    "run_id": "20260927082831",
+    "date": "2026-09-27",
+    "time": "08:28:31",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Show HN: Reladraw \u2013 A diagram language where you decide where to place things",
+        "source_url": "https://github.com/reladraw/reladraw",
+        "source_domain": "github.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 1,
+      "pass_rate_pct": 5.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5441,
+        "output": 1306,
+        "total": 6747,
+        "ratio": 4.17
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 377,
+        "output": 59,
+        "total": 436,
+        "ratio": 6.39
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1400,
+        "output": 238,
+        "total": 1638,
+        "ratio": 5.88
+      },
+      "overall": {
+        "input": 7218,
+        "output": 1603,
+        "total": 8821,
+        "ratio": 4.5
+      }
+    }
   }
 ]

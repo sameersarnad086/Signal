@@ -22146,5 +22146,76 @@
         "ratio": 3.24
       }
     }
+  },
+  {
+    "run_id": "20260929085328",
+    "date": "2026-09-29",
+    "time": "08:53:28",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Anthropic\u2019s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+        "source_url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "OpenAI reportedly ditches model over safety concerns",
+        "source_url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
+        "source_url": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 17,
+      "passed": 3,
+      "pass_rate_pct": 17.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 936,
+        "output": 280,
+        "total": 1216,
+        "ratio": 3.34
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 447,
+        "output": 193,
+        "total": 640,
+        "ratio": 2.32
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1414,
+        "output": 585,
+        "total": 1999,
+        "ratio": 2.42
+      },
+      "overall": {
+        "input": 2797,
+        "output": 1058,
+        "total": 3855,
+        "ratio": 2.64
+      }
+    }
   }
 ]

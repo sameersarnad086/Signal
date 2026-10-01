@@ -22353,5 +22353,135 @@
         "ratio": 3.99
       }
     }
+  },
+  {
+    "run_id": "20261001091720",
+    "date": "2026-10-01",
+    "time": "09:17:20",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "MIT Transit Lab to develop an AI platform for public transit agencies",
+        "source_url": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 2,
+        "title": "This game-playing AI is the new champ at Stratego",
+        "source_url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 3,
+        "title": "Who we become when we talk to machines",
+        "source_url": "https://news.mit.edu/2026/when-we-talk-to-machines-sherry-turkle-book-0929",
+        "source_domain": "news.mit.edu"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 18,
+      "passed": 3,
+      "pass_rate_pct": 16.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 683,
+        "output": 230,
+        "total": 913,
+        "ratio": 2.97
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 428,
+        "output": 176,
+        "total": 604,
+        "ratio": 2.43
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1359,
+        "output": 548,
+        "total": 1907,
+        "ratio": 2.48
+      },
+      "overall": {
+        "input": 2470,
+        "output": 954,
+        "total": 3424,
+        "ratio": 2.59
+      }
+    }
+  },
+  {
+    "run_id": "20261001091734",
+    "date": "2026-10-01",
+    "time": "09:17:34",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+        "source_url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 1,
+      "pass_rate_pct": 5.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 4999,
+        "output": 1197,
+        "total": 6196,
+        "ratio": 4.18
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 134,
+        "output": 50,
+        "total": 184,
+        "ratio": 2.68
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1185,
+        "output": 242,
+        "total": 1427,
+        "ratio": 4.9
+      },
+      "overall": {
+        "input": 6318,
+        "output": 1489,
+        "total": 7807,
+        "ratio": 4.24
+      }
+    }
   }
 ]

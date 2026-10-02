@@ -22483,5 +22483,135 @@
         "ratio": 4.24
       }
     }
+  },
+  {
+    "run_id": "20261002085016",
+    "date": "2026-10-02",
+    "time": "08:50:16",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "ChatGPT can now virtually try on clothes for you",
+        "source_url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Google thinks SpaceX\u2019s Starship has to launch 1,800 times before space data centers get off the ground",
+        "source_url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Frog and Toad and the Increasingly Capable Machines",
+        "source_url": "https://www.frogandtoad.ai/",
+        "source_domain": "www.frogandtoad.ai"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 17,
+      "passed": 3,
+      "pass_rate_pct": 17.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2464,
+        "output": 634,
+        "total": 3098,
+        "ratio": 3.89
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 517,
+        "output": 162,
+        "total": 679,
+        "ratio": 3.19
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1453,
+        "output": 332,
+        "total": 1785,
+        "ratio": 4.38
+      },
+      "overall": {
+        "input": 4434,
+        "output": 1128,
+        "total": 5562,
+        "ratio": 3.93
+      }
+    }
+  },
+  {
+    "run_id": "20261002085101",
+    "date": "2026-10-02",
+    "time": "08:51:01",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "DeepSeek Harness Desktop for macOS and Windows",
+        "source_url": "https://www.deepseek.com/en/harness/",
+        "source_domain": "www.deepseek.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 1,
+      "pass_rate_pct": 5.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5006,
+        "output": 1253,
+        "total": 6259,
+        "ratio": 4.0
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 238,
+        "output": 58,
+        "total": 296,
+        "ratio": 4.1
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1262,
+        "output": 206,
+        "total": 1468,
+        "ratio": 6.13
+      },
+      "overall": {
+        "input": 6506,
+        "output": 1517,
+        "total": 8023,
+        "ratio": 4.29
+      }
+    }
   }
 ]

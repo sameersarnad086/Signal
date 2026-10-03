@@ -22613,5 +22613,135 @@
         "ratio": 4.29
       }
     }
+  },
+  {
+    "run_id": "20261003082729",
+    "date": "2026-10-03",
+    "time": "08:27:29",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Show HN: Made an open-source Lego AI generator",
+        "source_url": "https://github.com/anteloc/ldraw-nova",
+        "source_domain": "github.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Computational tools for society\u2019s most complex challenges",
+        "source_url": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
+        "source_domain": "news.mit.edu"
+      },
+      {
+        "bit_number": 3,
+        "title": "New tool lets users repair AI-generated 3D models, then fabricate them just the way they want",
+        "source_url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001",
+        "source_domain": "news.mit.edu"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 3,
+      "pass_rate_pct": 15.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2888,
+        "output": 564,
+        "total": 3452,
+        "ratio": 5.12
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 911,
+        "output": 183,
+        "total": 1094,
+        "ratio": 4.98
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1834,
+        "output": 550,
+        "total": 2384,
+        "ratio": 3.33
+      },
+      "overall": {
+        "input": 5633,
+        "output": 1297,
+        "total": 6930,
+        "ratio": 4.34
+      }
+    }
+  },
+  {
+    "run_id": "20261003082746",
+    "date": "2026-10-03",
+    "time": "08:27:46",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Apple says it\u2019s tightening macOS \u2018Full Disk Access\u2019 controls due to new risks from AI agents",
+        "source_url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 1,
+      "pass_rate_pct": 5.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5490,
+        "output": 1280,
+        "total": 6770,
+        "ratio": 4.29
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 161,
+        "output": 58,
+        "total": 219,
+        "ratio": 2.78
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1223,
+        "output": 248,
+        "total": 1471,
+        "ratio": 4.93
+      },
+      "overall": {
+        "input": 6874,
+        "output": 1586,
+        "total": 8460,
+        "ratio": 4.33
+      }
+    }
   }
 ]

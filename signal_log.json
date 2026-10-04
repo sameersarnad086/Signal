@@ -22743,5 +22743,141 @@
         "ratio": 4.33
       }
     }
+  },
+  {
+    "run_id": "20261004083957",
+    "date": "2026-10-04",
+    "time": "08:39:57",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Redefining enterprise intelligence with autonomous AI",
+        "source_url": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Don\u2019t be fooled\u2014LLMs don\u2019t reason",
+        "source_url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Making AI an asset, not an expense",
+        "source_url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 17,
+      "passed": 3,
+      "pass_rate_pct": 17.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 2821,
+        "output": 604,
+        "total": 3425,
+        "ratio": 4.67
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 549,
+        "output": 166,
+        "total": 715,
+        "ratio": 3.31
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1502,
+        "output": 551,
+        "total": 2053,
+        "ratio": 2.73
+      },
+      "overall": {
+        "input": 4872,
+        "output": 1321,
+        "total": 6193,
+        "ratio": 3.69
+      }
+    }
+  },
+  {
+    "run_id": "20261004084014",
+    "date": "2026-10-04",
+    "time": "08:40:14",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Redefining enterprise intelligence with autonomous AI",
+        "source_url": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "All the AI agents that can live in your text messages",
+        "source_url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 2,
+      "pass_rate_pct": 10.5
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5077,
+        "output": 1235,
+        "total": 6312,
+        "ratio": 4.11
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 332,
+        "output": 117,
+        "total": 449,
+        "ratio": 2.84
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1331,
+        "output": 404,
+        "total": 1735,
+        "ratio": 3.29
+      },
+      "overall": {
+        "input": 6740,
+        "output": 1756,
+        "total": 8496,
+        "ratio": 3.84
+      }
+    }
   }
 ]

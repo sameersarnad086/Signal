@@ -23299,5 +23299,147 @@
         "ratio": 3.04
       }
     }
+  },
+  {
+    "run_id": "20261008092006",
+    "date": "2026-10-08",
+    "time": "09:20:06",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+        "source_url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+        "source_url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Meta\u2019s Muse launches on iPad just a month after its mobile debut",
+        "source_url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 17,
+      "passed": 3,
+      "pass_rate_pct": 17.6
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 680,
+        "output": 215,
+        "total": 895,
+        "ratio": 3.16
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 425,
+        "output": 178,
+        "total": 603,
+        "ratio": 2.39
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1388,
+        "output": 540,
+        "total": 1928,
+        "ratio": 2.57
+      },
+      "overall": {
+        "input": 2493,
+        "output": 933,
+        "total": 3426,
+        "ratio": 2.67
+      }
+    }
+  },
+  {
+    "run_id": "20261008092020",
+    "date": "2026-10-08",
+    "time": "09:20:20",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+        "source_url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+        "source_url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Meta\u2019s Muse launches on iPad just a month after its mobile debut",
+        "source_url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 3,
+      "pass_rate_pct": 15.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 680,
+        "output": 184,
+        "total": 864,
+        "ratio": 3.7
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 425,
+        "output": 167,
+        "total": 592,
+        "ratio": 2.54
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1386,
+        "output": 572,
+        "total": 1958,
+        "ratio": 2.42
+      },
+      "overall": {
+        "input": 2491,
+        "output": 923,
+        "total": 3414,
+        "ratio": 2.7
+      }
+    }
   }
 ]

@@ -23441,5 +23441,76 @@
         "ratio": 2.7
       }
     }
+  },
+  {
+    "run_id": "20261009092806",
+    "date": "2026-10-09",
+    "time": "09:28:06",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+        "source_url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "OpenAI\u2019s revenue is reportedly $20 billion less than previously projected",
+        "source_url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "3 Questions: What is the best path forward for AI in academia?",
+        "source_url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+        "source_domain": "news.mit.edu"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 3,
+      "pass_rate_pct": 15.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1434,
+        "output": 400,
+        "total": 1834,
+        "ratio": 3.58
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 446,
+        "output": 172,
+        "total": 618,
+        "ratio": 2.59
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1399,
+        "output": 578,
+        "total": 1977,
+        "ratio": 2.42
+      },
+      "overall": {
+        "input": 3279,
+        "output": 1150,
+        "total": 4429,
+        "ratio": 2.85
+      }
+    }
   }
 ]

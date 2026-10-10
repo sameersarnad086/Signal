@@ -23512,5 +23512,76 @@
         "ratio": 2.85
       }
     }
+  },
+  {
+    "run_id": "20261010084855",
+    "date": "2026-10-10",
+    "time": "08:48:55",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "REA Reverse \u2013 Engineer Anything",
+        "source_url": "https://rea.tools/",
+        "source_domain": "rea.tools"
+      },
+      {
+        "bit_number": 2,
+        "title": "We\u2019re putting too much faith in AI\u2019s ability to say no",
+        "source_url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Building a safer path to autonomous industrial AI",
+        "source_url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+        "source_domain": "www.technologyreview.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 18,
+      "passed": 3,
+      "pass_rate_pct": 16.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3834,
+        "output": 852,
+        "total": 4686,
+        "ratio": 4.5
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 594,
+        "output": 168,
+        "total": 762,
+        "ratio": 3.54
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1523,
+        "output": 510,
+        "total": 2033,
+        "ratio": 2.99
+      },
+      "overall": {
+        "input": 5951,
+        "output": 1530,
+        "total": 7481,
+        "ratio": 3.89
+      }
+    }
   }
 ]

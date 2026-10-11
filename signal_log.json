@@ -23583,5 +23583,135 @@
         "ratio": 3.89
       }
     }
+  },
+  {
+    "run_id": "20261011091047",
+    "date": "2026-10-11",
+    "time": "09:10:47",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Microsoft\u2019s Satya Nadella says AI models need an \u2018emergency brake\u2019",
+        "source_url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+        "source_url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Here are the top AI agents that can live in your text messages",
+        "source_url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 16,
+      "passed": 3,
+      "pass_rate_pct": 18.8
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 1525,
+        "output": 407,
+        "total": 1932,
+        "ratio": 3.75
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 421,
+        "output": 166,
+        "total": 587,
+        "ratio": 2.54
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1378,
+        "output": 538,
+        "total": 1916,
+        "ratio": 2.56
+      },
+      "overall": {
+        "input": 3324,
+        "output": 1111,
+        "total": 4435,
+        "ratio": 2.99
+      }
+    }
+  },
+  {
+    "run_id": "20261011091100",
+    "date": "2026-10-11",
+    "time": "09:11:00",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Here are the top AI agents that can live in your text messages",
+        "source_url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 19,
+      "passed": 1,
+      "pass_rate_pct": 5.3
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5047,
+        "output": 1200,
+        "total": 6247,
+        "ratio": 4.21
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 146,
+        "output": 53,
+        "total": 199,
+        "ratio": 2.75
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1196,
+        "output": 221,
+        "total": 1417,
+        "ratio": 5.41
+      },
+      "overall": {
+        "input": 6389,
+        "output": 1474,
+        "total": 7863,
+        "ratio": 4.33
+      }
+    }
   }
 ]

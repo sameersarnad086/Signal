@@ -23967,5 +23967,135 @@
         "ratio": 3.86
       }
     }
+  },
+  {
+    "run_id": "20261014075429",
+    "date": "2026-10-14",
+    "time": "07:54:29",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Open models have real benefits. Do they outweigh the risks?",
+        "source_url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+        "source_url": "https://pulseos.finance",
+        "source_domain": "pulseos.finance"
+      },
+      {
+        "bit_number": 3,
+        "title": "How artificial neural networks build their own learning machinery",
+        "source_url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
+        "source_domain": "news.mit.edu"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 18,
+      "passed": 3,
+      "pass_rate_pct": 16.7
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3152,
+        "output": 601,
+        "total": 3753,
+        "ratio": 5.24
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 1065,
+        "output": 167,
+        "total": 1232,
+        "ratio": 6.38
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1986,
+        "output": 524,
+        "total": 2510,
+        "ratio": 3.79
+      },
+      "overall": {
+        "input": 6203,
+        "output": 1292,
+        "total": 7495,
+        "ratio": 4.8
+      }
+    }
+  },
+  {
+    "run_id": "20261014075447",
+    "date": "2026-10-14",
+    "time": "07:54:47",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Cerebras CEO says we\u2019re nearing a future where everyone has a personal AI assistant at home",
+        "source_url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 1,
+      "pass_rate_pct": 5.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 5772,
+        "output": 1300,
+        "total": 7072,
+        "ratio": 4.44
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 150,
+        "output": 55,
+        "total": 205,
+        "ratio": 2.73
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1212,
+        "output": 263,
+        "total": 1475,
+        "ratio": 4.61
+      },
+      "overall": {
+        "input": 7134,
+        "output": 1618,
+        "total": 8752,
+        "ratio": 4.41
+      }
+    }
   }
 ]

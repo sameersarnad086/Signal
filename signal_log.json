@@ -24168,5 +24168,147 @@
         "ratio": 2.8
       }
     }
+  },
+  {
+    "run_id": "20261016072641",
+    "date": "2026-10-16",
+    "time": "07:26:41",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "Sameer sarnad",
+      "learning_layer": "Layer 2",
+      "learning_goal": "understand AI well enough to lead teams using it",
+      "delivery_channel": "whatsapp"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Meta\u2019s new commercial terms will allow the scraping of news sites: experts",
+        "source_url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+        "source_domain": "www.niemanlab.org"
+      },
+      {
+        "bit_number": 2,
+        "title": "Meta launches an open-weight AI model that runs on Macs",
+        "source_url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+        "source_url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 15,
+      "passed": 3,
+      "pass_rate_pct": 20.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3095,
+        "output": 674,
+        "total": 3769,
+        "ratio": 4.59
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 611,
+        "output": 176,
+        "total": 787,
+        "ratio": 3.47
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1581,
+        "output": 625,
+        "total": 2206,
+        "ratio": 2.53
+      },
+      "overall": {
+        "input": 5287,
+        "output": 1475,
+        "total": 6762,
+        "ratio": 3.58
+      }
+    }
+  },
+  {
+    "run_id": "20261016072700",
+    "date": "2026-10-16",
+    "time": "07:27:00",
+    "models_used": {
+      "gates_12": "models/gemini-2.5-flash-lite",
+      "gate_3": "models/gemini-2.5-flash-lite",
+      "summarisation": "models/gemini-2.5-flash"
+    },
+    "user": {
+      "name": "sameer s",
+      "learning_layer": "Layer 1",
+      "learning_goal": "learn how to use AI in my day to day work",
+      "delivery_channel": "email"
+    },
+    "articles_delivered": [
+      {
+        "bit_number": 1,
+        "title": "Open models have real benefits. Do they outweigh the risks?",
+        "source_url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+        "source_domain": "www.technologyreview.com"
+      },
+      {
+        "bit_number": 2,
+        "title": "Meta launches an open-weight AI model that runs on Macs",
+        "source_url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+        "source_domain": "techcrunch.com"
+      },
+      {
+        "bit_number": 3,
+        "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+        "source_url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+        "source_domain": "techcrunch.com"
+      }
+    ],
+    "user_feedback": null,
+    "filter_stats": {
+      "fetched": 20,
+      "passed": 3,
+      "pass_rate_pct": 15.0
+    },
+    "token_breakdown": {
+      "gates_12_gemma3": {
+        "model": "gemma-3-12b-it",
+        "input": 3938,
+        "output": 878,
+        "total": 4816,
+        "ratio": 4.49
+      },
+      "gate_3_flash_lite": {
+        "model": "gemini-2.5-flash-lite",
+        "input": 492,
+        "output": 185,
+        "total": 677,
+        "ratio": 2.66
+      },
+      "summarisation_flash": {
+        "model": "gemini-2.5-flash",
+        "input": 1463,
+        "output": 581,
+        "total": 2044,
+        "ratio": 2.52
+      },
+      "overall": {
+        "input": 5893,
+        "output": 1644,
+        "total": 7537,
+        "ratio": 3.58
+      }
+    }
   }
 ]
